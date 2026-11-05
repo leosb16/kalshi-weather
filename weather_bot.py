@@ -734,6 +734,32 @@ def track_record():
     }
 
 
+def export_dashboard_csv(out):
+    """Flat CSVs for the dashboard."""
+    run = out["run_utc"]
+    with open(os.path.join(RESULTS, "dash_picks.csv"), "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["rank", "run_utc", "city", "kind", "date", "bracket", "side", "model_prob",
+                    "market_price", "limit_price", "edge", "confidence", "stake_usd", "forecast",
+                    "nws", "sd", "ticker"])
+        for i, p in enumerate(out["picks"], 1):
+            w.writerow([i, run, p["city"], p["kind"], p["date"], p["bracket"], p["side"],
+                        p["model_prob"], p["market_price"], p["limit_price"],
+                        max(p["edge_taker"], p["edge_maker"] or -1), p["confidence"],
+                        p["suggested_stake_usd"], p["forecast_center"], p["nws"], p["sd"], p["ticker"]])
+    with open(os.path.join(RESULTS, "dash_markets.csv"), "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["run_utc", "city", "kind", "date", "lead_days", "forecast", "nws", "sd",
+                    "confidence", "model_bracket", "model_prob", "market_bracket", "market_price",
+                    "calib_rmse", "calib_days"])
+        for c in out["markets"]:
+            mf, kf = c.get("model_favorite") or {}, c.get("market_favorite") or {}
+            cal = c.get("calibration") or {}
+            w.writerow([run, c["city"], c["kind"], c["date"], c["lead_days"], c["center"], c["nws"],
+                        c["sd"], c["confidence"], mf.get("bracket"), mf.get("prob"),
+                        kf.get("bracket"), kf.get("yes_ask"), cal.get("rmse"), cal.get("n")])
+
+
 def main():
     settle_picks()
     now, picks, candidates, cities, snaps, suspicious = analyze()
@@ -749,6 +775,7 @@ def main():
         "notes": LOG[-40:], "config": {k: CFG[k] for k in CFG if k != "known_series"},
     }
     json.dump(out, open(os.path.join(RESULTS, "latest.json"), "w"), indent=1, default=str)
+    export_dashboard_csv(out)
     stamp = now.strftime("%Y%m%dT%H%MZ")
     slim = dict(out)
     slim["markets"] = [{k: v for k, v in c.items() if k != "brackets"} for c in cities]
