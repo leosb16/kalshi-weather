@@ -1,0 +1,23 @@
+{
+  "bankroll_usd": 500,
+  "max_bet_fraction": 0.02,
+  "kelly_multiplier": 0.25,
+  "min_edge_taker": 0.05,
+  "min_edge_maker": 0.07,
+  "min_price": 0.04,
+  "max_price": 0.95,
+  "min_volume_contracts": 50,
+  "max_picks": 8,
+  "days_ahead": 2,
+  "ensemble_models": ["gfs025", "ecmwf_ifs025", "icon_seamless", "gem_global"],
+  "nws_weight": 0.5,
+  "sd_floor_by_lead_days": [1.4, 2.0, 2.6, 3.2],
+  "known_series": [
+    "KXHIGHNY", "KXHIGHMIA", "KXHIGHLAX", "KXHIGHAUS", "KXHIGHTBOS", "KXHIGHTDAL",
+    "KXHIGHTOKC", "KXHIGHTNOLA", "KXHIGHTLV", "KXHIGHTATL", "KXHIGHTPHX",
+    "KXHIGHTSFO", "KXHIGHDEN", "KXHIGHTSATX", "KXHIGHTHOU", "KXHIGHTDC",
+    "KXHIGHTSEA", "KXHIGHTEWR", "KXHIGHCHI", "KXHIGHTTTN", "KXHIGHTSAN",
+    "KXHIGHPHIL", "KXHIGHTMIN", "KXLOWTMIN", "KXLOWTCHI", "KXLOWTMIA",
+    "KXLOWTNYC", "KXLOWTPHX", "KXLOWTOKC", "KXLOWTLAX", "KXLOWTDEN", "KXLOWTAUS"
+  ]
+}
