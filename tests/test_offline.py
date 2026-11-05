@@ -78,6 +78,13 @@ def fake_get_json(url, params=None, headers=None, retries=3):
         return {"market": {"ticker": t, "result": SETTLE_RESULT.get(t, "")}}
     if url.startswith(wb.OPEN_METEO):
         return fake_ensemble(params)
+    if url.startswith(wb.DET_API):
+        locs = fake_ensemble(params)
+        for loc in locs:
+            h = loc["hourly"]
+            base = h["temperature_2m_member00"]
+            loc["hourly"] = {"time": h["time"], **{f"temperature_2m_{m}": base for m in wb.DET_MODELS}}
+        return locs
     if "/points/" in url:
         return {"properties": {"forecast": "https://api.weather.gov/gridpoints/X/1,1/forecast?" + url[-12:]}}
     if "/gridpoints/" in url:
@@ -115,7 +122,7 @@ for p in out["picks"]:
     print(f"  {p['city']} {p['date']} {p['side']} {p['bracket']}: model {p['model_prob']} vs price "
           f"{p['market_price']} edge {p['edge_taker']} limit {p['limit_price']} stake ${p['suggested_stake_usd']} conf {p['confidence']}")
 for c in out["markets"]:
-    print(" market", c["city"], "center", c["center"], "sd", c["sd"], "nws", c["nws"], "ens", c["ensemble_mean"],
+    print(" market", c["city"], "center", c["center"], "sd", c["sd"], "nws", c["nws"], "ens", c["model_center"],
           "| probs", [(b["label"], b["model_p"], b["yes_ask"]) for b in c["brackets"]])
 assert out["picks"], "expected at least one pick for NYC"
 assert all(p["city"].startswith("New York") for p in out["picks"]), "Miami should have no pick"

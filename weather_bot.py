@@ -293,9 +293,51 @@ def observed_so_far(cli, day, now_utc):
 
 
 # ---------------------------------------------------------------- calibration
-HIST_FC = "https://historical-forecast-api.open-meteo.com/v1/forecast"
-DET_MODEL = {"gfs025": "gfs_seamless", "ecmwf_ifs025": "ecmwf_ifs025",
-             "icon_seamless": "icon_seamless", "gem_global": "gem_seamless"}
+PREV_RUNS = "https://previous-runs-api.open-meteo.com/v1/forecast"
+DET_API = "https://api.open-meteo.com/v1/forecast"
+DET_MODELS = ["gfs_seamless", "ecmwf_ifs025", "icon_seamless", "gem_seamless"]
+
+
+def _model_key(keys, var, model):
+    for k in keys:
+        if k == f"{var}_{model}":
+            return k
+    return var if (len(DET_MODELS) == 1 and var in keys) else None
+
+
+def det_forecasts(stations, days_ahead):
+    """Current deterministic (high-resolution) model runs: {cli: {model: hourly}}, times."""
+    out, times = {c: {} for c in stations}, []
+    for i in range(0, len(stations), 10):
+        chunk = stations[i:i + 10]
+        try:
+            d = get_json(DET_API, {
+                "latitude": ",".join(str(STATIONS[c][1]) for c in chunk),
+                "longitude": ",".join(str(STATIONS[c][2]) for c in chunk),
+                "hourly": "temperature_2m", "models": ",".join(DET_MODELS),
+                "temperature_unit": "fahrenheit", "timezone": "GMT",
+                "past_days": 1, "forecast_days": days_ahead + 2,
+            })
+        except Exception as e:  # noqa: BLE001
+            log(f"deterministic forecasts failed: {e}")
+            continue
+        locs = d if isinstance(d, list) else [d]
+        for c, loc in zip(chunk, locs):
+            h = loc.get("hourly", {})
+            times = times or [dt.datetime.fromisoformat(t) for t in h.get("time", [])]
+            for m in DET_MODELS:
+                k = _model_key(h.keys(), "temperature_2m", m)
+                if k and h.get(k):
+                    out[c][m] = h[k]
+    return out, times
+
+
+def daily_extreme(arr, times, day, off, kind, min_hours=20):
+    s, e = cli_window_utc(day, off)
+    hrs = [arr[i] for i, t in enumerate(times) if s <= t < e and i < len(arr) and arr[i] is not None]
+    if len(hrs) < min_hours:
+        return None
+    return max(hrs) if kind == "high" else min(hrs)
 
 
 def settled_actuals(series_ticker, days):
@@ -323,13 +365,14 @@ def settled_actuals(series_ticker, days):
 
 
 def calibrate(series_info):
-    """Per station/kind: bias of each model (actual - forecast) and the RMSE of the
-    bias-corrected multi-model mean, from the last N days of settled markets."""
+    """For each station/kind and lead (0 = same day, 1 = day ahead): each model's
+    bias (actual - forecast) and the RMSE of the bias-corrected model average,
+    measured against the last N days of settled Kalshi results."""
     path = os.path.join(RESULTS, "calibration.json")
     today = dt.datetime.now(dt.timezone.utc).date().isoformat()
     if os.path.exists(path):
         cal = json.load(open(path))
-        if cal.get("date") == today and cal.get("version") == 2:
+        if cal.get("date") == today and cal.get("version") == 3:
             return cal["stations"]
     days = CFG.get("calibration_days", 60)
     actual = {}
@@ -342,59 +385,65 @@ def calibrate(series_info):
         if a:
             actual.setdefault(f"{cli}|{kind}", {}).update(a)
     clis = sorted({k.split("|")[0] for k in actual})
-    end = dt.date.today() - dt.timedelta(days=1)
-    start = end - dt.timedelta(days=days)
-    fc = {}
-    for i in range(0, len(clis), 10):
-        chunk = clis[i:i + 10]
+    end = dt.date.today()
+    start = end - dt.timedelta(days=days + 1)
+    hist = {}
+    for i in range(0, len(clis), 8):
+        chunk = clis[i:i + 8]
         try:
-            d = get_json(HIST_FC, {
+            d = get_json(PREV_RUNS, {
                 "latitude": ",".join(str(STATIONS[c][1]) for c in chunk),
                 "longitude": ",".join(str(STATIONS[c][2]) for c in chunk),
-                "hourly": "temperature_2m", "models": ",".join(DET_MODEL.values()),
-                "temperature_unit": "fahrenheit", "timezone": "GMT",
-                "start_date": start.isoformat(), "end_date": (end + dt.timedelta(days=1)).isoformat(),
+                "hourly": "temperature_2m_previous_day0,temperature_2m_previous_day1",
+                "models": ",".join(DET_MODELS), "temperature_unit": "fahrenheit",
+                "timezone": "GMT", "start_date": start.isoformat(), "end_date": end.isoformat(),
             })
         except Exception as e:  # noqa: BLE001
-            log(f"calibration forecasts failed: {e}")
+            log(f"calibration history failed: {e}")
             continue
         locs = d if isinstance(d, list) else [d]
         for c, loc in zip(chunk, locs):
             h = loc.get("hourly", {})
             times = [dt.datetime.fromisoformat(t) for t in h.get("time", [])]
-            fc[c] = (times, {em: h.get(f"temperature_2m_{dm}") for em, dm in DET_MODEL.items()})
+            per = {}
+            for lead in (0, 1):
+                var = f"temperature_2m_previous_day{lead}"
+                per[lead] = {m: h.get(_model_key(h.keys(), var, m) or "") for m in DET_MODELS}
+            hist[c] = (times, per)
     stations = {}
     for key, acts in actual.items():
         cli, kind = key.split("|")
-        if cli not in fc:
+        if cli not in hist:
             continue
-        times, series = fc[cli]
+        times, per = hist[cli]
         off = STATIONS[cli][3]
-        errs = {m: [] for m in series}
-        rows = []
-        for day, act in sorted(acts.items()):
-            s, e = cli_window_utc(day, off)
-            idx = [i for i, t in enumerate(times) if s <= t < e]
-            vals = {}
-            for m, arr in series.items():
-                if not arr:
-                    continue
-                hrs = [arr[i] for i in idx if arr[i] is not None]
-                if len(hrs) >= 20:
-                    vals[m] = max(hrs) if kind == "high" else min(hrs)
-                    errs[m].append(act - vals[m])
-            if vals:
-                rows.append((act, vals))
-        bias = {m: round(sum(v) / len(v), 2) for m, v in errs.items() if len(v) >= 10}
-        resid = []
-        for act, vals in rows:
-            corr = [vals[m] + bias[m] for m in vals if m in bias]
-            if corr:
-                resid.append(act - sum(corr) / len(corr))
-        if len(resid) >= 10 and bias:
-            rmse = math.sqrt(sum(r * r for r in resid) / len(resid))
-            stations[key] = {"bias": bias, "rmse": round(rmse, 2), "n": len(resid)}
-    json.dump({"date": today, "version": 2, "days": days, "stations": stations},
+        entry = {}
+        for lead in (0, 1):
+            errs, rows = {m: [] for m in DET_MODELS}, []
+            for day, act in sorted(acts.items()):
+                vals = {}
+                for m, arr in per[lead].items():
+                    if arr:
+                        v = daily_extreme(arr, times, day, off, kind)
+                        if v is not None:
+                            vals[m] = v
+                            errs[m].append(act - v)
+                if vals:
+                    rows.append((act, vals))
+            bias = {m: round(sum(v) / len(v), 2) for m, v in errs.items() if len(v) >= 10}
+            resid = []
+            for act, vals in rows:
+                corr = [vals[m] + bias[m] for m in vals if m in bias]
+                if corr:
+                    resid.append(act - sum(corr) / len(corr))
+            if len(resid) >= 10 and bias:
+                rmse = math.sqrt(sum(r * r for r in resid) / len(resid))
+                mean_res = sum(resid) / len(resid)
+                entry[str(lead)] = {"bias": bias, "rmse": round(rmse, 2), "n": len(resid),
+                                    "resid_mean": round(mean_res, 2)}
+        if entry:
+            stations[key] = entry
+    json.dump({"date": today, "version": 3, "days": days, "stations": stations},
               open(path, "w"), indent=1)
     log(f"calibrated {len(stations)} station/kind pairs")
     return stations
@@ -432,6 +481,7 @@ def analyze():
 
     stations = sorted(by_cli)
     ens, times = ensemble_members(stations, CFG["days_ahead"])
+    det, det_times = det_forecasts(stations, CFG["days_ahead"])
     series_info = {}
     for m in markets:
         series_info[m["_series"]] = (m["_cli"], m["_kind"])
@@ -460,39 +510,57 @@ def analyze():
         frac_day = max(0.0, (now - day_start).total_seconds() / 86400)
         if lead == 0 and frac_day > (CFG["same_day_cutoff_low"] if kind == "low" else CFG["same_day_cutoff_high"]):
             continue
-        cal = calib.get(f"{cli}|{kind}")
-        members, model_means = member_extremes(ens.get(cli, {}), times, day, off, kind,
-                                               cal["bias"] if cal else None)
-        if len(members) < 10:
-            log(f"{st} {day}: not enough ensemble data")
+        calk = calib.get(f"{cli}|{kind}") or {}
+        cal = calk.get(str(min(lead, 1)))
+        # Center: high-resolution models, each corrected by its own measured bias.
+        det_vals = {}
+        for mdl, arr in det.get(cli, {}).items():
+            v = daily_extreme(arr, det_times, day, off, kind)
+            if v is not None:
+                det_vals[mdl] = v + ((cal or {}).get("bias", {}).get(mdl, 0.0))
+        members, _ = member_extremes(ens.get(cli, {}), times, day, off, kind)
+        if not det_vals and len(members) < 10:
+            log(f"{st} {day}: no model data")
             continue
-        ens_mean = sum(v * w for v, w in members)
-        ens_sd = math.sqrt(max(0.0, sum(w * (v - ens_mean) ** 2 for v, w in members)))
+        ens_mean = sum(v * w for v, w in members) if members else None
+        # Spread within each ensemble (ignores the offsets between models, which the
+        # bias correction already handles), averaged across models.
+        sds = []
+        for mdl, series_list in ens.get(cli, {}).items():
+            vals = [x for x in (daily_extreme(sr, times, day, off, kind, 18) for sr in series_list) if x is not None]
+            if len(vals) >= 5:
+                mu = sum(vals) / len(vals)
+                sds.append(math.sqrt(sum((x - mu) ** 2 for x in vals) / (len(vals) - 1)))
+        ens_sd = sum(sds) / len(sds) if sds else 0.0
+        model_center = (sum(det_vals.values()) / len(det_vals)) if det_vals else ens_mean
+        model_spread = (max(det_vals.values()) - min(det_vals.values())) if len(det_vals) > 1 else 0.0
         periods = nws_forecast(cli, cache)
         nws = nws_value(periods, day, kind)
-        center = ens_mean if nws is None else (CFG["nws_weight"] * nws + (1 - CFG["nws_weight"]) * ens_mean)
+        center = model_center if nws is None else (CFG["nws_weight"] * nws + (1 - CFG["nws_weight"]) * model_center)
         obs_hi = obs_lo = None
         frac = 0.0
         if lead == 0:
             obs_hi, obs_lo, frac = observed_so_far(cli, day, now)
-        floor = floors[min(lead, len(floors) - 1)]
         if cal:
-            # Historical error of the bias-corrected models (roughly a 1-day lead).
-            floor = max(1.0, cal["rmse"] * (0.85 if lead == 0 else 1.0 + 0.25 * max(0, lead - 1)))
-        target_sd = max(floor, ens_sd * 1.1)
-        kernel = math.sqrt(max(target_sd ** 2 - ens_sd ** 2, 0.8 ** 2))
-        shifted = [(v + (center - ens_mean), w) for v, w in members]
+            sd = cal["rmse"] * (1.1 if lead <= 1 else 1.4)
+        else:
+            sd = floors[min(lead, len(floors) - 1)]
+        # Widen when the ensembles or the models disagree more than usual.
+        sd = max(1.0, sd, 0.8 * ens_sd, 0.5 * model_spread)
+        target_sd = sd
+        shifted, kernel = [(center, 1.0)], sd
+        model_means = {k: round(v, 1) for k, v in det_vals.items()}
+        if ens_mean is not None:
+            model_means["ensemble_raw"] = round(ens_mean, 1)
         # Observed value bounds the outcome (minus 1F for C->F rounding of ASOS obs).
         f_obs = (round(obs_hi) - 1) if (kind == "high" and obs_hi is not None) else None
         c_obs = (round(obs_lo) + 1) if (kind == "low" and obs_lo is not None) else None
 
-        disagreement = None if nws is None else round(nws - ens_mean, 1)
-        conf = "high"
-        if not cal:
-            conf = "medium"
+        disagreement = None if nws is None else round(nws - model_center, 1)
+        conf = "high" if cal else "medium"
         if disagreement is not None and abs(disagreement) >= 3:
             conf = "low"
-        elif ens_sd > 3.5 or (disagreement is not None and abs(disagreement) >= 2):
+        elif model_spread > 5 or (disagreement is not None and abs(disagreement) >= 2):
             conf = "medium"
 
         rows = []
@@ -549,7 +617,7 @@ def analyze():
                     "suggested_stake_usd": round(stake, 2),
                     "contracts": int(stake // px) if px else 0, "volume": vol,
                     "forecast_center": round(center, 1), "nws": nws,
-                    "ensemble_mean": round(ens_mean, 1), "sd": round(target_sd, 2),
+                    "model_center": round(model_center, 1), "sd": round(target_sd, 2),
                     "observed_high": None if obs_hi is None else round(obs_hi, 1),
                     "observed_low": None if obs_lo is None else round(obs_lo, 1),
                 })
@@ -557,12 +625,12 @@ def analyze():
         top = max(rows, key=lambda r: r["model_p"]) if rows else None
         cities.append({
             "city": name, "station": icao, "series": st, "date": day.isoformat(), "kind": kind,
-            "lead_days": lead, "nws": nws, "ensemble_mean": round(ens_mean, 1),
+            "lead_days": lead, "nws": nws, "model_center": round(model_center, 1),
             "model_means": model_means, "center": round(center, 1), "sd": round(target_sd, 2),
             "observed_high": None if obs_hi is None else round(obs_hi, 1),
             "observed_low": None if obs_lo is None else round(obs_lo, 1),
             "confidence": conf,
-            "calibration": cal and {"rmse": cal["rmse"], "n_days": cal["n"], "bias": cal["bias"]},
+            "calibration": cal,
             "market_favorite": fav and {"bracket": fav["label"], "yes_ask": fav["yes_ask"]},
             "model_favorite": top and {"bracket": top["label"], "prob": top["model_p"]},
             "brackets": rows,
