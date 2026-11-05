@@ -1,9 +1,0 @@
-run_utc,date,city,ticker,bracket,side,model_prob,market_price,limit_price,edge_taker,confidence,status,result,pnl_per_contract
-2026-11-05T03:14:34,2026-11-05,Los Angeles (LAX),KXHIGHLAX-26NOV05-B79.5,79° to 80°,NO,0.806,0.51,0.5,0.279,high,open,,
-2026-11-05T03:14:34,2026-11-05,Dallas (DFW),KXHIGHTDAL-26NOV05-B77.5,77° to 78°,YES,0.439,0.15,0.14,0.28,high,open,,
-2026-11-05T03:14:34,2026-11-05,Seattle (Sea-Tac),KXLOWTSEA-26NOV05-B47.5,47° to 48°,NO,0.638,0.48,0.34,0.141,high,open,,
-2026-11-05T03:14:34,2026-11-05,Austin (Bergstrom),KXHIGHAUS-26NOV05-B80.5,80° to 81°,YES,0.327,0.05,0.04,0.274,high,open,,
-2026-11-05T03:14:34,2026-11-05,Seattle (Sea-Tac),KXHIGHTSEA-26NOV05-B57.5,57° to 58°,NO,0.587,0.31,0.3,0.262,high,open,,
-2026-11-05T03:14:34,2026-11-05,Denver (DEN),KXHIGHDEN-26NOV05-B58.5,58° to 59°,NO,0.696,0.42,0.41,0.259,high,open,,
-2026-11-05T03:14:34,2026-11-05,Miami (MIA),KXLOWTMIA-26NOV05-B75.5,75° to 76°,NO,0.847,0.63,0.57,0.2,high,open,,
-2026-11-05T03:14:34,2026-11-05,Philadelphia,KXHIGHPHIL-26NOV05-T72,71° or below,YES,0.315,0.06,0.05,0.251,high,open,,
