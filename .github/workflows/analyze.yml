@@ -2,9 +2,9 @@ name: Kalshi weather analysis
 
 on:
   schedule:
-    # 7:05 AM and 7:05 PM US Eastern (standard time). Shifts 1h later during daylight time.
-    - cron: "5 12 * * *"
-    - cron: "5 0 * * *"
+    # 6:05 AM/PM US Eastern in winter, 7:05 in summer: always before the 7:41 Claude check-ins.
+    - cron: "5 11 * * *"
+    - cron: "5 23 * * *"
   workflow_dispatch: {}
 
 permissions:

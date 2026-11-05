@@ -1,0 +1,185 @@
+<meta name="dash-one-writer">
+<style>
+  .kw { font-family: var(--font-anthropic-sans); display: grid; gap: var(--cds-gap-lg); }
+  .kw h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+  .kw .lede { color: var(--color-fg-muted); margin: var(--cds-gap-xs) 0 0; font-size: var(--cds-font-size-body); }
+  .kw .lede b { color: var(--color-fg); font-weight: 600; }
+  .kw .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr)); gap: var(--cds-gap-md); }
+  .kw .tile, .kw .card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); }
+  .kw .tile .lbl { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .kw .tile .v { font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; margin-top: var(--cds-gap-xs); }
+  .kw h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .kw .note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: var(--cds-gap-xs) 0 var(--cds-gap-md); }
+  .kw .scroll { overflow: auto; max-height: 32rem; }
+  .kw table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .kw th { text-align: left; color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); position: sticky; top: 0; background: var(--color-panel); white-space: nowrap; }
+  .kw td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+  .kw td.num, .kw th.num { text-align: right; }
+  .kw .yes { color: var(--color-ok); font-weight: 600; }
+  .kw .no { color: var(--color-bad); font-weight: 600; }
+  .kw .pos { color: var(--color-ok); }
+  .kw .neg { color: var(--color-bad); }
+  .kw .muted { color: var(--color-fg-muted); }
+  .kw .warn { border-left: 3px solid var(--color-warn); padding-left: var(--cds-pad-sm); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  [data-dash-source-state=refreshing] { opacity: .5; }
+</style>
+
+<div class="kw">
+  <header>
+    <h1>Kalshi weather bot</h1>
+    <p class="lede">Latest run: <b data-draw="run" data-source="summary" data-field="run_utc">—</b> · <b data-draw="npicks" data-source="summary" data-field="picks_now">—</b> picks where the forecast models and the Kalshi price disagree by at least 5¢ after fees. Updated about 7 AM and 7 PM Eastern.</p>
+  </header>
+
+  <p class="warn">Paper-trade (track without betting) until the track record has 50+ settled picks and shows a profit. Always use the limit price, and confirm the bracket and settlement station on Kalshi before ordering. Not financial advice.</p>
+
+  <section class="tiles" id="track">
+    <div class="tile"><div class="lbl">Settled picks</div><div class="v" data-draw="settled" data-source="summary" data-field="settled">—</div></div>
+    <div class="tile"><div class="lbl">Win rate (expected)</div><div class="v"><span data-draw="winrate" data-source="summary" data-field="win_rate_pct">—</span></div><div class="lbl">model expected <span data-draw="expwin" data-source="summary" data-field="expected_win_pct">—</span></div></div>
+    <div class="tile"><div class="lbl">Profit per 1 contract each</div><div class="v" data-draw="pnl" data-source="summary" data-field="pnl_usd">—</div></div>
+    <div class="tile"><div class="lbl">Return on cost</div><div class="v" data-draw="roi" data-source="summary" data-field="roi_pct">—</div></div>
+    <div class="tile"><div class="lbl">Open picks</div><div class="v" data-draw="open" data-source="summary" data-field="open">—</div></div>
+  </section>
+
+  <section class="card" id="picks">
+    <h2>Best options this run</h2>
+    <p class="note">Ranked by confidence, then edge. Edge = model probability − price − fee, in dollars per $1 contract. Stake uses quarter-Kelly, capped at 2% of a $500 bankroll.</p>
+    <div class="scroll">
+      <table data-source="picks" data-row-key="ticker">
+        <thead><tr>
+          <th data-field="city">City</th><th data-field="kind">High/low</th><th data-field="date">Date</th>
+          <th data-field="bracket">Bracket</th><th data-field="side">Buy</th>
+          <th class="num" data-field="model_prob">Model</th><th class="num" data-field="market_price">Price</th>
+          <th class="num" data-field="limit_price">Limit</th><th class="num" data-field="edge">Edge</th>
+          <th data-field="confidence">Confidence</th><th class="num" data-field="stake_usd">Stake</th>
+          <th class="num" data-field="forecast">Forecast °F</th><th class="num" data-field="nws">NWS °F</th>
+        </tr></thead>
+        <tbody data-draw="picksBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" id="cities">
+    <h2>Forecast vs market, every city</h2>
+    <p class="note">The model's most likely bracket next to the market's favorite. Forecast = bias-corrected models blended with NWS; error = typical miss over the last 60 days.</p>
+    <div class="scroll">
+      <table data-source="markets" data-row-key="city,kind,date">
+        <thead><tr>
+          <th data-field="city">City</th><th data-field="kind">High/low</th><th data-field="date">Date</th>
+          <th class="num" data-field="forecast">Forecast °F</th><th class="num" data-field="nws">NWS °F</th>
+          <th class="num" data-field="calib_rmse">Typical error °F</th>
+          <th data-field="model_bracket">Model's pick</th><th class="num" data-field="model_prob">Model %</th>
+          <th data-field="market_bracket">Market favorite</th><th class="num" data-field="market_price">Price</th>
+          <th data-field="confidence">Confidence</th>
+        </tr></thead>
+        <tbody data-draw="citiesBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" id="history">
+    <h2>Track record</h2>
+    <p class="note">Every pick the bot has made, graded once Kalshi settles it. Profit assumes 1 contract at the listed price, after fees.</p>
+    <div class="scroll">
+      <table data-source="history" data-row-key="ticker,side">
+        <thead><tr>
+          <th data-field="date">Date</th><th data-field="city">City</th><th data-field="bracket">Bracket</th>
+          <th data-field="side">Side</th><th class="num" data-field="model_prob">Model</th>
+          <th class="num" data-field="market_price">Price</th><th data-field="status">Status</th>
+          <th data-field="result">Result</th><th class="num" data-field="pnl_per_contract">Profit</th>
+        </tr></thead>
+        <tbody data-draw="historyBody"></tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<script>
+  dash.calc('summary', {
+    title: 'Run and track record summary',
+    description: 'Pick count of the latest run plus totals over all settled picks.',
+    inputs: ['picks', 'history'],
+    fn: (picks, history) => {
+      const settled = history.filter((r) => r.status === 'settled');
+      const wins = settled.filter((r) => r.result === 'WIN').length;
+      const pnl = settled.reduce((s, r) => s + Number(r.pnl_per_contract), 0);
+      const cost = settled.reduce((s, r) => s + Number(r.market_price), 0);
+      const exp = settled.reduce((s, r) => s + Number(r.model_prob), 0);
+      return [{
+        run_utc: picks.length ? picks[0].run_utc : '',
+        picks_now: picks.length,
+        settled: settled.length,
+        win_rate_pct: settled.length ? Math.round(1000 * wins / settled.length) / 10 : null,
+        expected_win_pct: settled.length ? Math.round(1000 * exp / settled.length) / 10 : null,
+        pnl_usd: Math.round(100 * pnl) / 100,
+        roi_pct: cost ? Math.round(1000 * pnl / cost) / 10 : null,
+        open: history.filter((r) => r.status === 'open').length,
+      }];
+    },
+  });
+</script>
+
+<script>
+  const pct = (x) => (x === '' || x == null || isNaN(Number(x))) ? '—' : `${Math.round(Number(x) * 100)}%`;
+  const cents = (x) => (x === '' || x == null || isNaN(Number(x))) ? '—' : `${Math.round(Number(x) * 100)}¢`;
+  const usd = (x) => (x === '' || x == null || isNaN(Number(x))) ? '—' : `${Number(x) < 0 ? '−' : '+'}$${Math.abs(Number(x)).toFixed(2)}`;
+  const num = (x) => (x === '' || x == null || x === 'None' || isNaN(Number(x))) ? '—' : `${Math.round(Number(x) * 10) / 10}`;
+  const enc = (s) => encodeURIComponent(String(s));
+  const sum = () => { const d = dash.data('summary'); return d.status === 'ok' && d.data.length ? d.data[0] : null; };
+  const setText = (field, f) => (el) => { const s = sum(); el.textContent = s && s[field] != null ? f(s[field]) : '—'; };
+
+  dash.draw('run', setText('run_utc', (v) => v ? `${d3.timeFormat('%b %-d, %-I:%M %p')(new Date(v))} your time` : '—'));
+  dash.draw('npicks', setText('picks_now', (v) => d3.format(',')(v)));
+  dash.draw('settled', setText('settled', (v) => d3.format(',')(v)));
+  dash.draw('winrate', setText('win_rate_pct', (v) => `${v}%`));
+  dash.draw('expwin', setText('expected_win_pct', (v) => `${v}%`));
+  dash.draw('pnl', setText('pnl_usd', usd));
+  dash.draw('roi', setText('roi_pct', (v) => `${v > 0 ? '+' : ''}${v}%`));
+  dash.draw('open', setText('open', (v) => d3.format(',')(v)));
+
+  const fillRows = (tbody, rows, keyOf, cells) => {
+    tbody.replaceChildren();
+    for (const r of rows) {
+      const tr = document.createElement('tr');
+      tr.dataset.key = keyOf(r);
+      for (const [text, cls] of cells(r)) {
+        const td = document.createElement('td');
+        td.textContent = text;
+        if (cls) td.className = cls;
+        tr.appendChild(td);
+      }
+      tbody.appendChild(tr);
+    }
+  };
+
+  dash.draw('picksBody', (tb) => {
+    const d = dash.data('picks');
+    const rows = d.status === 'ok' ? d.data : [];
+    fillRows(tb, rows, (r) => r.ticker, (r) => [
+      [r.city], [r.kind], [r.date], [r.bracket], [r.side, r.side === 'YES' ? 'yes' : 'no'],
+      [pct(r.model_prob), 'num'], [cents(r.market_price), 'num'], [cents(r.limit_price), 'num'],
+      [cents(r.edge), 'num pos'], [r.confidence], [`$${Number(r.stake_usd).toFixed(0)}`, 'num'],
+      [num(r.forecast), 'num'], [num(r.nws), 'num'],
+    ]);
+  });
+
+  dash.draw('citiesBody', (tb) => {
+    const d = dash.data('markets');
+    const rows = d.status === 'ok' ? d.data.slice().sort((a, b) => a.date.localeCompare(b.date) || a.city.localeCompare(b.city) || a.kind.localeCompare(b.kind)) : [];
+    fillRows(tb, rows, (r) => [r.city, r.kind, r.date].map(enc).join(','), (r) => [
+      [r.city], [r.kind], [r.date], [num(r.forecast), 'num'], [num(r.nws), 'num'], [num(r.calib_rmse), 'num'],
+      [r.model_bracket], [pct(r.model_prob), 'num'],
+      [r.market_bracket, r.market_bracket && r.market_bracket !== r.model_bracket ? 'muted' : ''],
+      [cents(r.market_price), 'num'], [r.confidence],
+    ]);
+  });
+
+  dash.draw('historyBody', (tb) => {
+    const d = dash.data('history');
+    const rows = d.status === 'ok' ? d.data.slice().reverse() : [];
+    fillRows(tb, rows, (r) => [r.ticker, r.side].map(enc).join(','), (r) => [
+      [r.date], [r.city], [r.bracket], [r.side, r.side === 'YES' ? 'yes' : 'no'],
+      [pct(r.model_prob), 'num'], [cents(r.market_price), 'num'], [r.status], [r.result || '—', r.result === 'WIN' ? 'pos' : r.result === 'LOSS' ? 'neg' : 'muted'],
+      [r.pnl_per_contract ? usd(r.pnl_per_contract) : '—', 'num ' + (Number(r.pnl_per_contract) > 0 ? 'pos' : Number(r.pnl_per_contract) < 0 ? 'neg' : '')],
+    ]);
+  });
+</script>
