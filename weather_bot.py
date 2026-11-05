@@ -222,7 +222,7 @@ def ensemble_members(stations, days_ahead):
     return result, times or []
 
 
-def member_extremes(model_series, times, day, std_offset, kind):
+def member_extremes(model_series, times, day, std_offset, kind, bias=None):
     """One value per member (weighted equally within a model, models equal)."""
     start, end = cli_window_utc(day, std_offset)
     idx = [i for i, t in enumerate(times) if start <= t < end]
@@ -232,7 +232,7 @@ def member_extremes(model_series, times, day, std_offset, kind):
         for s in series:
             hrs = [s[i] for i in idx if i < len(s) and s[i] is not None]
             if len(hrs) >= 18:
-                vals.append(max(hrs) if kind == "high" else min(hrs))
+                vals.append((max(hrs) if kind == "high" else min(hrs)) + (bias or {}).get(model, 0.0))
         if vals:
             pts.append((model, vals))
     members = []
@@ -291,6 +291,115 @@ def observed_so_far(cli, day, now_utc):
     return max(temps), min(temps), frac
 
 
+
+# ---------------------------------------------------------------- calibration
+HIST_FC = "https://historical-forecast-api.open-meteo.com/v1/forecast"
+DET_MODEL = {"gfs025": "gfs_seamless", "ecmwf_ifs025": "ecmwf_ifs025",
+             "icon_seamless": "icon_seamless", "gem_global": "gem_seamless"}
+
+
+def settled_actuals(series_ticker, days):
+    """{date: settled temperature} from Kalshi's settled 2-degree brackets."""
+    out, cursor = {}, None
+    cutoff = dt.date.today() - dt.timedelta(days=days)
+    for _ in range(6):
+        p = {"series_ticker": series_ticker, "status": "settled", "limit": 1000}
+        if cursor:
+            p["cursor"] = cursor
+        d = get_json(f"{KALSHI}/markets", p)
+        for m in d.get("markets", []) or []:
+            if (m.get("result") or "").lower() != "yes":
+                continue
+            day = event_date(m.get("event_ticker"))
+            if not day or day < cutoff:
+                continue
+            br = bracket_from_text(m.get("yes_sub_title") or m.get("subtitle")) or bracket_from_strikes(m)
+            if br and br[0] is not None and br[1] is not None:
+                out[day] = (br[0] + br[1]) / 2.0
+        cursor = d.get("cursor")
+        if not cursor:
+            break
+    return out
+
+
+def calibrate(series_info):
+    """Per station/kind: bias of each model (actual - forecast) and the RMSE of the
+    bias-corrected multi-model mean, from the last N days of settled markets."""
+    path = os.path.join(RESULTS, "calibration.json")
+    today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+    if os.path.exists(path):
+        cal = json.load(open(path))
+        if cal.get("date") == today and cal.get("version") == 2:
+            return cal["stations"]
+    days = CFG.get("calibration_days", 60)
+    actual = {}
+    for st, (cli, kind) in series_info.items():
+        try:
+            a = settled_actuals(st, days)
+        except Exception as e:  # noqa: BLE001
+            log(f"calibration actuals {st} failed: {e}")
+            continue
+        if a:
+            actual.setdefault(f"{cli}|{kind}", {}).update(a)
+    clis = sorted({k.split("|")[0] for k in actual})
+    end = dt.date.today() - dt.timedelta(days=1)
+    start = end - dt.timedelta(days=days)
+    fc = {}
+    for i in range(0, len(clis), 10):
+        chunk = clis[i:i + 10]
+        try:
+            d = get_json(HIST_FC, {
+                "latitude": ",".join(str(STATIONS[c][1]) for c in chunk),
+                "longitude": ",".join(str(STATIONS[c][2]) for c in chunk),
+                "hourly": "temperature_2m", "models": ",".join(DET_MODEL.values()),
+                "temperature_unit": "fahrenheit", "timezone": "GMT",
+                "start_date": start.isoformat(), "end_date": (end + dt.timedelta(days=1)).isoformat(),
+            })
+        except Exception as e:  # noqa: BLE001
+            log(f"calibration forecasts failed: {e}")
+            continue
+        locs = d if isinstance(d, list) else [d]
+        for c, loc in zip(chunk, locs):
+            h = loc.get("hourly", {})
+            times = [dt.datetime.fromisoformat(t) for t in h.get("time", [])]
+            fc[c] = (times, {em: h.get(f"temperature_2m_{dm}") for em, dm in DET_MODEL.items()})
+    stations = {}
+    for key, acts in actual.items():
+        cli, kind = key.split("|")
+        if cli not in fc:
+            continue
+        times, series = fc[cli]
+        off = STATIONS[cli][3]
+        errs = {m: [] for m in series}
+        rows = []
+        for day, act in sorted(acts.items()):
+            s, e = cli_window_utc(day, off)
+            idx = [i for i, t in enumerate(times) if s <= t < e]
+            vals = {}
+            for m, arr in series.items():
+                if not arr:
+                    continue
+                hrs = [arr[i] for i in idx if arr[i] is not None]
+                if len(hrs) >= 20:
+                    vals[m] = max(hrs) if kind == "high" else min(hrs)
+                    errs[m].append(act - vals[m])
+            if vals:
+                rows.append((act, vals))
+        bias = {m: round(sum(v) / len(v), 2) for m, v in errs.items() if len(v) >= 10}
+        resid = []
+        for act, vals in rows:
+            corr = [vals[m] + bias[m] for m in vals if m in bias]
+            if corr:
+                resid.append(act - sum(corr) / len(corr))
+        if len(resid) >= 10 and bias:
+            rmse = math.sqrt(sum(r * r for r in resid) / len(resid))
+            stations[key] = {"bias": bias, "rmse": round(rmse, 2), "n": len(resid)}
+    json.dump({"date": today, "version": 2, "days": days, "stations": stations},
+              open(path, "w"), indent=1)
+    log(f"calibrated {len(stations)} station/kind pairs")
+    return stations
+
+
 # ---------------------------------------------------------------- core
 def analyze():
     now = dt.datetime.now(dt.timezone.utc).replace(tzinfo=None).replace(microsecond=0)
@@ -323,13 +432,21 @@ def analyze():
 
     stations = sorted(by_cli)
     ens, times = ensemble_members(stations, CFG["days_ahead"])
+    series_info = {}
+    for m in markets:
+        series_info[m["_series"]] = (m["_cli"], m["_kind"])
+    try:
+        calib = calibrate(series_info)
+    except Exception as e:  # noqa: BLE001
+        log(f"calibration failed: {e}")
+        calib = {}
 
     groups = {}
     for m in markets:
         groups.setdefault((m["_series"], m["_date"]), []).append(m)
 
     floors = CFG["sd_floor_by_lead_days"]
-    candidates, cities, snaps = [], [], []
+    candidates, cities, snaps, suspicious = [], [], [], []
     for (st, day), ms in sorted(groups.items()):
         cli, kind = ms[0]["_cli"], ms[0]["_kind"]
         icao, _, _, off, name = STATIONS[cli]
@@ -337,7 +454,15 @@ def analyze():
         lead = (day - local_today).days
         if lead < 0 or lead > CFG["days_ahead"]:
             continue
-        members, model_means = member_extremes(ens.get(cli, {}), times, day, off, kind)
+        # Same-day markets: once much of the CLI day has passed, traders see the
+        # station's 5-minute readings and the models can't compete. Skip them.
+        day_start, _ = cli_window_utc(day, off)
+        frac_day = max(0.0, (now - day_start).total_seconds() / 86400)
+        if lead == 0 and frac_day > (CFG["same_day_cutoff_low"] if kind == "low" else CFG["same_day_cutoff_high"]):
+            continue
+        cal = calib.get(f"{cli}|{kind}")
+        members, model_means = member_extremes(ens.get(cli, {}), times, day, off, kind,
+                                               cal["bias"] if cal else None)
         if len(members) < 10:
             log(f"{st} {day}: not enough ensemble data")
             continue
@@ -351,9 +476,10 @@ def analyze():
         if lead == 0:
             obs_hi, obs_lo, frac = observed_so_far(cli, day, now)
         floor = floors[min(lead, len(floors) - 1)]
-        if lead == 0 and frac > 0.5:
-            floor = max(0.9, floor * (1.0 - frac) * 1.6)
-        target_sd = max(floor, ens_sd * 1.15)
+        if cal:
+            # Historical error of the bias-corrected models (roughly a 1-day lead).
+            floor = max(1.0, cal["rmse"] * (0.85 if lead == 0 else 1.0 + 0.25 * max(0, lead - 1)))
+        target_sd = max(floor, ens_sd * 1.1)
         kernel = math.sqrt(max(target_sd ** 2 - ens_sd ** 2, 0.8 ** 2))
         shifted = [(v + (center - ens_mean), w) for v, w in members]
         # Observed value bounds the outcome (minus 1F for C->F rounding of ASOS obs).
@@ -362,6 +488,8 @@ def analyze():
 
         disagreement = None if nws is None else round(nws - ens_mean, 1)
         conf = "high"
+        if not cal:
+            conf = "medium"
         if disagreement is not None and abs(disagreement) >= 3:
             conf = "low"
         elif ens_sd > 3.5 or (disagreement is not None and abs(disagreement) >= 2):
@@ -401,6 +529,13 @@ def analyze():
                 ok = taker_edge >= CFG["min_edge_taker"] or (maker_edge or 0) >= CFG["min_edge_maker"]
                 if not ok:
                     continue
+                if abs(pw - px) > CFG["max_model_market_gap"]:
+                    # A gap this big in a liquid market usually means the model is
+                    # missing something (a front, a station quirk), not free money.
+                    suspicious.append({"city": name, "date": day.isoformat(), "kind": kind,
+                                       "bracket": label, "side": side, "model_prob": round(pw, 3),
+                                       "market_price": px})
+                    continue
                 kelly = max(0.0, (pw - px) / (1 - px)) * CFG["kelly_multiplier"]
                 stake = min(kelly, CFG["max_bet_fraction"]) * CFG["bankroll_usd"]
                 candidates.append({
@@ -427,6 +562,7 @@ def analyze():
             "observed_high": None if obs_hi is None else round(obs_hi, 1),
             "observed_low": None if obs_lo is None else round(obs_lo, 1),
             "confidence": conf,
+            "calibration": cal and {"rmse": cal["rmse"], "n_days": cal["n"], "bias": cal["bias"]},
             "market_favorite": fav and {"bracket": fav["label"], "yes_ask": fav["yes_ask"]},
             "model_favorite": top and {"bracket": top["label"], "prob": top["model_p"]},
             "brackets": rows,
@@ -445,7 +581,7 @@ def analyze():
             break
 
     json.dump(cache, open(cache_path, "w"), indent=1)
-    return now, picks, candidates, cities, snaps
+    return now, picks, candidates, cities, snaps, suspicious
 
 
 # ---------------------------------------------------------------- track record
@@ -532,7 +668,7 @@ def track_record():
 
 def main():
     settle_picks()
-    now, picks, candidates, cities, snaps = analyze()
+    now, picks, candidates, cities, snaps, suspicious = analyze()
     log_picks(now, picks)
     append_csv(os.path.join(RESULTS, "snapshots.csv"),
                ["run_utc", "series", "date", "lead", "ticker", "bracket", "model_p",
@@ -541,6 +677,7 @@ def main():
         "run_utc": now.isoformat() + "Z", "picks": picks,
         "other_candidates": candidates[len(picks):len(picks) + 15],
         "track_record": track_record(), "markets": cities,
+        "model_vs_market_too_far_apart": suspicious[:20],
         "notes": LOG[-40:], "config": {k: CFG[k] for k in CFG if k != "known_series"},
     }
     json.dump(out, open(os.path.join(RESULTS, "latest.json"), "w"), indent=1, default=str)
