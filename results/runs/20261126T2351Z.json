@@ -1,0 +1,2619 @@
+{
+ "run_utc": "2026-11-26T23:51:28Z",
+ "picks": [
+  {
+   "city": "Trenton",
+   "station": "KTTN",
+   "series": "KXHIGHTTTN",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHTTTN-26NOV27-T53",
+   "bracket": "52\u00b0 or below",
+   "side": "NO",
+   "model_prob": 0.988,
+   "market_price": 0.74,
+   "fee": 0.0135,
+   "edge_taker": 0.234,
+   "limit_price": 0.62,
+   "edge_maker": 0.368,
+   "roi_taker": 0.316,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 13,
+   "volume": 151.4,
+   "forecast_center": 56.0,
+   "nws": 55,
+   "model_center": 56.3,
+   "sd": 1.56,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Dallas (DFW)",
+   "station": "KDFW",
+   "series": "KXLOWTDAL",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "low",
+   "ticker": "KXLOWTDAL-26NOV27-B32.5",
+   "bracket": "32\u00b0 to 33\u00b0",
+   "side": "NO",
+   "model_prob": 0.921,
+   "market_price": 0.7,
+   "fee": 0.0147,
+   "edge_taker": 0.206,
+   "limit_price": 0.56,
+   "edge_maker": 0.361,
+   "roi_taker": 0.295,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 14,
+   "volume": 105.0,
+   "forecast_center": 36.2,
+   "nws": 36,
+   "model_center": 36.3,
+   "sd": 2.04,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Denver (DEN)",
+   "station": "KDEN",
+   "series": "KXLOWTDEN",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "low",
+   "ticker": "KXLOWTDEN-26NOV27-T37",
+   "bracket": "38\u00b0 or above",
+   "side": "NO",
+   "model_prob": 0.675,
+   "market_price": 0.4,
+   "fee": 0.0168,
+   "edge_taker": 0.258,
+   "limit_price": 0.35,
+   "edge_maker": 0.325,
+   "roi_taker": 0.645,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 24,
+   "volume": 125.0,
+   "forecast_center": 36.3,
+   "nws": 36,
+   "model_center": 36.5,
+   "sd": 2.54,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Minneapolis",
+   "station": "KMSP",
+   "series": "KXHIGHTMIN",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHTMIN-26NOV27-B44.5",
+   "bracket": "44\u00b0 to 45\u00b0",
+   "side": "NO",
+   "model_prob": 0.911,
+   "market_price": 0.64,
+   "fee": 0.0161,
+   "edge_taker": 0.255,
+   "limit_price": 0.61,
+   "edge_maker": 0.301,
+   "roi_taker": 0.398,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 15,
+   "volume": 176.07,
+   "forecast_center": 40.6,
+   "nws": 41,
+   "model_center": 40.4,
+   "sd": 2.34,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Chicago (Midway)",
+   "station": "KMDW",
+   "series": "KXHIGHCHI",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHCHI-26NOV27-B45.5",
+   "bracket": "45\u00b0 to 46\u00b0",
+   "side": "YES",
+   "model_prob": 0.493,
+   "market_price": 0.23,
+   "fee": 0.0124,
+   "edge_taker": 0.251,
+   "limit_price": 0.2,
+   "edge_maker": 0.293,
+   "roi_taker": 1.09,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 43,
+   "volume": 980.3,
+   "forecast_center": 45.2,
+   "nws": 46,
+   "model_center": 45.0,
+   "sd": 1.49,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Seattle (Sea-Tac)",
+   "station": "KSEA",
+   "series": "KXHIGHTSEA",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHTSEA-26NOV27-B48.5",
+   "bracket": "48\u00b0 to 49\u00b0",
+   "side": "YES",
+   "model_prob": 0.356,
+   "market_price": 0.09,
+   "fee": 0.0057,
+   "edge_taker": 0.26,
+   "limit_price": 0.07,
+   "edge_maker": 0.286,
+   "roi_taker": 2.893,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 111,
+   "volume": 296.2,
+   "forecast_center": 49.2,
+   "nws": 49,
+   "model_center": 49.2,
+   "sd": 2.06,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Austin (Bergstrom)",
+   "station": "KAUS",
+   "series": "KXHIGHAUS",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHAUS-26NOV27-B70.5",
+   "bracket": "70\u00b0 to 71\u00b0",
+   "side": "NO",
+   "model_prob": 0.953,
+   "market_price": 0.69,
+   "fee": 0.015,
+   "edge_taker": 0.248,
+   "limit_price": 0.67,
+   "edge_maker": 0.283,
+   "roi_taker": 0.359,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 14,
+   "volume": 791.32,
+   "forecast_center": 66.7,
+   "nws": 68,
+   "model_center": 66.3,
+   "sd": 1.69,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "New Orleans (MSY)",
+   "station": "KMSY",
+   "series": "KXLOWTNOLA",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "low",
+   "ticker": "KXLOWTNOLA-26NOV27-T41",
+   "bracket": "42\u00b0 or above",
+   "side": "NO",
+   "model_prob": 0.758,
+   "market_price": 0.65,
+   "fee": 0.0159,
+   "edge_taker": 0.092,
+   "limit_price": 0.48,
+   "edge_maker": 0.278,
+   "roi_taker": 0.141,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 15,
+   "volume": 288.0,
+   "forecast_center": 40.2,
+   "nws": 41,
+   "model_center": 39.9,
+   "sd": 1.93,
+   "observed_high": null,
+   "observed_low": null
+  }
+ ],
+ "other_candidates": [
+  {
+   "city": "New Orleans (MSY)",
+   "station": "KMSY",
+   "series": "KXLOWTNOLA",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "low",
+   "ticker": "KXLOWTNOLA-26NOV27-T41",
+   "bracket": "42\u00b0 or above",
+   "side": "NO",
+   "model_prob": 0.758,
+   "market_price": 0.65,
+   "fee": 0.0159,
+   "edge_taker": 0.092,
+   "limit_price": 0.48,
+   "edge_maker": 0.278,
+   "roi_taker": 0.141,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 15,
+   "volume": 288.0,
+   "forecast_center": 40.2,
+   "nws": 41,
+   "model_center": 39.9,
+   "sd": 1.93,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Newark",
+   "station": "KEWR",
+   "series": "KXHIGHTEWR",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHTEWR-26NOV27-T55",
+   "bracket": "54\u00b0 or below",
+   "side": "NO",
+   "model_prob": 0.934,
+   "market_price": 0.72,
+   "fee": 0.0141,
+   "edge_taker": 0.2,
+   "limit_price": 0.66,
+   "edge_maker": 0.274,
+   "roi_taker": 0.278,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 13,
+   "volume": 196.78,
+   "forecast_center": 56.8,
+   "nws": 58,
+   "model_center": 56.4,
+   "sd": 1.53,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Denver (DEN)",
+   "station": "KDEN",
+   "series": "KXHIGHDEN",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHDEN-26NOV27-B62.5",
+   "bracket": "62\u00b0 to 63\u00b0",
+   "side": "NO",
+   "model_prob": 0.793,
+   "market_price": 0.53,
+   "fee": 0.0174,
+   "edge_taker": 0.245,
+   "limit_price": 0.52,
+   "edge_maker": 0.273,
+   "roi_taker": 0.463,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 18,
+   "volume": 86.09,
+   "forecast_center": 60.2,
+   "nws": 60,
+   "model_center": 60.2,
+   "sd": 2.02,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Minneapolis",
+   "station": "KMSP",
+   "series": "KXHIGHTMIN",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHTMIN-26NOV27-B40.5",
+   "bracket": "40\u00b0 to 41\u00b0",
+   "side": "YES",
+   "model_prob": 0.33,
+   "market_price": 0.07,
+   "fee": 0.0046,
+   "edge_taker": 0.256,
+   "limit_price": 0.06,
+   "edge_maker": 0.27,
+   "roi_taker": 3.653,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 142,
+   "volume": 221.0,
+   "forecast_center": 40.6,
+   "nws": 41,
+   "model_center": 40.4,
+   "sd": 2.34,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Oklahoma City",
+   "station": "KOKC",
+   "series": "KXHIGHTOKC",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHTOKC-26NOV27-B64.5",
+   "bracket": "64\u00b0 to 65\u00b0",
+   "side": "NO",
+   "model_prob": 0.992,
+   "market_price": 0.77,
+   "fee": 0.0124,
+   "edge_taker": 0.209,
+   "limit_price": 0.73,
+   "edge_maker": 0.262,
+   "roi_taker": 0.272,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 12,
+   "volume": 355.09,
+   "forecast_center": 58.7,
+   "nws": 60,
+   "model_center": 58.3,
+   "sd": 2.02,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Dallas (DFW)",
+   "station": "KDFW",
+   "series": "KXLOWTDAL",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "low",
+   "ticker": "KXLOWTDAL-26NOV27-B34.5",
+   "bracket": "34\u00b0 to 35\u00b0",
+   "side": "NO",
+   "model_prob": 0.731,
+   "market_price": 0.58,
+   "fee": 0.0171,
+   "edge_taker": 0.134,
+   "limit_price": 0.47,
+   "edge_maker": 0.261,
+   "roi_taker": 0.232,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 17,
+   "volume": 378.0,
+   "forecast_center": 36.2,
+   "nws": 36,
+   "model_center": 36.3,
+   "sd": 2.04,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Denver (DEN)",
+   "station": "KDEN",
+   "series": "KXHIGHDEN",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHDEN-26NOV27-B64.5",
+   "bracket": "64\u00b0 to 65\u00b0",
+   "side": "NO",
+   "model_prob": 0.954,
+   "market_price": 0.75,
+   "fee": 0.0131,
+   "edge_taker": 0.19,
+   "limit_price": 0.7,
+   "edge_maker": 0.254,
+   "roi_taker": 0.254,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 13,
+   "volume": 94.0,
+   "forecast_center": 60.2,
+   "nws": 60,
+   "model_center": 60.2,
+   "sd": 2.02,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Chicago (Midway)",
+   "station": "KMDW",
+   "series": "KXHIGHCHI",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHCHI-26NOV27-B43.5",
+   "bracket": "43\u00b0 to 44\u00b0",
+   "side": "YES",
+   "model_prob": 0.275,
+   "market_price": 0.04,
+   "fee": 0.0027,
+   "edge_taker": 0.233,
+   "limit_price": 0.03,
+   "edge_maker": 0.245,
+   "roi_taker": 5.815,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 249,
+   "volume": 418.44,
+   "forecast_center": 45.2,
+   "nws": 46,
+   "model_center": 45.0,
+   "sd": 1.49,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Denver (DEN)",
+   "station": "KDEN",
+   "series": "KXHIGHDEN",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHDEN-26NOV27-B60.5",
+   "bracket": "60\u00b0 to 61\u00b0",
+   "side": "YES",
+   "model_prob": 0.375,
+   "market_price": 0.17,
+   "fee": 0.0099,
+   "edge_taker": 0.195,
+   "limit_price": 0.13,
+   "edge_maker": 0.245,
+   "roi_taker": 1.145,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 58,
+   "volume": 62.04,
+   "forecast_center": 60.2,
+   "nws": 60,
+   "model_center": 60.2,
+   "sd": 2.02,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Washington (National)",
+   "station": "KDCA",
+   "series": "KXHIGHTDC",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHTDC-26NOV27-B54.5",
+   "bracket": "54\u00b0 to 55\u00b0",
+   "side": "NO",
+   "model_prob": 0.783,
+   "market_price": 0.57,
+   "fee": 0.0172,
+   "edge_taker": 0.196,
+   "limit_price": 0.54,
+   "edge_maker": 0.243,
+   "roi_taker": 0.343,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 17,
+   "volume": 214.02,
+   "forecast_center": 56.7,
+   "nws": 56,
+   "model_center": 57.0,
+   "sd": 2.01,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Oklahoma City",
+   "station": "KOKC",
+   "series": "KXLOWTOKC",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "low",
+   "ticker": "KXLOWTOKC-26NOV27-B25.5",
+   "bracket": "25\u00b0 to 26\u00b0",
+   "side": "NO",
+   "model_prob": 0.993,
+   "market_price": 0.78,
+   "fee": 0.012,
+   "edge_taker": 0.201,
+   "limit_price": 0.75,
+   "edge_maker": 0.243,
+   "roi_taker": 0.258,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 12,
+   "volume": 150.0,
+   "forecast_center": 31.9,
+   "nws": 32,
+   "model_center": 31.9,
+   "sd": 2.21,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "New York (Central Park)",
+   "station": "KNYC",
+   "series": "KXHIGHNY",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHNY-26NOV27-T57",
+   "bracket": "56\u00b0 or below",
+   "side": "NO",
+   "model_prob": 0.572,
+   "market_price": 0.35,
+   "fee": 0.0159,
+   "edge_taker": 0.206,
+   "limit_price": 0.33,
+   "edge_maker": 0.242,
+   "roi_taker": 0.59,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 28,
+   "volume": 1611.95,
+   "forecast_center": 56.8,
+   "nws": 57,
+   "model_center": 56.8,
+   "sd": 1.84,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Chicago (Midway)",
+   "station": "KMDW",
+   "series": "KXHIGHCHI",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHCHI-26NOV27-B49.5",
+   "bracket": "49\u00b0 to 50\u00b0",
+   "side": "NO",
+   "model_prob": 0.986,
+   "market_price": 0.78,
+   "fee": 0.012,
+   "edge_taker": 0.194,
+   "limit_price": 0.75,
+   "edge_maker": 0.236,
+   "roi_taker": 0.249,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 12,
+   "volume": 1084.53,
+   "forecast_center": 45.2,
+   "nws": 46,
+   "model_center": 45.0,
+   "sd": 1.49,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Atlanta",
+   "station": "KATL",
+   "series": "KXLOWTATL",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "low",
+   "ticker": "KXLOWTATL-26NOV27-B39.5",
+   "bracket": "39\u00b0 to 40\u00b0",
+   "side": "NO",
+   "model_prob": 0.813,
+   "market_price": 0.65,
+   "fee": 0.0159,
+   "edge_taker": 0.147,
+   "limit_price": 0.58,
+   "edge_maker": 0.233,
+   "roi_taker": 0.226,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 15,
+   "volume": 65.47,
+   "forecast_center": 37.1,
+   "nws": 36,
+   "model_center": 37.5,
+   "sd": 1.67,
+   "observed_high": null,
+   "observed_low": null
+  },
+  {
+   "city": "Washington (National)",
+   "station": "KDCA",
+   "series": "KXHIGHTDC",
+   "date": "2026-11-27",
+   "lead_days": 1,
+   "kind": "high",
+   "ticker": "KXHIGHTDC-26NOV27-B58.5",
+   "bracket": "58\u00b0 to 59\u00b0",
+   "side": "YES",
+   "model_prob": 0.266,
+   "market_price": 0.07,
+   "fee": 0.0046,
+   "edge_taker": 0.191,
+   "limit_price": 0.05,
+   "edge_maker": 0.216,
+   "roi_taker": 2.732,
+   "confidence": "high",
+   "suggested_stake_usd": 10.0,
+   "contracts": 142,
+   "volume": 82.44,
+   "forecast_center": 56.7,
+   "nws": 56,
+   "model_center": 57.0,
+   "sd": 2.01,
+   "observed_high": null,
+   "observed_low": null
+  }
+ ],
+ "track_record": {
+  "settled": 326,
+  "wins": 133,
+  "expected_wins": 207.6,
+  "win_rate": 0.408,
+  "pnl_per_contract_total": -20.55,
+  "roi": -0.138,
+  "brier_model": 0.2571,
+  "brier_market": 0.2066,
+  "open": 24
+ },
+ "markets": [
+  {
+   "city": "Austin (Bergstrom)",
+   "station": "KAUS",
+   "series": "KXHIGHAUS",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 68,
+   "model_center": 66.3,
+   "model_means": {
+    "ensemble_raw": 66.3
+   },
+   "center": 66.7,
+   "sd": 1.69,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 2.67,
+     "ecmwf_ifs025": 2.48,
+     "icon_seamless": 1.87,
+     "gem_seamless": 1.3
+    },
+    "rmse": 1.54,
+    "n": 46,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "68\u00b0 to 69\u00b0",
+    "yes_ask": 0.63
+   },
+   "model_favorite": {
+    "bracket": "66\u00b0 to 67\u00b0",
+    "prob": 0.442
+   }
+  },
+  {
+   "city": "Chicago (Midway)",
+   "station": "KMDW",
+   "series": "KXHIGHCHI",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 46,
+   "model_center": 45.0,
+   "model_means": {
+    "ensemble_raw": 45.0
+   },
+   "center": 45.2,
+   "sd": 1.49,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 2.2,
+     "ecmwf_ifs025": 2.9,
+     "icon_seamless": 1.61,
+     "gem_seamless": 0.33
+    },
+    "rmse": 1.35,
+    "n": 53,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "47\u00b0 to 48\u00b0",
+    "yes_ask": 0.51
+   },
+   "model_favorite": {
+    "bracket": "45\u00b0 to 46\u00b0",
+    "prob": 0.493
+   }
+  },
+  {
+   "city": "Denver (DEN)",
+   "station": "KDEN",
+   "series": "KXHIGHDEN",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 60,
+   "model_center": 60.2,
+   "model_means": {
+    "ensemble_raw": 60.2
+   },
+   "center": 60.2,
+   "sd": 2.02,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.95,
+     "ecmwf_ifs025": 0.26,
+     "icon_seamless": 1.65,
+     "gem_seamless": 0.99
+    },
+    "rmse": 1.84,
+    "n": 54,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "62\u00b0 to 63\u00b0",
+    "yes_ask": 0.48
+   },
+   "model_favorite": {
+    "bracket": "60\u00b0 to 61\u00b0",
+    "prob": 0.375
+   }
+  },
+  {
+   "city": "Los Angeles (LAX)",
+   "station": "KLAX",
+   "series": "KXHIGHLAX",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 82,
+   "model_center": 81.5,
+   "model_means": {
+    "ensemble_raw": 81.5
+   },
+   "center": 81.6,
+   "sd": 2.45,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 1.39,
+     "ecmwf_ifs025": -1.48,
+     "icon_seamless": -0.71,
+     "gem_seamless": 0.16
+    },
+    "rmse": 2.23,
+    "n": 44,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "83\u00b0 to 84\u00b0",
+    "yes_ask": 0.45
+   },
+   "model_favorite": {
+    "bracket": "81\u00b0 to 82\u00b0",
+    "prob": 0.316
+   }
+  },
+  {
+   "city": "Miami (MIA)",
+   "station": "KMIA",
+   "series": "KXHIGHMIA",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 74,
+   "model_center": 72.3,
+   "model_means": {
+    "ensemble_raw": 72.3
+   },
+   "center": 72.7,
+   "sd": 1.62,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 2.58,
+     "ecmwf_ifs025": 3.52,
+     "icon_seamless": 1.48,
+     "gem_seamless": 1.85
+    },
+    "rmse": 1.47,
+    "n": 59,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "74\u00b0 to 75\u00b0",
+    "yes_ask": 0.71
+   },
+   "model_favorite": {
+    "bracket": "72\u00b0 to 73\u00b0",
+    "prob": 0.459
+   }
+  },
+  {
+   "city": "New York (Central Park)",
+   "station": "KNYC",
+   "series": "KXHIGHNY",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 57,
+   "model_center": 56.8,
+   "model_means": {
+    "ensemble_raw": 56.8
+   },
+   "center": 56.8,
+   "sd": 1.84,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.92,
+     "ecmwf_ifs025": 1.69,
+     "icon_seamless": 0.19,
+     "gem_seamless": -0.66
+    },
+    "rmse": 1.67,
+    "n": 46,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "56\u00b0 or below",
+    "yes_ask": 0.68
+   },
+   "model_favorite": {
+    "bracket": "56\u00b0 or below",
+    "prob": 0.428
+   }
+  },
+  {
+   "city": "Philadelphia",
+   "station": "KPHL",
+   "series": "KXHIGHPHIL",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 56,
+   "model_center": 58.9,
+   "model_means": {
+    "ensemble_raw": 58.9
+   },
+   "center": 58.2,
+   "sd": 1.58,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "medium",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 3.17,
+     "ecmwf_ifs025": 2.46,
+     "icon_seamless": 1.79,
+     "gem_seamless": 2.75
+    },
+    "rmse": 1.44,
+    "n": 56,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "56\u00b0 or below",
+    "yes_ask": 0.6
+   },
+   "model_favorite": {
+    "bracket": "57\u00b0 to 58\u00b0",
+    "prob": 0.435
+   }
+  },
+  {
+   "city": "Atlanta",
+   "station": "KATL",
+   "series": "KXHIGHTATL",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 51,
+   "model_center": 47.9,
+   "model_means": {
+    "ensemble_raw": 47.9
+   },
+   "center": 48.6,
+   "sd": 1.83,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "low",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.74,
+     "ecmwf_ifs025": 2.68,
+     "icon_seamless": 2.02,
+     "gem_seamless": 2.5
+    },
+    "rmse": 1.66,
+    "n": 50,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "51\u00b0 to 52\u00b0",
+    "yes_ask": 0.39
+   },
+   "model_favorite": {
+    "bracket": "49\u00b0 to 50\u00b0",
+    "prob": 0.377
+   }
+  },
+  {
+   "city": "Boston (Logan)",
+   "station": "KBOS",
+   "series": "KXHIGHTBOS",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 59,
+   "model_center": 57.3,
+   "model_means": {
+    "ensemble_raw": 57.3
+   },
+   "center": 57.7,
+   "sd": 1.75,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 2.23,
+     "ecmwf_ifs025": 2.43,
+     "icon_seamless": 0.74,
+     "gem_seamless": 0.2
+    },
+    "rmse": 1.59,
+    "n": 50,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "57\u00b0 or below",
+    "yes_ask": 0.58
+   },
+   "model_favorite": {
+    "bracket": "57\u00b0 or below",
+    "prob": 0.449
+   }
+  },
+  {
+   "city": "Dallas (DFW)",
+   "station": "KDFW",
+   "series": "KXHIGHTDAL",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 66,
+   "model_center": 64.3,
+   "model_means": {
+    "ensemble_raw": 64.3
+   },
+   "center": 64.8,
+   "sd": 1.83,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 2.48,
+     "ecmwf_ifs025": 3.14,
+     "icon_seamless": 1.81,
+     "gem_seamless": 1.87
+    },
+    "rmse": 1.66,
+    "n": 54,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "69\u00b0 to 70\u00b0",
+    "yes_ask": 0.58
+   },
+   "model_favorite": {
+    "bracket": "65\u00b0 to 66\u00b0",
+    "prob": 0.386
+   }
+  },
+  {
+   "city": "Washington (National)",
+   "station": "KDCA",
+   "series": "KXHIGHTDC",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 56,
+   "model_center": 57.0,
+   "model_means": {
+    "ensemble_raw": 57.0
+   },
+   "center": 56.7,
+   "sd": 2.01,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 1.41,
+     "ecmwf_ifs025": 1.84,
+     "icon_seamless": 1.1,
+     "gem_seamless": 1.5
+    },
+    "rmse": 1.83,
+    "n": 56,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "54\u00b0 to 55\u00b0",
+    "yes_ask": 0.47
+   },
+   "model_favorite": {
+    "bracket": "56\u00b0 to 57\u00b0",
+    "prob": 0.379
+   }
+  },
+  {
+   "city": "Newark",
+   "station": "KEWR",
+   "series": "KXHIGHTEWR",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 58,
+   "model_center": 56.4,
+   "model_means": {
+    "ensemble_raw": 56.4
+   },
+   "center": 56.8,
+   "sd": 1.53,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 2.6,
+     "ecmwf_ifs025": 2.95,
+     "icon_seamless": 2.14,
+     "gem_seamless": 0.34
+    },
+    "rmse": 1.39,
+    "n": 55,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "55\u00b0 to 56\u00b0",
+    "yes_ask": 0.38
+   },
+   "model_favorite": {
+    "bracket": "57\u00b0 to 58\u00b0",
+    "prob": 0.446
+   }
+  },
+  {
+   "city": "Houston (Hobby)",
+   "station": "KHOU",
+   "series": "KXHIGHTHOU",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 64,
+   "model_center": 62.4,
+   "model_means": {
+    "ensemble_raw": 62.4
+   },
+   "center": 62.8,
+   "sd": 1.93,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.15,
+     "ecmwf_ifs025": 2.32,
+     "icon_seamless": 1.33,
+     "gem_seamless": 1.55
+    },
+    "rmse": 1.75,
+    "n": 50,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "66\u00b0 to 67\u00b0",
+    "yes_ask": 0.5
+   },
+   "model_favorite": {
+    "bracket": "62\u00b0 to 63\u00b0",
+    "prob": 0.393
+   }
+  },
+  {
+   "city": "Las Vegas",
+   "station": "KLAS",
+   "series": "KXHIGHTLV",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 69,
+   "model_center": 65.1,
+   "model_means": {
+    "ensemble_raw": 65.1
+   },
+   "center": 66.1,
+   "sd": 1.23,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "low",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": -0.72,
+     "ecmwf_ifs025": 1.75,
+     "icon_seamless": 1.28,
+     "gem_seamless": 1.65
+    },
+    "rmse": 1.12,
+    "n": 53,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "70\u00b0 to 71\u00b0",
+    "yes_ask": 0.58
+   },
+   "model_favorite": {
+    "bracket": "66\u00b0 to 67\u00b0",
+    "prob": 0.555
+   }
+  },
+  {
+   "city": "Minneapolis",
+   "station": "KMSP",
+   "series": "KXHIGHTMIN",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 41,
+   "model_center": 40.4,
+   "model_means": {
+    "ensemble_raw": 40.4
+   },
+   "center": 40.6,
+   "sd": 2.34,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 3.0,
+     "ecmwf_ifs025": 2.21,
+     "icon_seamless": 2.02,
+     "gem_seamless": 1.26
+    },
+    "rmse": 2.13,
+    "n": 52,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "42\u00b0 to 43\u00b0",
+    "yes_ask": 0.52
+   },
+   "model_favorite": {
+    "bracket": "40\u00b0 to 41\u00b0",
+    "prob": 0.33
+   }
+  },
+  {
+   "city": "New Orleans (MSY)",
+   "station": "KMSY",
+   "series": "KXHIGHTNOLA",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 56,
+   "model_center": 54.9,
+   "model_means": {
+    "ensemble_raw": 54.9
+   },
+   "center": 55.2,
+   "sd": 1.42,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.73,
+     "ecmwf_ifs025": 2.95,
+     "icon_seamless": 1.48,
+     "gem_seamless": 1.82
+    },
+    "rmse": 1.29,
+    "n": 55,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "58\u00b0 to 59\u00b0",
+    "yes_ask": 0.53
+   },
+   "model_favorite": {
+    "bracket": "54\u00b0 to 55\u00b0",
+    "prob": 0.467
+   }
+  },
+  {
+   "city": "Oklahoma City",
+   "station": "KOKC",
+   "series": "KXHIGHTOKC",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 60,
+   "model_center": 58.3,
+   "model_means": {
+    "ensemble_raw": 58.3
+   },
+   "center": 58.7,
+   "sd": 2.02,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 1.78,
+     "ecmwf_ifs025": 2.11,
+     "icon_seamless": 1.85,
+     "gem_seamless": 0.96
+    },
+    "rmse": 1.84,
+    "n": 50,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "62\u00b0 to 63\u00b0",
+    "yes_ask": 0.57
+   },
+   "model_favorite": {
+    "bracket": "58\u00b0 to 59\u00b0",
+    "prob": 0.377
+   }
+  },
+  {
+   "city": "Phoenix",
+   "station": "KPHX",
+   "series": "KXHIGHTPHX",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 78,
+   "model_center": 73.5,
+   "model_means": {
+    "ensemble_raw": 73.5
+   },
+   "center": 74.6,
+   "sd": 1.65,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "low",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.68,
+     "ecmwf_ifs025": 2.97,
+     "icon_seamless": 2.64,
+     "gem_seamless": 2.49
+    },
+    "rmse": 1.5,
+    "n": 55,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "77\u00b0 to 78\u00b0",
+    "yes_ask": 0.56
+   },
+   "model_favorite": {
+    "bracket": "74\u00b0 or below",
+    "prob": 0.474
+   }
+  },
+  {
+   "city": "San Diego",
+   "station": "KSAN",
+   "series": "KXHIGHTSAN",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 81,
+   "model_center": 82.4,
+   "model_means": {
+    "ensemble_raw": 82.4
+   },
+   "center": 82.1,
+   "sd": 2.04,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 1.19,
+     "ecmwf_ifs025": -2.31,
+     "icon_seamless": -0.17,
+     "gem_seamless": 1.3
+    },
+    "rmse": 1.85,
+    "n": 54,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "80\u00b0 to 81\u00b0",
+    "yes_ask": 0.46
+   },
+   "model_favorite": {
+    "bracket": "82\u00b0 to 83\u00b0",
+    "prob": 0.369
+   }
+  },
+  {
+   "city": "San Antonio",
+   "station": "KSAT",
+   "series": "KXHIGHTSATX",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 66,
+   "model_center": 64.2,
+   "model_means": {
+    "ensemble_raw": 64.2
+   },
+   "center": 64.6,
+   "sd": 1.76,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 1.56,
+     "ecmwf_ifs025": 1.54,
+     "icon_seamless": 1.14,
+     "gem_seamless": 1.37
+    },
+    "rmse": 1.6,
+    "n": 49,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "67\u00b0 to 68\u00b0",
+    "yes_ask": 0.62
+   },
+   "model_favorite": {
+    "bracket": "65\u00b0 to 66\u00b0",
+    "prob": 0.386
+   }
+  },
+  {
+   "city": "Seattle (Sea-Tac)",
+   "station": "KSEA",
+   "series": "KXHIGHTSEA",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 49,
+   "model_center": 49.2,
+   "model_means": {
+    "ensemble_raw": 49.2
+   },
+   "center": 49.2,
+   "sd": 2.06,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 1.39,
+     "ecmwf_ifs025": 1.96,
+     "icon_seamless": 2.28,
+     "gem_seamless": 0.91
+    },
+    "rmse": 1.87,
+    "n": 52,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "50\u00b0 to 51\u00b0",
+    "yes_ask": 0.7
+   },
+   "model_favorite": {
+    "bracket": "48\u00b0 to 49\u00b0",
+    "prob": 0.356
+   }
+  },
+  {
+   "city": "San Francisco (SFO)",
+   "station": "KSFO",
+   "series": "KXHIGHTSFO",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 65,
+   "model_center": 64.9,
+   "model_means": {
+    "ensemble_raw": 64.9
+   },
+   "center": 65.0,
+   "sd": 2.27,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.22,
+     "ecmwf_ifs025": 0.16,
+     "icon_seamless": 0.72,
+     "gem_seamless": 2.77
+    },
+    "rmse": 2.06,
+    "n": 52,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "62\u00b0 to 63\u00b0",
+    "yes_ask": 0.41
+   },
+   "model_favorite": {
+    "bracket": "64\u00b0 to 65\u00b0",
+    "prob": 0.334
+   }
+  },
+  {
+   "city": "Trenton",
+   "station": "KTTN",
+   "series": "KXHIGHTTTN",
+   "date": "2026-11-27",
+   "kind": "high",
+   "lead_days": 1,
+   "nws": 55,
+   "model_center": 56.3,
+   "model_means": {
+    "ensemble_raw": 56.3
+   },
+   "center": 56.0,
+   "sd": 1.56,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 2.77,
+     "ecmwf_ifs025": 2.4,
+     "icon_seamless": 1.36,
+     "gem_seamless": 0.76
+    },
+    "rmse": 1.42,
+    "n": 56,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "52\u00b0 or below",
+    "yes_ask": 0.39
+   },
+   "model_favorite": {
+    "bracket": "55\u00b0 to 56\u00b0",
+    "prob": 0.457
+   }
+  },
+  {
+   "city": "Atlanta",
+   "station": "KATL",
+   "series": "KXLOWTATL",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 36,
+   "model_center": 37.5,
+   "model_means": {
+    "ensemble_raw": 37.5
+   },
+   "center": 37.1,
+   "sd": 1.67,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.86,
+     "ecmwf_ifs025": 1.15,
+     "icon_seamless": 0.65,
+     "gem_seamless": 1.4
+    },
+    "rmse": 1.52,
+    "n": 51,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "37\u00b0 to 38\u00b0",
+    "yes_ask": 0.53
+   },
+   "model_favorite": {
+    "bracket": "37\u00b0 to 38\u00b0",
+    "prob": 0.441
+   }
+  },
+  {
+   "city": "Austin (Bergstrom)",
+   "station": "KAUS",
+   "series": "KXLOWTAUS",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 35,
+   "model_center": 38.6,
+   "model_means": {
+    "ensemble_raw": 38.6
+   },
+   "center": 37.7,
+   "sd": 1.98,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "low",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": -2.97,
+     "ecmwf_ifs025": -4.8,
+     "icon_seamless": -3.72,
+     "gem_seamless": -0.79
+    },
+    "rmse": 1.8,
+    "n": 46,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "31\u00b0 to 32\u00b0",
+    "yes_ask": 0.41
+   },
+   "model_favorite": {
+    "bracket": "37\u00b0 or above",
+    "prob": 0.733
+   }
+  },
+  {
+   "city": "Boston (Logan)",
+   "station": "KBOS",
+   "series": "KXLOWTBOS",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 46,
+   "model_center": 45.6,
+   "model_means": {
+    "ensemble_raw": 45.6
+   },
+   "center": 45.7,
+   "sd": 2.05,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 3.04,
+     "ecmwf_ifs025": 0.54,
+     "icon_seamless": 1.37,
+     "gem_seamless": 1.29
+    },
+    "rmse": 1.86,
+    "n": 44,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "45\u00b0 to 46\u00b0",
+    "yes_ask": 0.52
+   },
+   "model_favorite": {
+    "bracket": "45\u00b0 to 46\u00b0",
+    "prob": 0.374
+   }
+  },
+  {
+   "city": "Chicago (Midway)",
+   "station": "KMDW",
+   "series": "KXLOWTCHI",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 40,
+   "model_center": 35.9,
+   "model_means": {
+    "ensemble_raw": 35.9
+   },
+   "center": 36.9,
+   "sd": 1.8,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "low",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 2.29,
+     "ecmwf_ifs025": 0.25,
+     "icon_seamless": 0.45,
+     "gem_seamless": 1.51
+    },
+    "rmse": 1.64,
+    "n": 49,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "38\u00b0 or above",
+    "yes_ask": 0.47
+   },
+   "model_favorite": {
+    "bracket": "36\u00b0 to 37\u00b0",
+    "prob": 0.41
+   }
+  },
+  {
+   "city": "Dallas (DFW)",
+   "station": "KDFW",
+   "series": "KXLOWTDAL",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 36,
+   "model_center": 36.3,
+   "model_means": {
+    "ensemble_raw": 36.3
+   },
+   "center": 36.2,
+   "sd": 2.04,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.99,
+     "ecmwf_ifs025": -2.82,
+     "icon_seamless": -1.4,
+     "gem_seamless": 4.38
+    },
+    "rmse": 1.85,
+    "n": 44,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "34\u00b0 to 35\u00b0",
+    "yes_ask": 0.54
+   },
+   "model_favorite": {
+    "bracket": "36\u00b0 or above",
+    "prob": 0.643
+   }
+  },
+  {
+   "city": "Washington (National)",
+   "station": "KDCA",
+   "series": "KXLOWTDC",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 47,
+   "model_center": 43.9,
+   "model_means": {
+    "ensemble_raw": 43.9
+   },
+   "center": 44.7,
+   "sd": 1.3,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "low",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 2.7,
+     "ecmwf_ifs025": 0.87,
+     "icon_seamless": -0.55,
+     "gem_seamless": 0.34
+    },
+    "rmse": 1.18,
+    "n": 42,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "46\u00b0 to 47\u00b0",
+    "yes_ask": 0.42
+   },
+   "model_favorite": {
+    "bracket": "44\u00b0 to 45\u00b0",
+    "prob": 0.555
+   }
+  },
+  {
+   "city": "Denver (DEN)",
+   "station": "KDEN",
+   "series": "KXLOWTDEN",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 36,
+   "model_center": 36.5,
+   "model_means": {
+    "ensemble_raw": 36.5
+   },
+   "center": 36.3,
+   "sd": 2.54,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.72,
+     "ecmwf_ifs025": -3.15,
+     "icon_seamless": -0.54,
+     "gem_seamless": 2.92
+    },
+    "rmse": 2.31,
+    "n": 47,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "38\u00b0 or above",
+    "yes_ask": 0.66
+   },
+   "model_favorite": {
+    "bracket": "38\u00b0 or above",
+    "prob": 0.325
+   }
+  },
+  {
+   "city": "Newark",
+   "station": "KEWR",
+   "series": "KXLOWTEWR",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 50,
+   "model_center": 45.1,
+   "model_means": {
+    "ensemble_raw": 45.1
+   },
+   "center": 46.3,
+   "sd": 1.45,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "low",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 2.73,
+     "ecmwf_ifs025": -0.48,
+     "icon_seamless": -0.36,
+     "gem_seamless": 0.65
+    },
+    "rmse": 1.32,
+    "n": 46,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "43\u00b0 to 44\u00b0",
+    "yes_ask": 0.34
+   },
+   "model_favorite": {
+    "bracket": "45\u00b0 to 46\u00b0",
+    "prob": 0.443
+   }
+  },
+  {
+   "city": "Houston (Hobby)",
+   "station": "KHOU",
+   "series": "KXLOWTHOU",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 38,
+   "model_center": 40.8,
+   "model_means": {
+    "ensemble_raw": 40.8
+   },
+   "center": 40.1,
+   "sd": 1.84,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "medium",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.74,
+     "ecmwf_ifs025": -1.14,
+     "icon_seamless": -0.67,
+     "gem_seamless": 2.71
+    },
+    "rmse": 1.67,
+    "n": 54,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "40\u00b0 to 41\u00b0",
+    "yes_ask": 0.49
+   },
+   "model_favorite": {
+    "bracket": "40\u00b0 to 41\u00b0",
+    "prob": 0.403
+   }
+  },
+  {
+   "city": "Los Angeles (LAX)",
+   "station": "KLAX",
+   "series": "KXLOWTLAX",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 60,
+   "model_center": 57.9,
+   "model_means": {
+    "ensemble_raw": 57.9
+   },
+   "center": 58.4,
+   "sd": 2.17,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "medium",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 3.76,
+     "ecmwf_ifs025": 1.25,
+     "icon_seamless": 3.56,
+     "gem_seamless": 11.8
+    },
+    "rmse": 1.97,
+    "n": 48,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "56\u00b0 to 57\u00b0",
+    "yes_ask": 0.42
+   },
+   "model_favorite": {
+    "bracket": "58\u00b0 to 59\u00b0",
+    "prob": 0.355
+   }
+  },
+  {
+   "city": "Las Vegas",
+   "station": "KLAS",
+   "series": "KXLOWTLV",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 50,
+   "model_center": 44.4,
+   "model_means": {
+    "ensemble_raw": 44.4
+   },
+   "center": 45.8,
+   "sd": 1.69,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "low",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 2.9,
+     "ecmwf_ifs025": -1.13,
+     "icon_seamless": 1.34,
+     "gem_seamless": 12.74
+    },
+    "rmse": 1.54,
+    "n": 40,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "47\u00b0 to 48\u00b0",
+    "yes_ask": 0.61
+   },
+   "model_favorite": {
+    "bracket": "45\u00b0 to 46\u00b0",
+    "prob": 0.437
+   }
+  },
+  {
+   "city": "Miami (MIA)",
+   "station": "KMIA",
+   "series": "KXLOWTMIA",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 61,
+   "model_center": 60.6,
+   "model_means": {
+    "ensemble_raw": 60.6
+   },
+   "center": 60.7,
+   "sd": 1.98,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 1.97,
+     "ecmwf_ifs025": 0.83,
+     "icon_seamless": 0.22,
+     "gem_seamless": 2.28
+    },
+    "rmse": 1.8,
+    "n": 45,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "62\u00b0 to 63\u00b0",
+    "yes_ask": 0.45
+   },
+   "model_favorite": {
+    "bracket": "60\u00b0 to 61\u00b0",
+    "prob": 0.384
+   }
+  },
+  {
+   "city": "Minneapolis",
+   "station": "KMSP",
+   "series": "KXLOWTMIN",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 17,
+   "model_center": 21.1,
+   "model_means": {
+    "ensemble_raw": 21.1
+   },
+   "center": 20.0,
+   "sd": 1.84,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "low",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.65,
+     "ecmwf_ifs025": -1.24,
+     "icon_seamless": -0.74,
+     "gem_seamless": 0.71
+    },
+    "rmse": 1.67,
+    "n": 45,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "22\u00b0 or above",
+    "yes_ask": 0.52
+   },
+   "model_favorite": {
+    "bracket": "20\u00b0 to 21\u00b0",
+    "prob": 0.402
+   }
+  },
+  {
+   "city": "New Orleans (MSY)",
+   "station": "KMSY",
+   "series": "KXLOWTNOLA",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 41,
+   "model_center": 39.9,
+   "model_means": {
+    "ensemble_raw": 39.9
+   },
+   "center": 40.2,
+   "sd": 1.93,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.34,
+     "ecmwf_ifs025": -3.01,
+     "icon_seamless": -1.13,
+     "gem_seamless": 0.79
+    },
+    "rmse": 1.75,
+    "n": 44,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "42\u00b0 or above",
+    "yes_ask": 0.53
+   },
+   "model_favorite": {
+    "bracket": "40\u00b0 to 41\u00b0",
+    "prob": 0.391
+   }
+  },
+  {
+   "city": "New York (Central Park)",
+   "station": "KNYC",
+   "series": "KXLOWTNYC",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 50,
+   "model_center": 44.9,
+   "model_means": {
+    "ensemble_raw": 44.9
+   },
+   "center": 46.2,
+   "sd": 2.4,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "low",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 5.02,
+     "ecmwf_ifs025": 2.23,
+     "icon_seamless": -0.17,
+     "gem_seamless": 2.8
+    },
+    "rmse": 2.18,
+    "n": 53,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "46\u00b0 to 47\u00b0",
+    "yes_ask": 0.5
+   },
+   "model_favorite": {
+    "bracket": "46\u00b0 to 47\u00b0",
+    "prob": 0.32
+   }
+  },
+  {
+   "city": "Oklahoma City",
+   "station": "KOKC",
+   "series": "KXLOWTOKC",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 32,
+   "model_center": 31.9,
+   "model_means": {
+    "ensemble_raw": 31.9
+   },
+   "center": 31.9,
+   "sd": 2.21,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": -1.56,
+     "ecmwf_ifs025": -4.16,
+     "icon_seamless": -1.88,
+     "gem_seamless": 0.66
+    },
+    "rmse": 2.01,
+    "n": 51,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "27\u00b0 to 28\u00b0",
+    "yes_ask": 0.45
+   },
+   "model_favorite": {
+    "bracket": "31\u00b0 or above",
+    "prob": 0.736
+   }
+  },
+  {
+   "city": "Philadelphia",
+   "station": "KPHL",
+   "series": "KXLOWTPHIL",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 50,
+   "model_center": 45.0,
+   "model_means": {
+    "ensemble_raw": 45.0
+   },
+   "center": 46.2,
+   "sd": 1.38,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "low",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 3.19,
+     "ecmwf_ifs025": 1.12,
+     "icon_seamless": -0.22,
+     "gem_seamless": -0.51
+    },
+    "rmse": 1.25,
+    "n": 37,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "45\u00b0 to 46\u00b0",
+    "yes_ask": 0.48
+   },
+   "model_favorite": {
+    "bracket": "45\u00b0 to 46\u00b0",
+    "prob": 0.472
+   }
+  },
+  {
+   "city": "Phoenix",
+   "station": "KPHX",
+   "series": "KXLOWTPHX",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 50,
+   "model_center": 48.4,
+   "model_means": {
+    "ensemble_raw": 48.4
+   },
+   "center": 48.8,
+   "sd": 2.2,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 3.81,
+     "ecmwf_ifs025": 1.15,
+     "icon_seamless": 0.65,
+     "gem_seamless": 10.38
+    },
+    "rmse": 2.0,
+    "n": 29,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "52\u00b0 to 53\u00b0",
+    "yes_ask": 0.51
+   },
+   "model_favorite": {
+    "bracket": "48\u00b0 to 49\u00b0",
+    "prob": 0.347
+   }
+  },
+  {
+   "city": "San Diego",
+   "station": "KSAN",
+   "series": "KXLOWTSAN",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 56,
+   "model_center": 57.8,
+   "model_means": {
+    "ensemble_raw": 57.8
+   },
+   "center": 57.4,
+   "sd": 2.04,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.78,
+     "ecmwf_ifs025": -0.56,
+     "icon_seamless": 0.32,
+     "gem_seamless": 6.2
+    },
+    "rmse": 1.85,
+    "n": 47,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "52\u00b0 to 53\u00b0",
+    "yes_ask": 0.5
+   },
+   "model_favorite": {
+    "bracket": "56\u00b0 to 57\u00b0",
+    "prob": 0.347
+   }
+  },
+  {
+   "city": "San Antonio",
+   "station": "KSAT",
+   "series": "KXLOWTSATX",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 40,
+   "model_center": 41.7,
+   "model_means": {
+    "ensemble_raw": 41.7
+   },
+   "center": 41.3,
+   "sd": 1.89,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.5,
+     "ecmwf_ifs025": -2.31,
+     "icon_seamless": -1.46,
+     "gem_seamless": 0.56
+    },
+    "rmse": 1.72,
+    "n": 47,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "37\u00b0 to 38\u00b0",
+    "yes_ask": 0.47
+   },
+   "model_favorite": {
+    "bracket": "41\u00b0 or above",
+    "prob": 0.656
+   }
+  },
+  {
+   "city": "Seattle (Sea-Tac)",
+   "station": "KSEA",
+   "series": "KXLOWTSEA",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 45,
+   "model_center": 43.8,
+   "model_means": {
+    "ensemble_raw": 43.8
+   },
+   "center": 44.1,
+   "sd": 1.81,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "high",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 0.29,
+     "ecmwf_ifs025": -0.41,
+     "icon_seamless": -0.66,
+     "gem_seamless": 0.43
+    },
+    "rmse": 1.65,
+    "n": 48,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "43\u00b0 to 44\u00b0",
+    "yes_ask": 0.55
+   },
+   "model_favorite": {
+    "bracket": "43\u00b0 to 44\u00b0",
+    "prob": 0.399
+   }
+  },
+  {
+   "city": "San Francisco (SFO)",
+   "station": "KSFO",
+   "series": "KXLOWTSFO",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 50,
+   "model_center": 52.1,
+   "model_means": {
+    "ensemble_raw": 52.1
+   },
+   "center": 51.6,
+   "sd": 1.88,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "medium",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": 2.16,
+     "ecmwf_ifs025": -0.27,
+     "icon_seamless": -1.06,
+     "gem_seamless": 1.84
+    },
+    "rmse": 1.71,
+    "n": 56,
+    "resid_mean": 0.0
+   },
+   "market_favorite": {
+    "bracket": "50\u00b0 to 51\u00b0",
+    "yes_ask": 0.52
+   },
+   "model_favorite": {
+    "bracket": "52\u00b0 to 53\u00b0",
+    "prob": 0.365
+   }
+  },
+  {
+   "city": "Trenton",
+   "station": "KTTN",
+   "series": "KXLOWTTTN",
+   "date": "2026-11-27",
+   "kind": "low",
+   "lead_days": 1,
+   "nws": 47,
+   "model_center": 44.2,
+   "model_means": {
+    "ensemble_raw": 44.2
+   },
+   "center": 44.9,
+   "sd": 1.93,
+   "observed_high": null,
+   "observed_low": null,
+   "confidence": "medium",
+   "calibration": {
+    "bias": {
+     "gfs_seamless": -1.54,
+     "ecmwf_ifs025": -3.62,
+     "icon_seamless": -1.52,
+     "gem_seamless": -1.24
+    },
+    "rmse": 1.75,
+    "n": 45,
+    "resid_mean": -0.0
+   },
+   "market_favorite": {
+    "bracket": "42\u00b0 to 43\u00b0",
+    "yes_ask": 0.45
+   },
+   "model_favorite": {
+    "bracket": "44\u00b0 to 45\u00b0",
+    "prob": 0.39
+   }
+  }
+ ],
+ "model_vs_market_too_far_apart": [
+  {
+   "city": "Austin (Bergstrom)",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "68\u00b0 to 69\u00b0",
+   "side": "NO",
+   "model_prob": 0.729,
+   "market_price": 0.38
+  },
+  {
+   "city": "Austin (Bergstrom)",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "66\u00b0 to 67\u00b0",
+   "side": "YES",
+   "model_prob": 0.442,
+   "market_price": 0.06
+  },
+  {
+   "city": "Chicago (Midway)",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "47\u00b0 to 48\u00b0",
+   "side": "NO",
+   "model_prob": 0.815,
+   "market_price": 0.5
+  },
+  {
+   "city": "Miami (MIA)",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "74\u00b0 to 75\u00b0",
+   "side": "NO",
+   "model_prob": 0.726,
+   "market_price": 0.31
+  },
+  {
+   "city": "Miami (MIA)",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "72\u00b0 to 73\u00b0",
+   "side": "YES",
+   "model_prob": 0.459,
+   "market_price": 0.15
+  },
+  {
+   "city": "Philadelphia",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "56\u00b0 or below",
+   "side": "NO",
+   "model_prob": 0.856,
+   "market_price": 0.43
+  },
+  {
+   "city": "Dallas (DFW)",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "69\u00b0 to 70\u00b0",
+   "side": "NO",
+   "model_prob": 0.981,
+   "market_price": 0.45
+  },
+  {
+   "city": "Dallas (DFW)",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "65\u00b0 to 66\u00b0",
+   "side": "YES",
+   "model_prob": 0.386,
+   "market_price": 0.05
+  },
+  {
+   "city": "Houston (Hobby)",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "66\u00b0 to 67\u00b0",
+   "side": "NO",
+   "model_prob": 0.928,
+   "market_price": 0.57
+  },
+  {
+   "city": "Houston (Hobby)",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "62\u00b0 to 63\u00b0",
+   "side": "YES",
+   "model_prob": 0.393,
+   "market_price": 0.05
+  },
+  {
+   "city": "Las Vegas",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "70\u00b0 to 71\u00b0",
+   "side": "NO",
+   "model_prob": 0.997,
+   "market_price": 0.47
+  },
+  {
+   "city": "New Orleans (MSY)",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "58\u00b0 to 59\u00b0",
+   "side": "NO",
+   "model_prob": 0.948,
+   "market_price": 0.51
+  },
+  {
+   "city": "Oklahoma City",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "62\u00b0 to 63\u00b0",
+   "side": "NO",
+   "model_prob": 0.925,
+   "market_price": 0.44
+  },
+  {
+   "city": "Phoenix",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "79\u00b0 to 80\u00b0",
+   "side": "NO",
+   "model_prob": 0.991,
+   "market_price": 0.59
+  },
+  {
+   "city": "Phoenix",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "77\u00b0 to 78\u00b0",
+   "side": "NO",
+   "model_prob": 0.883,
+   "market_price": 0.45
+  },
+  {
+   "city": "San Antonio",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "67\u00b0 to 68\u00b0",
+   "side": "NO",
+   "model_prob": 0.87,
+   "market_price": 0.39
+  },
+  {
+   "city": "San Antonio",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "63\u00b0 to 64\u00b0",
+   "side": "YES",
+   "model_prob": 0.357,
+   "market_price": 0.04
+  },
+  {
+   "city": "Seattle (Sea-Tac)",
+   "date": "2026-11-27",
+   "kind": "high",
+   "bracket": "50\u00b0 to 51\u00b0",
+   "side": "NO",
+   "model_prob": 0.694,
+   "market_price": 0.32
+  },
+  {
+   "city": "Austin (Bergstrom)",
+   "date": "2026-11-27",
+   "kind": "low",
+   "bracket": "37\u00b0 or above",
+   "side": "YES",
+   "model_prob": 0.733,
+   "market_price": 0.05
+  },
+  {
+   "city": "Austin (Bergstrom)",
+   "date": "2026-11-27",
+   "kind": "low",
+   "bracket": "31\u00b0 to 32\u00b0",
+   "side": "NO",
+   "model_prob": 0.996,
+   "market_price": 0.65
+  }
+ ],
+ "notes": [
+  "skip KXHIGHTOMDB: unknown settlement station",
+  "skip KXHIGHTRJTT: unknown settlement station",
+  "skip KXHIGHTRKSI: unknown settlement station",
+  "skip KXHIGHTSBGR: unknown settlement station",
+  "skip KXHIGHTSDF: unknown settlement station",
+  "skip KXHIGHTVABB: unknown settlement station",
+  "skip KXHIGHTVHHH: unknown settlement station",
+  "skip KXHIGHTWSSS: unknown settlement station",
+  "skip KXHIGHTYSSY: unknown settlement station",
+  "skip KXHIGHTZBAA: unknown settlement station",
+  "skip KXHIGHTZSPD: unknown settlement station",
+  "skip KXHIGHUS: unknown settlement station",
+  "skip KXLOWTCYYZ: unknown settlement station",
+  "skip KXLOWTEBBR: unknown settlement station",
+  "skip KXLOWTEDDB: unknown settlement station",
+  "skip KXLOWTEDDF: unknown settlement station",
+  "skip KXLOWTEGLL: unknown settlement station",
+  "skip KXLOWTEHAM: unknown settlement station",
+  "skip KXLOWTKSAN: unknown settlement station",
+  "skip KXLOWTLFPG: unknown settlement station",
+  "skip KXLOWTLSGG: unknown settlement station",
+  "skip KXLOWTLSSG: unknown settlement station",
+  "skip KXLOWTLTFM: unknown settlement station",
+  "skip KXLOWTMMMX: unknown settlement station",
+  "skip KXLOWTOMDB: unknown settlement station",
+  "skip KXLOWTPERIOD: unknown settlement station",
+  "skip KXLOWTRJTT: unknown settlement station",
+  "skip KXLOWTRKSI: unknown settlement station",
+  "skip KXLOWTSBGR: unknown settlement station",
+  "skip KXLOWTSDF: unknown settlement station",
+  "skip KXLOWTVABB: unknown settlement station",
+  "skip KXLOWTVHHH: unknown settlement station",
+  "skip KXLOWTWSSS: unknown settlement station",
+  "skip KXLOWTYSSY: unknown settlement station",
+  "skip KXLOWTZBAA: unknown settlement station",
+  "skip KXLOWTZSPD: unknown settlement station",
+  "552 open brackets across 23 stations",
+  "deterministic forecasts failed: GET failed https://api.open-meteo.com/v1/forecast?latitude=33.6301%2C30.1831%2C42.3606%2C38.8483%2C39.8466%2C32.8968%2C40.6827%2C29.6375%2C36.0719%2C33.9382&longitude=-84.4418%2C-97.6799%2C-71.0097%2C-77.0341%2C-104.6562%2C-97.038%2C-74.1693%2C-95.2825%2C-115.1634%2C-118.3866&hourly=temperature_2m&models=gfs_seamless%2Cecmwf_ifs025%2Cicon_seamless%2Cgem_seamless&temperature_unit=fahrenheit&timezone=GMT&past_days=1&forecast_days=4: HTTP Error 429: Too Many Requests",
+  "deterministic forecasts failed: GET failed https://api.open-meteo.com/v1/forecast?latitude=41.786%2C25.7881%2C44.8831%2C29.9934%2C40.779%2C35.3889%2C39.8733%2C33.4277%2C32.7336%2C29.5443&longitude=-87.7524%2C-80.3169%2C-93.2289%2C-90.258%2C-73.9693%2C-97.6006%2C-75.2268%2C-112.0038%2C-117.1831%2C-98.4839&hourly=temperature_2m&models=gfs_seamless%2Cecmwf_ifs025%2Cicon_seamless%2Cgem_seamless&temperature_unit=fahrenheit&timezone=GMT&past_days=1&forecast_days=4: HTTP Error 429: Too Many Requests",
+  "deterministic forecasts failed: GET failed https://api.open-meteo.com/v1/forecast?latitude=47.4447%2C37.6197%2C40.2767&longitude=-122.3144%2C-122.3647%2C-74.8156&hourly=temperature_2m&models=gfs_seamless%2Cecmwf_ifs025%2Cicon_seamless%2Cgem_seamless&temperature_unit=fahrenheit&timezone=GMT&past_days=1&forecast_days=4: HTTP Error 429: Too Many Requests"
+ ],
+ "config": {
+  "bankroll_usd": 500,
+  "max_bet_fraction": 0.02,
+  "kelly_multiplier": 0.25,
+  "min_edge_taker": 0.05,
+  "min_edge_maker": 0.07,
+  "min_price": 0.04,
+  "max_price": 0.95,
+  "min_volume_contracts": 50,
+  "max_picks": 8,
+  "days_ahead": 2,
+  "ensemble_models": [
+   "gfs025",
+   "ecmwf_ifs025",
+   "icon_seamless",
+   "gem_global"
+  ],
+  "nws_weight": 0.25,
+  "sd_floor_by_lead_days": [
+   1.4,
+   2.0,
+   2.6,
+   3.2
+  ],
+  "same_day_cutoff_high": 0.55,
+  "same_day_cutoff_low": 0.25,
+  "max_model_market_gap": 0.3,
+  "calibration_days": 60
+ }
+}
