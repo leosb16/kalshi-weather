@@ -1,651 +1,651 @@
 {
- "run_utc": "2026-11-27T23:48:33Z",
+ "run_utc": "2026-11-28T11:49:45Z",
  "picks": [
   {
-   "city": "Austin (Bergstrom)",
-   "station": "KAUS",
-   "series": "KXLOWTAUS",
+   "city": "Oklahoma City",
+   "station": "KOKC",
+   "series": "KXLOWTOKC",
    "date": "2026-11-28",
-   "lead_days": 1,
+   "lead_days": 0,
    "kind": "low",
-   "ticker": "KXLOWTAUS-26NOV28-T36",
-   "bracket": "35\u00b0 or below",
+   "ticker": "KXLOWTOKC-26NOV28-B35.5",
+   "bracket": "35\u00b0 to 36\u00b0",
    "side": "NO",
-   "model_prob": 0.997,
-   "market_price": 0.79,
-   "fee": 0.0116,
-   "edge_taker": 0.195,
-   "limit_price": 0.55,
-   "edge_maker": 0.447,
-   "roi_taker": 0.247,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 12,
-   "volume": 332.0,
-   "forecast_center": 40.8,
-   "nws": 42,
-   "model_center": 40.4,
-   "sd": 1.96,
-   "observed_high": null,
-   "observed_low": null
-  },
-  {
-   "city": "Washington (National)",
-   "station": "KDCA",
-   "series": "KXLOWTDC",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "low",
-   "ticker": "KXLOWTDC-26NOV28-T43",
-   "bracket": "44\u00b0 or above",
-   "side": "NO",
-   "model_prob": 0.854,
-   "market_price": 0.56,
-   "fee": 0.0172,
-   "edge_taker": 0.277,
-   "limit_price": 0.44,
-   "edge_maker": 0.414,
-   "roi_taker": 0.495,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 17,
-   "volume": 178.0,
-   "forecast_center": 42.1,
-   "nws": 42,
-   "model_center": 42.2,
-   "sd": 1.3,
-   "observed_high": null,
-   "observed_low": null
-  },
-  {
-   "city": "Washington (National)",
-   "station": "KDCA",
-   "series": "KXHIGHTDC",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "high",
-   "ticker": "KXHIGHTDC-26NOV28-B60.5",
-   "bracket": "60\u00b0 to 61\u00b0",
-   "side": "NO",
-   "model_prob": 0.869,
-   "market_price": 0.62,
-   "fee": 0.0165,
-   "edge_taker": 0.233,
-   "limit_price": 0.51,
-   "edge_maker": 0.359,
-   "roi_taker": 0.375,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 16,
-   "volume": 790.78,
-   "forecast_center": 57.4,
-   "nws": 58,
-   "model_center": 57.2,
-   "sd": 2.02,
-   "observed_high": null,
-   "observed_low": null
-  },
-  {
-   "city": "San Antonio",
-   "station": "KSAT",
-   "series": "KXHIGHTSATX",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "high",
-   "ticker": "KXHIGHTSATX-26NOV28-B72.5",
-   "bracket": "72\u00b0 to 73\u00b0",
-   "side": "NO",
-   "model_prob": 0.698,
+   "model_prob": 0.727,
    "market_price": 0.43,
    "fee": 0.0172,
-   "edge_taker": 0.251,
-   "limit_price": 0.35,
-   "edge_maker": 0.348,
-   "roi_taker": 0.583,
-   "confidence": "high",
+   "edge_taker": 0.28,
+   "limit_price": 0.03,
+   "edge_maker": 0.697,
+   "roi_taker": 0.651,
+   "confidence": "medium",
    "suggested_stake_usd": 10.0,
    "contracts": 23,
-   "volume": 499.2,
-   "forecast_center": 73.5,
-   "nws": 73,
-   "model_center": 73.7,
-   "sd": 2.36,
-   "observed_high": null,
-   "observed_low": null
+   "volume": 165.4,
+   "forecast_center": 37.9,
+   "nws": null,
+   "model_center": 37.9,
+   "sd": 4.6,
+   "observed_high": 48.2,
+   "observed_low": 37.4
   },
   {
-   "city": "Newark",
-   "station": "KEWR",
-   "series": "KXLOWTEWR",
+   "city": "San Diego",
+   "station": "KSAN",
+   "series": "KXLOWTSAN",
    "date": "2026-11-28",
-   "lead_days": 1,
+   "lead_days": 0,
    "kind": "low",
-   "ticker": "KXLOWTEWR-26NOV28-B43.5",
-   "bracket": "43\u00b0 to 44\u00b0",
+   "ticker": "KXLOWTSAN-26NOV28-B53.5",
+   "bracket": "53\u00b0 to 54\u00b0",
    "side": "NO",
-   "model_prob": 0.877,
-   "market_price": 0.58,
-   "fee": 0.0171,
-   "edge_taker": 0.28,
-   "limit_price": 0.54,
-   "edge_maker": 0.337,
-   "roi_taker": 0.483,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 17,
-   "volume": 76.0,
-   "forecast_center": 40.8,
-   "nws": 42,
-   "model_center": 40.4,
-   "sd": 1.47,
-   "observed_high": null,
-   "observed_low": null
+   "model_prob": 0.714,
+   "market_price": 0.89,
+   "fee": 0.0069,
+   "edge_taker": -0.183,
+   "limit_price": 0.06,
+   "edge_maker": 0.654,
+   "roi_taker": -0.205,
+   "confidence": "medium",
+   "suggested_stake_usd": 0.0,
+   "contracts": 0,
+   "volume": 104.35,
+   "forecast_center": 55.1,
+   "nws": null,
+   "model_center": 55.1,
+   "sd": 4.95,
+   "observed_high": 57.2,
+   "observed_low": 53.6
   },
   {
-   "city": "Philadelphia",
-   "station": "KPHL",
-   "series": "KXLOWTPHIL",
+   "city": "San Francisco (SFO)",
+   "station": "KSFO",
+   "series": "KXLOWTSFO",
    "date": "2026-11-28",
-   "lead_days": 1,
+   "lead_days": 0,
    "kind": "low",
-   "ticker": "KXLOWTPHIL-26NOV28-B42.5",
-   "bracket": "42\u00b0 to 43\u00b0",
-   "side": "YES",
-   "model_prob": 0.534,
-   "market_price": 0.32,
-   "fee": 0.0152,
-   "edge_taker": 0.199,
-   "limit_price": 0.2,
-   "edge_maker": 0.334,
-   "roi_taker": 0.62,
-   "confidence": "high",
+   "ticker": "KXLOWTSFO-26NOV28-B54.5",
+   "bracket": "54\u00b0 to 55\u00b0",
+   "side": "NO",
+   "model_prob": 0.83,
+   "market_price": 0.7,
+   "fee": 0.0147,
+   "edge_taker": 0.116,
+   "limit_price": 0.23,
+   "edge_maker": 0.6,
+   "roi_taker": 0.165,
+   "confidence": "medium",
    "suggested_stake_usd": 10.0,
-   "contracts": 31,
-   "volume": 220.0,
-   "forecast_center": 42.3,
-   "nws": 42,
-   "model_center": 42.5,
-   "sd": 1.36,
-   "observed_high": null,
-   "observed_low": null
+   "contracts": 14,
+   "volume": 178.0,
+   "forecast_center": 52.2,
+   "nws": null,
+   "model_center": 52.2,
+   "sd": 1.45,
+   "observed_high": 57.2,
+   "observed_low": 55.4
+  },
+  {
+   "city": "Houston (Hobby)",
+   "station": "KHOU",
+   "series": "KXLOWTHOU",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "low",
+   "ticker": "KXLOWTHOU-26NOV28-B45.5",
+   "bracket": "45\u00b0 to 46\u00b0",
+   "side": "NO",
+   "model_prob": 0.659,
+   "market_price": 0.46,
+   "fee": 0.0174,
+   "edge_taker": 0.181,
+   "limit_price": 0.08,
+   "edge_maker": 0.579,
+   "roi_taker": 0.394,
+   "confidence": "medium",
+   "suggested_stake_usd": 10.0,
+   "contracts": 21,
+   "volume": 67.07,
+   "forecast_center": 46.3,
+   "nws": null,
+   "model_center": 46.3,
+   "sd": 4.4,
+   "observed_high": 50.0,
+   "observed_low": 44.6
   },
   {
    "city": "Dallas (DFW)",
    "station": "KDFW",
-   "series": "KXHIGHTDAL",
+   "series": "KXLOWTDAL",
    "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "high",
-   "ticker": "KXHIGHTDAL-26NOV28-B72.5",
-   "bracket": "72\u00b0 to 73\u00b0",
+   "lead_days": 0,
+   "kind": "low",
+   "ticker": "KXLOWTDAL-26NOV28-B43.5",
+   "bracket": "43\u00b0 to 44\u00b0",
    "side": "NO",
-   "model_prob": 0.657,
-   "market_price": 0.38,
-   "fee": 0.0165,
-   "edge_taker": 0.261,
-   "limit_price": 0.34,
-   "edge_maker": 0.317,
-   "roi_taker": 0.687,
-   "confidence": "high",
+   "model_prob": 0.878,
+   "market_price": 0.72,
+   "fee": 0.0141,
+   "edge_taker": 0.144,
+   "limit_price": 0.39,
+   "edge_maker": 0.488,
+   "roi_taker": 0.2,
+   "confidence": "medium",
    "suggested_stake_usd": 10.0,
-   "contracts": 26,
-   "volume": 270.97,
-   "forecast_center": 72.2,
-   "nws": 71,
-   "model_center": 72.6,
-   "sd": 2.24,
-   "observed_high": null,
-   "observed_low": null
+   "contracts": 13,
+   "volume": 74.36,
+   "forecast_center": 46.3,
+   "nws": null,
+   "model_center": 46.3,
+   "sd": 1.4,
+   "observed_high": 51.8,
+   "observed_low": 46.0
   },
   {
-   "city": "New York (Central Park)",
-   "station": "KNYC",
-   "series": "KXLOWTNYC",
+   "city": "Denver (DEN)",
+   "station": "KDEN",
+   "series": "KXLOWTDEN",
    "date": "2026-11-28",
-   "lead_days": 1,
+   "lead_days": 0,
    "kind": "low",
-   "ticker": "KXLOWTNYC-26NOV28-B44.5",
-   "bracket": "44\u00b0 to 45\u00b0",
+   "ticker": "KXLOWTDEN-26NOV28-T24",
+   "bracket": "23\u00b0 or below",
    "side": "NO",
-   "model_prob": 0.736,
-   "market_price": 0.51,
-   "fee": 0.0175,
-   "edge_taker": 0.208,
-   "limit_price": 0.43,
-   "edge_maker": 0.306,
-   "roi_taker": 0.408,
-   "confidence": "high",
+   "model_prob": 1.0,
+   "market_price": 0.7,
+   "fee": 0.0147,
+   "edge_taker": 0.285,
+   "limit_price": 0.59,
+   "edge_maker": 0.41,
+   "roi_taker": 0.407,
+   "confidence": "medium",
    "suggested_stake_usd": 10.0,
-   "contracts": 19,
-   "volume": 199.0,
-   "forecast_center": 42.9,
-   "nws": 44,
-   "model_center": 42.6,
-   "sd": 2.39,
-   "observed_high": null,
-   "observed_low": null
-  }
- ],
- "other_candidates": [
-  {
-   "city": "New York (Central Park)",
-   "station": "KNYC",
-   "series": "KXLOWTNYC",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "low",
-   "ticker": "KXLOWTNYC-26NOV28-B44.5",
-   "bracket": "44\u00b0 to 45\u00b0",
-   "side": "NO",
-   "model_prob": 0.736,
-   "market_price": 0.51,
-   "fee": 0.0175,
-   "edge_taker": 0.208,
-   "limit_price": 0.43,
-   "edge_maker": 0.306,
-   "roi_taker": 0.408,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 19,
-   "volume": 199.0,
-   "forecast_center": 42.9,
-   "nws": 44,
-   "model_center": 42.6,
-   "sd": 2.39,
-   "observed_high": null,
-   "observed_low": null
-  },
-  {
-   "city": "Washington (National)",
-   "station": "KDCA",
-   "series": "KXHIGHTDC",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "high",
-   "ticker": "KXHIGHTDC-26NOV28-B56.5",
-   "bracket": "56\u00b0 to 57\u00b0",
-   "side": "YES",
-   "model_prob": 0.344,
-   "market_price": 0.11,
-   "fee": 0.0069,
-   "edge_taker": 0.227,
-   "limit_price": 0.07,
-   "edge_maker": 0.274,
-   "roi_taker": 2.064,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 90,
-   "volume": 475.78,
-   "forecast_center": 57.4,
-   "nws": 58,
-   "model_center": 57.2,
-   "sd": 2.02,
-   "observed_high": null,
-   "observed_low": null
+   "contracts": 14,
+   "volume": 992.21,
+   "forecast_center": 28.8,
+   "nws": null,
+   "model_center": 28.8,
+   "sd": 1.4,
+   "observed_high": 51.8,
+   "observed_low": 39.0
   },
   {
    "city": "Newark",
    "station": "KEWR",
    "series": "KXHIGHTEWR",
    "date": "2026-11-28",
-   "lead_days": 1,
+   "lead_days": 0,
    "kind": "high",
-   "ticker": "KXHIGHTEWR-26NOV28-B54.5",
-   "bracket": "54\u00b0 to 55\u00b0",
+   "ticker": "KXHIGHTEWR-26NOV28-B52.5",
+   "bracket": "52\u00b0 to 53\u00b0",
    "side": "NO",
-   "model_prob": 0.904,
-   "market_price": 0.67,
-   "fee": 0.0155,
-   "edge_taker": 0.218,
-   "limit_price": 0.63,
-   "edge_maker": 0.274,
-   "roi_taker": 0.326,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 14,
-   "volume": 168.0,
-   "forecast_center": 51.2,
-   "nws": 52,
-   "model_center": 51.0,
-   "sd": 1.82,
-   "observed_high": null,
-   "observed_low": null
-  },
-  {
-   "city": "Boston (Logan)",
-   "station": "KBOS",
-   "series": "KXHIGHTBOS",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "high",
-   "ticker": "KXHIGHTBOS-26NOV28-B51.5",
-   "bracket": "51\u00b0 to 52\u00b0",
-   "side": "NO",
-   "model_prob": 0.67,
-   "market_price": 0.41,
-   "fee": 0.0169,
-   "edge_taker": 0.243,
-   "limit_price": 0.4,
-   "edge_maker": 0.27,
-   "roi_taker": 0.594,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 24,
-   "volume": 823.42,
-   "forecast_center": 51.6,
-   "nws": 53,
-   "model_center": 51.2,
-   "sd": 2.35,
-   "observed_high": null,
-   "observed_low": null
-  },
-  {
-   "city": "Minneapolis",
-   "station": "KMSP",
-   "series": "KXHIGHTMIN",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "high",
-   "ticker": "KXHIGHTMIN-26NOV28-B50.5",
-   "bracket": "50\u00b0 to 51\u00b0",
-   "side": "NO",
-   "model_prob": 0.73,
-   "market_price": 0.5,
+   "model_prob": 0.771,
+   "market_price": 0.48,
    "fee": 0.0175,
-   "edge_taker": 0.213,
-   "limit_price": 0.47,
-   "edge_maker": 0.26,
-   "roi_taker": 0.425,
-   "confidence": "high",
+   "edge_taker": 0.274,
+   "limit_price": 0.37,
+   "edge_maker": 0.401,
+   "roi_taker": 0.57,
+   "confidence": "medium",
    "suggested_stake_usd": 10.0,
    "contracts": 20,
-   "volume": 367.38,
-   "forecast_center": 48.9,
-   "nws": 48,
-   "model_center": 49.2,
-   "sd": 2.29,
-   "observed_high": null,
-   "observed_low": null
+   "volume": 84.46,
+   "forecast_center": 50.5,
+   "nws": 52,
+   "model_center": 50.0,
+   "sd": 1.4,
+   "observed_high": 46.4,
+   "observed_low": 42.1
   },
   {
-   "city": "Newark",
-   "station": "KEWR",
-   "series": "KXLOWTEWR",
+   "city": "San Antonio",
+   "station": "KSAT",
+   "series": "KXLOWTSATX",
    "date": "2026-11-28",
-   "lead_days": 1,
+   "lead_days": 0,
    "kind": "low",
-   "ticker": "KXLOWTEWR-26NOV28-B41.5",
-   "bracket": "41\u00b0 to 42\u00b0",
-   "side": "YES",
-   "model_prob": 0.46,
-   "market_price": 0.21,
-   "fee": 0.0116,
-   "edge_taker": 0.239,
-   "limit_price": 0.2,
-   "edge_maker": 0.26,
-   "roi_taker": 1.137,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 47,
-   "volume": 171.03,
-   "forecast_center": 40.8,
-   "nws": 42,
-   "model_center": 40.4,
-   "sd": 1.47,
-   "observed_high": null,
-   "observed_low": null
-  },
-  {
-   "city": "Atlanta",
-   "station": "KATL",
-   "series": "KXHIGHTATL",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "high",
-   "ticker": "KXHIGHTATL-26NOV28-B58.5",
-   "bracket": "58\u00b0 to 59\u00b0",
-   "side": "YES",
-   "model_prob": 0.271,
-   "market_price": 0.04,
-   "fee": 0.0027,
-   "edge_taker": 0.228,
-   "limit_price": 0.03,
-   "edge_maker": 0.241,
-   "roi_taker": 5.704,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 249,
-   "volume": 70.02,
-   "forecast_center": 59.9,
-   "nws": 61,
-   "model_center": 59.5,
-   "sd": 2.46,
-   "observed_high": null,
-   "observed_low": null
-  },
-  {
-   "city": "Miami (MIA)",
-   "station": "KMIA",
-   "series": "KXHIGHMIA",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "high",
-   "ticker": "KXHIGHMIA-26NOV28-B73.5",
-   "bracket": "73\u00b0 to 74\u00b0",
+   "ticker": "KXLOWTSATX-26NOV28-B40.5",
+   "bracket": "40\u00b0 to 41\u00b0",
    "side": "NO",
-   "model_prob": 0.545,
-   "market_price": 0.32,
-   "fee": 0.0152,
-   "edge_taker": 0.21,
-   "limit_price": 0.31,
-   "edge_maker": 0.235,
-   "roi_taker": 0.657,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 31,
-   "volume": 546.14,
-   "forecast_center": 73.2,
-   "nws": 73,
-   "model_center": 73.2,
-   "sd": 1.62,
-   "observed_high": null,
-   "observed_low": null
-  },
+   "model_prob": 0.576,
+   "market_price": 0.66,
+   "fee": 0.0157,
+   "edge_taker": -0.1,
+   "limit_price": 0.19,
+   "edge_maker": 0.386,
+   "roi_taker": -0.151,
+   "confidence": "medium",
+   "suggested_stake_usd": 0.0,
+   "contracts": 0,
+   "volume": 120.0,
+   "forecast_center": 40.9,
+   "nws": null,
+   "model_center": 40.9,
+   "sd": 2.4,
+   "observed_high": 50.0,
+   "observed_low": 41.0
+  }
+ ],
+ "other_candidates": [
   {
-   "city": "Newark",
-   "station": "KEWR",
-   "series": "KXLOWTEWR",
+   "city": "San Antonio",
+   "station": "KSAT",
+   "series": "KXLOWTSATX",
    "date": "2026-11-28",
-   "lead_days": 1,
+   "lead_days": 0,
    "kind": "low",
-   "ticker": "KXLOWTEWR-26NOV28-B45.5",
-   "bracket": "45\u00b0 to 46\u00b0",
+   "ticker": "KXLOWTSATX-26NOV28-B40.5",
+   "bracket": "40\u00b0 to 41\u00b0",
    "side": "NO",
-   "model_prob": 0.994,
-   "market_price": 0.84,
-   "fee": 0.0094,
-   "edge_taker": 0.144,
-   "limit_price": 0.77,
-   "edge_maker": 0.224,
-   "roi_taker": 0.172,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 11,
-   "volume": 84.0,
-   "forecast_center": 40.8,
-   "nws": 42,
-   "model_center": 40.4,
-   "sd": 1.47,
-   "observed_high": null,
-   "observed_low": null
+   "model_prob": 0.576,
+   "market_price": 0.66,
+   "fee": 0.0157,
+   "edge_taker": -0.1,
+   "limit_price": 0.19,
+   "edge_maker": 0.386,
+   "roi_taker": -0.151,
+   "confidence": "medium",
+   "suggested_stake_usd": 0.0,
+   "contracts": 0,
+   "volume": 120.0,
+   "forecast_center": 40.9,
+   "nws": null,
+   "model_center": 40.9,
+   "sd": 2.4,
+   "observed_high": 50.0,
+   "observed_low": 41.0
   },
   {
-   "city": "New York (Central Park)",
-   "station": "KNYC",
-   "series": "KXLOWTNYC",
+   "city": "Las Vegas",
+   "station": "KLAS",
+   "series": "KXLOWTLV",
    "date": "2026-11-28",
-   "lead_days": 1,
+   "lead_days": 0,
    "kind": "low",
-   "ticker": "KXLOWTNYC-26NOV28-B46.5",
-   "bracket": "46\u00b0 to 47\u00b0",
+   "ticker": "KXLOWTLV-26NOV28-B51.5",
+   "bracket": "51\u00b0 to 52\u00b0",
    "side": "NO",
-   "model_prob": 0.887,
-   "market_price": 0.78,
-   "fee": 0.012,
-   "edge_taker": 0.095,
-   "limit_price": 0.67,
-   "edge_maker": 0.217,
-   "roi_taker": 0.122,
-   "confidence": "high",
+   "model_prob": 0.893,
+   "market_price": 0.8,
+   "fee": 0.0112,
+   "edge_taker": 0.082,
+   "limit_price": 0.53,
+   "edge_maker": 0.363,
+   "roi_taker": 0.102,
+   "confidence": "medium",
    "suggested_stake_usd": 10.0,
    "contracts": 12,
-   "volume": 111.0,
-   "forecast_center": 42.9,
-   "nws": 44,
-   "model_center": 42.6,
-   "sd": 2.39,
-   "observed_high": null,
-   "observed_low": null
-  },
-  {
-   "city": "Phoenix",
-   "station": "KPHX",
-   "series": "KXHIGHTPHX",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "high",
-   "ticker": "KXHIGHTPHX-26NOV28-B77.5",
-   "bracket": "77\u00b0 to 78\u00b0",
-   "side": "YES",
-   "model_prob": 0.402,
-   "market_price": 0.21,
-   "fee": 0.0116,
-   "edge_taker": 0.18,
-   "limit_price": 0.2,
-   "edge_maker": 0.202,
-   "roi_taker": 0.857,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 47,
-   "volume": 145.47,
-   "forecast_center": 76.6,
-   "nws": 77,
-   "model_center": 76.5,
-   "sd": 1.65,
-   "observed_high": null,
-   "observed_low": null
-  },
-  {
-   "city": "New York (Central Park)",
-   "station": "KNYC",
-   "series": "KXLOWTNYC",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "low",
-   "ticker": "KXLOWTNYC-26NOV28-B42.5",
-   "bracket": "42\u00b0 to 43\u00b0",
-   "side": "YES",
-   "model_prob": 0.32,
-   "market_price": 0.16,
-   "fee": 0.0094,
-   "edge_taker": 0.151,
-   "limit_price": 0.12,
-   "edge_maker": 0.2,
-   "roi_taker": 0.941,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 62,
-   "volume": 78.52,
-   "forecast_center": 42.9,
-   "nws": 44,
-   "model_center": 42.6,
-   "sd": 2.39,
-   "observed_high": null,
-   "observed_low": null
-  },
-  {
-   "city": "Philadelphia",
-   "station": "KPHL",
-   "series": "KXLOWTPHIL",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "low",
-   "ticker": "KXLOWTPHIL-26NOV28-T45",
-   "bracket": "46\u00b0 or above",
-   "side": "NO",
-   "model_prob": 0.99,
-   "market_price": 0.95,
-   "fee": 0.0033,
-   "edge_taker": 0.036,
-   "limit_price": 0.79,
-   "edge_maker": 0.2,
-   "roi_taker": 0.038,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 10,
-   "volume": 89.0,
-   "forecast_center": 42.3,
-   "nws": 42,
-   "model_center": 42.5,
-   "sd": 1.36,
-   "observed_high": null,
-   "observed_low": null
-  },
-  {
-   "city": "Washington (National)",
-   "station": "KDCA",
-   "series": "KXLOWTDC",
-   "date": "2026-11-28",
-   "lead_days": 1,
-   "kind": "low",
-   "ticker": "KXLOWTDC-26NOV28-B42.5",
-   "bracket": "42\u00b0 to 43\u00b0",
-   "side": "YES",
-   "model_prob": 0.538,
-   "market_price": 0.36,
-   "fee": 0.0161,
-   "edge_taker": 0.162,
-   "limit_price": 0.34,
-   "edge_maker": 0.198,
-   "roi_taker": 0.449,
-   "confidence": "high",
-   "suggested_stake_usd": 10.0,
-   "contracts": 27,
-   "volume": 123.0,
-   "forecast_center": 42.1,
-   "nws": 42,
-   "model_center": 42.2,
-   "sd": 1.3,
-   "observed_high": null,
-   "observed_low": null
+   "volume": 129.92,
+   "forecast_center": 47.5,
+   "nws": null,
+   "model_center": 47.5,
+   "sd": 8.2,
+   "observed_high": 55.4,
+   "observed_low": 53.1
   },
   {
    "city": "Trenton",
    "station": "KTTN",
    "series": "KXHIGHTTTN",
    "date": "2026-11-28",
-   "lead_days": 1,
+   "lead_days": 0,
    "kind": "high",
    "ticker": "KXHIGHTTTN-26NOV28-B53.5",
    "bracket": "53\u00b0 to 54\u00b0",
    "side": "NO",
-   "model_prob": 0.826,
-   "market_price": 0.68,
-   "fee": 0.0152,
-   "edge_taker": 0.131,
-   "limit_price": 0.63,
-   "edge_maker": 0.196,
-   "roi_taker": 0.192,
-   "confidence": "high",
+   "model_prob": 0.95,
+   "market_price": 0.88,
+   "fee": 0.0074,
+   "edge_taker": 0.062,
+   "limit_price": 0.59,
+   "edge_maker": 0.36,
+   "roi_taker": 0.071,
+   "confidence": "medium",
+   "suggested_stake_usd": 10.0,
+   "contracts": 11,
+   "volume": 123.68,
+   "forecast_center": 50.2,
+   "nws": 52,
+   "model_center": 49.6,
+   "sd": 1.4,
+   "observed_high": 44.6,
+   "observed_low": 41.0
+  },
+  {
+   "city": "Minneapolis",
+   "station": "KMSP",
+   "series": "KXLOWTMIN",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "low",
+   "ticker": "KXLOWTMIN-26NOV28-T29",
+   "bracket": "30\u00b0 or above",
+   "side": "NO",
+   "model_prob": 0.473,
+   "market_price": 0.57,
+   "fee": 0.0172,
+   "edge_taker": -0.115,
+   "limit_price": 0.12,
+   "edge_maker": 0.353,
+   "roi_taker": -0.201,
+   "confidence": "medium",
+   "suggested_stake_usd": 0.0,
+   "contracts": 0,
+   "volume": 137.26,
+   "forecast_center": 30.1,
+   "nws": null,
+   "model_center": 30.1,
+   "sd": 1.8,
+   "observed_high": 35.6,
+   "observed_low": 30.2
+  },
+  {
+   "city": "New Orleans (MSY)",
+   "station": "KMSY",
+   "series": "KXHIGHTNOLA",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "high",
+   "ticker": "KXHIGHTNOLA-26NOV28-B67.5",
+   "bracket": "67\u00b0 to 68\u00b0",
+   "side": "NO",
+   "model_prob": 0.785,
+   "market_price": 0.49,
+   "fee": 0.0175,
+   "edge_taker": 0.277,
+   "limit_price": 0.44,
+   "edge_maker": 0.345,
+   "roi_taker": 0.566,
+   "confidence": "medium",
+   "suggested_stake_usd": 10.0,
+   "contracts": 20,
+   "volume": 345.64,
+   "forecast_center": 66.4,
+   "nws": 67,
+   "model_center": 66.2,
+   "sd": 3.5,
+   "observed_high": 45.0,
+   "observed_low": 42.8
+  },
+  {
+   "city": "Austin (Bergstrom)",
+   "station": "KAUS",
+   "series": "KXLOWTAUS",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "low",
+   "ticker": "KXLOWTAUS-26NOV28-B38.5",
+   "bracket": "38\u00b0 to 39\u00b0",
+   "side": "NO",
+   "model_prob": 0.592,
+   "market_price": 0.74,
+   "fee": 0.0135,
+   "edge_taker": -0.161,
+   "limit_price": 0.26,
+   "edge_maker": 0.332,
+   "roi_taker": -0.218,
+   "confidence": "medium",
+   "suggested_stake_usd": 0.0,
+   "contracts": 0,
+   "volume": 139.98,
+   "forecast_center": 41.6,
+   "nws": null,
+   "model_center": 41.6,
+   "sd": 3.5,
+   "observed_high": 48.2,
+   "observed_low": 39.0
+  },
+  {
+   "city": "San Antonio",
+   "station": "KSAT",
+   "series": "KXHIGHTSATX",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "high",
+   "ticker": "KXHIGHTSATX-26NOV28-B72.5",
+   "bracket": "72\u00b0 to 73\u00b0",
+   "side": "NO",
+   "model_prob": 0.677,
+   "market_price": 0.38,
+   "fee": 0.0165,
+   "edge_taker": 0.281,
+   "limit_price": 0.37,
+   "edge_maker": 0.307,
+   "roi_taker": 0.739,
+   "confidence": "medium",
+   "suggested_stake_usd": 10.0,
+   "contracts": 26,
+   "volume": 1120.19,
+   "forecast_center": 71.7,
+   "nws": 72,
+   "model_center": 71.6,
+   "sd": 2.25,
+   "observed_high": 50.0,
+   "observed_low": 41.0
+  },
+  {
+   "city": "Seattle (Sea-Tac)",
+   "station": "KSEA",
+   "series": "KXHIGHTSEA",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "high",
+   "ticker": "KXHIGHTSEA-26NOV28-B48.5",
+   "bracket": "48\u00b0 to 49\u00b0",
+   "side": "YES",
+   "model_prob": 0.525,
+   "market_price": 0.24,
+   "fee": 0.0128,
+   "edge_taker": 0.273,
+   "limit_price": 0.22,
+   "edge_maker": 0.305,
+   "roi_taker": 1.136,
+   "confidence": "medium",
+   "suggested_stake_usd": 10.0,
+   "contracts": 41,
+   "volume": 792.4,
+   "forecast_center": 48.6,
+   "nws": 49,
+   "model_center": 48.4,
+   "sd": 1.4,
+   "observed_high": 46.4,
+   "observed_low": 46.0
+  },
+  {
+   "city": "Phoenix",
+   "station": "KPHX",
+   "series": "KXLOWTPHX",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "low",
+   "ticker": "KXLOWTPHX-26NOV28-T52",
+   "bracket": "53\u00b0 or above",
+   "side": "NO",
+   "model_prob": 0.904,
+   "market_price": 0.79,
+   "fee": 0.0116,
+   "edge_taker": 0.102,
+   "limit_price": 0.6,
+   "edge_maker": 0.304,
+   "roi_taker": 0.13,
+   "confidence": "medium",
+   "suggested_stake_usd": 10.0,
+   "contracts": 12,
+   "volume": 216.9,
+   "forecast_center": 45.5,
+   "nws": null,
+   "model_center": 45.5,
+   "sd": 8.2,
+   "observed_high": 57.2,
+   "observed_low": 54.0
+  },
+  {
+   "city": "Seattle (Sea-Tac)",
+   "station": "KSEA",
+   "series": "KXLOWTSEA",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "low",
+   "ticker": "KXLOWTSEA-26NOV28-T41",
+   "bracket": "42\u00b0 or above",
+   "side": "NO",
+   "model_prob": 0.544,
+   "market_price": 0.53,
+   "fee": 0.0174,
+   "edge_taker": -0.003,
+   "limit_price": 0.25,
+   "edge_maker": 0.294,
+   "roi_taker": -0.006,
+   "confidence": "medium",
+   "suggested_stake_usd": 3.82,
+   "contracts": 7,
+   "volume": 204.0,
+   "forecast_center": 41.3,
+   "nws": null,
+   "model_center": 41.3,
+   "sd": 2.05,
+   "observed_high": 46.4,
+   "observed_low": 46.0
+  },
+  {
+   "city": "Phoenix",
+   "station": "KPHX",
+   "series": "KXHIGHTPHX",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "high",
+   "ticker": "KXHIGHTPHX-26NOV28-B75.5",
+   "bracket": "75\u00b0 to 76\u00b0",
+   "side": "NO",
+   "model_prob": 0.582,
+   "market_price": 0.3,
+   "fee": 0.0147,
+   "edge_taker": 0.268,
+   "limit_price": 0.29,
+   "edge_maker": 0.292,
+   "roi_taker": 0.892,
+   "confidence": "medium",
+   "suggested_stake_usd": 10.0,
+   "contracts": 33,
+   "volume": 586.87,
+   "forecast_center": 74.9,
+   "nws": 76,
+   "model_center": 74.5,
+   "sd": 1.7,
+   "observed_high": 57.2,
+   "observed_low": 54.0
+  },
+  {
+   "city": "Austin (Bergstrom)",
+   "station": "KAUS",
+   "series": "KXHIGHAUS",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "high",
+   "ticker": "KXHIGHAUS-26NOV28-B75.5",
+   "bracket": "75\u00b0 to 76\u00b0",
+   "side": "NO",
+   "model_prob": 0.931,
+   "market_price": 0.67,
+   "fee": 0.0155,
+   "edge_taker": 0.246,
+   "limit_price": 0.64,
+   "edge_maker": 0.291,
+   "roi_taker": 0.367,
+   "confidence": "medium",
    "suggested_stake_usd": 10.0,
    "contracts": 14,
-   "volume": 78.0,
-   "forecast_center": 50.7,
-   "nws": 50,
-   "model_center": 51.0,
-   "sd": 2.41,
-   "observed_high": null,
-   "observed_low": null
+   "volume": 2480.95,
+   "forecast_center": 72.2,
+   "nws": 73,
+   "model_center": 72.0,
+   "sd": 1.55,
+   "observed_high": 48.2,
+   "observed_low": 39.0
+  },
+  {
+   "city": "Los Angeles (LAX)",
+   "station": "KLAX",
+   "series": "KXHIGHLAX",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "high",
+   "ticker": "KXHIGHLAX-26NOV28-T73",
+   "bracket": "72\u00b0 or below",
+   "side": "YES",
+   "model_prob": 0.33,
+   "market_price": 0.05,
+   "fee": 0.0033,
+   "edge_taker": 0.277,
+   "limit_price": 0.04,
+   "edge_maker": 0.29,
+   "roi_taker": 5.536,
+   "confidence": "medium",
+   "suggested_stake_usd": 10.0,
+   "contracts": 199,
+   "volume": 3593.22,
+   "forecast_center": 73.9,
+   "nws": 76,
+   "model_center": 73.2,
+   "sd": 3.1,
+   "observed_high": 61.0,
+   "observed_low": 59.0
+  },
+  {
+   "city": "Philadelphia",
+   "station": "KPHL",
+   "series": "KXHIGHPHIL",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "high",
+   "ticker": "KXHIGHPHIL-26NOV28-B56.5",
+   "bracket": "56\u00b0 to 57\u00b0",
+   "side": "NO",
+   "model_prob": 0.991,
+   "market_price": 0.75,
+   "fee": 0.0131,
+   "edge_taker": 0.228,
+   "limit_price": 0.71,
+   "edge_maker": 0.281,
+   "roi_taker": 0.303,
+   "confidence": "medium",
+   "suggested_stake_usd": 10.0,
+   "contracts": 13,
+   "volume": 1131.76,
+   "forecast_center": 52.2,
+   "nws": 53,
+   "model_center": 52.0,
+   "sd": 1.4,
+   "observed_high": 46.9,
+   "observed_low": 44.6
+  },
+  {
+   "city": "San Antonio",
+   "station": "KSAT",
+   "series": "KXLOWTSATX",
+   "date": "2026-11-28",
+   "lead_days": 0,
+   "kind": "low",
+   "ticker": "KXLOWTSATX-26NOV28-B38.5",
+   "bracket": "38\u00b0 to 39\u00b0",
+   "side": "NO",
+   "model_prob": 0.727,
+   "market_price": 0.8,
+   "fee": 0.0112,
+   "edge_taker": -0.084,
+   "limit_price": 0.46,
+   "edge_maker": 0.267,
+   "roi_taker": -0.105,
+   "confidence": "medium",
+   "suggested_stake_usd": 0.0,
+   "contracts": 0,
+   "volume": 191.28,
+   "forecast_center": 40.9,
+   "nws": null,
+   "model_center": 40.9,
+   "sd": 2.4,
+   "observed_high": 50.0,
+   "observed_low": 41.0
   }
  ],
  "track_record": {
@@ -657,7 +657,7 @@
   "roi": -0.125,
   "brier_model": 0.2538,
   "brier_market": 0.2062,
-  "open": 25
+  "open": 33
  },
  "markets": [
   {
@@ -666,39 +666,29 @@
    "series": "KXHIGHAUS",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 75,
-   "model_center": 74.7,
+   "lead_days": 0,
+   "nws": 73,
+   "model_center": 72.0,
    "model_means": {
-    "gfs_seamless": 76.1,
-    "ecmwf_ifs025": 73.7,
-    "icon_seamless": 72.9,
-    "gem_seamless": 76.0,
-    "ensemble_raw": 72.4
+    "gfs_seamless": 72.3,
+    "ecmwf_ifs025": 70.9,
+    "icon_seamless": 70.8,
+    "gem_seamless": 73.9,
+    "ensemble_raw": 71.7
    },
-   "center": 74.8,
-   "sd": 1.69,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 2.65,
-     "ecmwf_ifs025": 2.51,
-     "icon_seamless": 1.9,
-     "gem_seamless": 1.31
-    },
-    "rmse": 1.54,
-    "n": 46,
-    "resid_mean": 0.0
-   },
+   "center": 72.2,
+   "sd": 1.55,
+   "observed_high": 48.2,
+   "observed_low": 39.0,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "73\u00b0 to 74\u00b0",
-    "yes_ask": 0.5
+    "yes_ask": 0.59
    },
    "model_favorite": {
-    "bracket": "75\u00b0 to 76\u00b0",
-    "prob": 0.408
+    "bracket": "71\u00b0 to 72\u00b0",
+    "prob": 0.437
    },
    "brackets": [
     {
@@ -706,66 +696,66 @@
      "label": "79\u00b0 or above",
      "lo": 79,
      "hi": null,
-     "model_p": 0.013,
+     "model_p": 0.0,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 10.0
+     "volume": 20.0
     },
     {
      "ticker": "KXHIGHAUS-26NOV28-T71",
      "label": "70\u00b0 or below",
      "lo": null,
      "hi": 70,
-     "model_p": 0.006,
-     "yes_bid": 0.01,
+     "model_p": 0.132,
+     "yes_bid": 0.0,
      "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 142.0
+     "no_ask": 1.0,
+     "volume": 418.92
     },
     {
      "ticker": "KXHIGHAUS-26NOV28-B77.5",
      "label": "77\u00b0 to 78\u00b0",
      "lo": 77,
      "hi": 78,
-     "model_p": 0.137,
-     "yes_bid": 0.04,
-     "yes_ask": 0.05,
-     "no_ask": 0.96,
-     "volume": 320.16
+     "model_p": 0.003,
+     "yes_bid": 0.02,
+     "yes_ask": 0.04,
+     "no_ask": 0.98,
+     "volume": 1259.37
     },
     {
      "ticker": "KXHIGHAUS-26NOV28-B75.5",
      "label": "75\u00b0 to 76\u00b0",
      "lo": 75,
      "hi": 76,
-     "model_p": 0.408,
-     "yes_bid": 0.45,
-     "yes_ask": 0.46,
-     "no_ask": 0.55,
-     "volume": 885.19
+     "model_p": 0.069,
+     "yes_bid": 0.33,
+     "yes_ask": 0.37,
+     "no_ask": 0.67,
+     "volume": 2480.95
     },
     {
      "ticker": "KXHIGHAUS-26NOV28-B73.5",
      "label": "73\u00b0 to 74\u00b0",
      "lo": 73,
      "hi": 74,
-     "model_p": 0.349,
-     "yes_bid": 0.48,
-     "yes_ask": 0.5,
-     "no_ask": 0.52,
-     "volume": 909.68
+     "model_p": 0.36,
+     "yes_bid": 0.58,
+     "yes_ask": 0.59,
+     "no_ask": 0.42,
+     "volume": 1475.05
     },
     {
      "ticker": "KXHIGHAUS-26NOV28-B71.5",
      "label": "71\u00b0 to 72\u00b0",
      "lo": 71,
      "hi": 72,
-     "model_p": 0.086,
-     "yes_bid": 0.02,
-     "yes_ask": 0.03,
-     "no_ask": 0.98,
-     "volume": 194.0
+     "model_p": 0.437,
+     "yes_bid": 0.03,
+     "yes_ask": 0.04,
+     "no_ask": 0.97,
+     "volume": 1601.09
     }
    ]
   },
@@ -775,39 +765,29 @@
    "series": "KXHIGHCHI",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 51,
-   "model_center": 51.5,
+   "lead_days": 0,
+   "nws": 52,
+   "model_center": 50.8,
    "model_means": {
-    "gfs_seamless": 51.1,
-    "ecmwf_ifs025": 52.1,
-    "icon_seamless": 52.2,
-    "gem_seamless": 50.8,
-    "ensemble_raw": 50.4
+    "gfs_seamless": 49.6,
+    "ecmwf_ifs025": 51.8,
+    "icon_seamless": 51.1,
+    "gem_seamless": 50.5,
+    "ensemble_raw": 51.6
    },
-   "center": 51.4,
-   "sd": 1.5,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 2.16,
-     "ecmwf_ifs025": 2.88,
-     "icon_seamless": 1.62,
-     "gem_seamless": 0.35
-    },
-    "rmse": 1.36,
-    "n": 53,
-    "resid_mean": -0.0
-   },
+   "center": 51.1,
+   "sd": 1.4,
+   "observed_high": 37.9,
+   "observed_low": 35.6,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
-    "bracket": "52\u00b0 to 53\u00b0",
-    "yes_ask": 0.52
+    "bracket": "54\u00b0 to 55\u00b0",
+    "yes_ask": 0.53
    },
    "model_favorite": {
     "bracket": "50\u00b0 to 51\u00b0",
-    "prob": 0.425
+    "prob": 0.49
    },
    "brackets": [
     {
@@ -815,11 +795,11 @@
      "label": "56\u00b0 or above",
      "lo": 56,
      "hi": null,
-     "model_p": 0.003,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 622.57
+     "model_p": 0.001,
+     "yes_bid": 0.06,
+     "yes_ask": 0.07,
+     "no_ask": 0.94,
+     "volume": 2682.11
     },
     {
      "ticker": "KXHIGHCHI-26NOV28-T48",
@@ -830,51 +810,51 @@
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 118.98
+     "volume": 510.53
     },
     {
      "ticker": "KXHIGHCHI-26NOV28-B54.5",
      "label": "54\u00b0 to 55\u00b0",
      "lo": 54,
      "hi": 55,
-     "model_p": 0.077,
-     "yes_bid": 0.39,
-     "yes_ask": 0.41,
-     "no_ask": 0.61,
-     "volume": 2053.94
+     "model_p": 0.04,
+     "yes_bid": 0.48,
+     "yes_ask": 0.53,
+     "no_ask": 0.52,
+     "volume": 3784.71
     },
     {
      "ticker": "KXHIGHCHI-26NOV28-B52.5",
      "label": "52\u00b0 to 53\u00b0",
      "lo": 52,
      "hi": 53,
-     "model_p": 0.392,
-     "yes_bid": 0.51,
-     "yes_ask": 0.52,
-     "no_ask": 0.49,
-     "volume": 600.64
+     "model_p": 0.336,
+     "yes_bid": 0.32,
+     "yes_ask": 0.33,
+     "no_ask": 0.68,
+     "volume": 2136.17
     },
     {
      "ticker": "KXHIGHCHI-26NOV28-B50.5",
      "label": "50\u00b0 to 51\u00b0",
      "lo": 50,
      "hi": 51,
-     "model_p": 0.425,
-     "yes_bid": 0.1,
-     "yes_ask": 0.11,
-     "no_ask": 0.9,
-     "volume": 1889.11
+     "model_p": 0.49,
+     "yes_bid": 0.08,
+     "yes_ask": 0.09,
+     "no_ask": 0.92,
+     "volume": 5392.7
     },
     {
      "ticker": "KXHIGHCHI-26NOV28-B48.5",
      "label": "48\u00b0 to 49\u00b0",
      "lo": 48,
      "hi": 49,
-     "model_p": 0.098,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 388.96
+     "model_p": 0.127,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 848.51
     }
    ]
   },
@@ -884,39 +864,29 @@
    "series": "KXHIGHDEN",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 51,
-   "model_center": 57.9,
+   "lead_days": 0,
+   "nws": 53,
+   "model_center": 55.6,
    "model_means": {
-    "gfs_seamless": 57.3,
-    "ecmwf_ifs025": 57.6,
-    "icon_seamless": 59.4,
-    "gem_seamless": 57.4,
-    "ensemble_raw": 54.8
+    "gfs_seamless": 56.6,
+    "ecmwf_ifs025": 57.9,
+    "icon_seamless": 57.4,
+    "gem_seamless": 50.5,
+    "ensemble_raw": 54.9
    },
-   "center": 56.2,
-   "sd": 2.26,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "low",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.99,
-     "ecmwf_ifs025": 0.24,
-     "icon_seamless": 1.65,
-     "gem_seamless": 0.97
-    },
-    "rmse": 1.86,
-    "n": 53,
-    "resid_mean": 0.0
-   },
+   "center": 55.0,
+   "sd": 3.7,
+   "observed_high": 51.8,
+   "observed_low": 39.0,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "51\u00b0 or above",
-    "yes_ask": 0.95
+    "yes_ask": 1.0
    },
    "model_favorite": {
     "bracket": "51\u00b0 or above",
-    "prob": 0.994
+    "prob": 1.0
    },
    "brackets": [
     {
@@ -924,11 +894,11 @@
      "label": "51\u00b0 or above",
      "lo": 51,
      "hi": null,
-     "model_p": 0.994,
-     "yes_bid": 0.94,
-     "yes_ask": 0.95,
-     "no_ask": 0.06,
-     "volume": 691.35
+     "model_p": 1.0,
+     "yes_bid": 0.99,
+     "yes_ask": 1.0,
+     "no_ask": 0.01,
+     "volume": 2378.29
     },
     {
      "ticker": "KXHIGHDEN-26NOV28-T43",
@@ -939,18 +909,18 @@
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 0.0
+     "volume": 5.0
     },
     {
      "ticker": "KXHIGHDEN-26NOV28-B49.5",
      "label": "49\u00b0 to 50\u00b0",
      "lo": 49,
      "hi": 50,
-     "model_p": 0.005,
-     "yes_bid": 0.02,
-     "yes_ask": 0.05,
-     "no_ask": 0.98,
-     "volume": 477.56
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 2823.03
     },
     {
      "ticker": "KXHIGHDEN-26NOV28-B47.5",
@@ -958,10 +928,10 @@
      "lo": 47,
      "hi": 48,
      "model_p": 0.0,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 231.0
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 550.51
     },
     {
      "ticker": "KXHIGHDEN-26NOV28-B45.5",
@@ -969,10 +939,10 @@
      "lo": 45,
      "hi": 46,
      "model_p": 0.0,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 306.0
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 521.39
     },
     {
      "ticker": "KXHIGHDEN-26NOV28-B43.5",
@@ -993,39 +963,29 @@
    "series": "KXHIGHLAX",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
+   "lead_days": 0,
    "nws": 76,
-   "model_center": 74.4,
+   "model_center": 73.2,
    "model_means": {
-    "gfs_seamless": 75.7,
-    "ecmwf_ifs025": 74.1,
-    "icon_seamless": 72.0,
-    "gem_seamless": 75.8,
-    "ensemble_raw": 72.9
+    "gfs_seamless": 73.6,
+    "ecmwf_ifs025": 74.0,
+    "icon_seamless": 69.4,
+    "gem_seamless": 75.6,
+    "ensemble_raw": 73.0
    },
-   "center": 74.8,
-   "sd": 2.43,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 1.38,
-     "ecmwf_ifs025": -1.4,
-     "icon_seamless": -0.75,
-     "gem_seamless": 0.18
-    },
-    "rmse": 2.21,
-    "n": 45,
-    "resid_mean": 0.0
-   },
+   "center": 73.9,
+   "sd": 3.1,
+   "observed_high": 61.0,
+   "observed_low": 59.0,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "73\u00b0 to 74\u00b0",
-    "yes_ask": 0.43
+    "yes_ask": 0.45
    },
    "model_favorite": {
-    "bracket": "75\u00b0 to 76\u00b0",
-    "prob": 0.306
+    "bracket": "72\u00b0 or below",
+    "prob": 0.33
    },
    "brackets": [
     {
@@ -1033,66 +993,66 @@
      "label": "81\u00b0 or above",
      "lo": 81,
      "hi": null,
-     "model_p": 0.009,
+     "model_p": 0.016,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 153.51
+     "volume": 1089.69
     },
     {
      "ticker": "KXHIGHLAX-26NOV28-T73",
      "label": "72\u00b0 or below",
      "lo": null,
      "hi": 72,
-     "model_p": 0.174,
-     "yes_bid": 0.1,
-     "yes_ask": 0.12,
-     "no_ask": 0.9,
-     "volume": 1472.52
+     "model_p": 0.33,
+     "yes_bid": 0.04,
+     "yes_ask": 0.05,
+     "no_ask": 0.96,
+     "volume": 3593.22
     },
     {
      "ticker": "KXHIGHLAX-26NOV28-B79.5",
      "label": "79\u00b0 to 80\u00b0",
      "lo": 79,
      "hi": 80,
-     "model_p": 0.054,
+     "model_p": 0.051,
      "yes_bid": 0.01,
      "yes_ask": 0.02,
      "no_ask": 0.99,
-     "volume": 186.79
+     "volume": 2131.18
     },
     {
      "ticker": "KXHIGHLAX-26NOV28-B77.5",
      "label": "77\u00b0 to 78\u00b0",
      "lo": 77,
      "hi": 78,
-     "model_p": 0.177,
-     "yes_bid": 0.06,
-     "yes_ask": 0.08,
-     "no_ask": 0.94,
-     "volume": 772.85
+     "model_p": 0.13,
+     "yes_bid": 0.08,
+     "yes_ask": 0.09,
+     "no_ask": 0.92,
+     "volume": 3368.94
     },
     {
      "ticker": "KXHIGHLAX-26NOV28-B75.5",
      "label": "75\u00b0 to 76\u00b0",
      "lo": 75,
      "hi": 76,
-     "model_p": 0.306,
+     "model_p": 0.221,
      "yes_bid": 0.41,
      "yes_ask": 0.42,
      "no_ask": 0.59,
-     "volume": 614.03
+     "volume": 2429.83
     },
     {
      "ticker": "KXHIGHLAX-26NOV28-B73.5",
      "label": "73\u00b0 to 74\u00b0",
      "lo": 73,
      "hi": 74,
-     "model_p": 0.28,
-     "yes_bid": 0.42,
-     "yes_ask": 0.43,
-     "no_ask": 0.58,
-     "volume": 836.24
+     "model_p": 0.251,
+     "yes_bid": 0.43,
+     "yes_ask": 0.45,
+     "no_ask": 0.57,
+     "volume": 4614.46
     }
    ]
   },
@@ -1102,39 +1062,29 @@
    "series": "KXHIGHMIA",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 73,
-   "model_center": 73.2,
+   "lead_days": 0,
+   "nws": 74,
+   "model_center": 70.8,
    "model_means": {
-    "gfs_seamless": 72.1,
-    "ecmwf_ifs025": 74.3,
-    "icon_seamless": 73.5,
-    "gem_seamless": 73.0,
-    "ensemble_raw": 72.3
+    "gfs_seamless": 69.5,
+    "ecmwf_ifs025": 72.3,
+    "icon_seamless": 72.1,
+    "gem_seamless": 69.1,
+    "ensemble_raw": 72.7
    },
-   "center": 73.2,
-   "sd": 1.62,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 2.6,
-     "ecmwf_ifs025": 3.51,
-     "icon_seamless": 1.45,
-     "gem_seamless": 1.77
-    },
-    "rmse": 1.47,
-    "n": 58,
-    "resid_mean": -0.0
-   },
+   "center": 71.6,
+   "sd": 1.6,
+   "observed_high": 66.9,
+   "observed_low": 62.6,
+   "confidence": "low",
+   "calibration": null,
    "market_favorite": {
     "bracket": "73\u00b0 to 74\u00b0",
-    "yes_ask": 0.7
+    "yes_ask": 0.67
    },
    "model_favorite": {
-    "bracket": "73\u00b0 to 74\u00b0",
-    "prob": 0.455
+    "bracket": "71\u00b0 to 72\u00b0",
+    "prob": 0.468
    },
    "brackets": [
     {
@@ -1146,62 +1096,62 @@
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 60.0
+     "volume": 72.5
     },
     {
      "ticker": "KXHIGHMIA-26NOV28-T71",
      "label": "70\u00b0 or below",
      "lo": null,
      "hi": 70,
-     "model_p": 0.05,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 90.0
+     "model_p": 0.253,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 314.09
     },
     {
      "ticker": "KXHIGHMIA-26NOV28-B77.5",
      "label": "77\u00b0 to 78\u00b0",
      "lo": 77,
      "hi": 78,
-     "model_p": 0.019,
-     "yes_bid": 0.02,
-     "yes_ask": 0.03,
-     "no_ask": 0.98,
-     "volume": 170.37
+     "model_p": 0.001,
+     "yes_bid": 0.01,
+     "yes_ask": 0.02,
+     "no_ask": 0.99,
+     "volume": 1088.38
     },
     {
      "ticker": "KXHIGHMIA-26NOV28-B75.5",
      "label": "75\u00b0 to 76\u00b0",
      "lo": 75,
      "hi": 76,
-     "model_p": 0.184,
-     "yes_bid": 0.21,
-     "yes_ask": 0.22,
-     "no_ask": 0.79,
-     "volume": 402.28
+     "model_p": 0.032,
+     "yes_bid": 0.22,
+     "yes_ask": 0.24,
+     "no_ask": 0.78,
+     "volume": 1855.83
     },
     {
      "ticker": "KXHIGHMIA-26NOV28-B73.5",
      "label": "73\u00b0 to 74\u00b0",
      "lo": 73,
      "hi": 74,
-     "model_p": 0.455,
-     "yes_bid": 0.68,
-     "yes_ask": 0.7,
-     "no_ask": 0.32,
-     "volume": 546.14
+     "model_p": 0.246,
+     "yes_bid": 0.65,
+     "yes_ask": 0.67,
+     "no_ask": 0.35,
+     "volume": 2308.78
     },
     {
      "ticker": "KXHIGHMIA-26NOV28-B71.5",
      "label": "71\u00b0 to 72\u00b0",
      "lo": 71,
      "hi": 72,
-     "model_p": 0.292,
-     "yes_bid": 0.11,
-     "yes_ask": 0.12,
-     "no_ask": 0.89,
-     "volume": 962.95
+     "model_p": 0.468,
+     "yes_bid": 0.08,
+     "yes_ask": 0.09,
+     "no_ask": 0.92,
+     "volume": 2601.02
     }
    ]
   },
@@ -1211,39 +1161,29 @@
    "series": "KXHIGHNY",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
+   "lead_days": 0,
    "nws": 51,
-   "model_center": 48.5,
+   "model_center": 49.2,
    "model_means": {
-    "gfs_seamless": 46.2,
-    "ecmwf_ifs025": 50.8,
-    "icon_seamless": 49.6,
-    "gem_seamless": 47.4,
-    "ensemble_raw": 49.0
+    "gfs_seamless": 48.0,
+    "ecmwf_ifs025": 49.8,
+    "icon_seamless": 49.4,
+    "gem_seamless": 49.5,
+    "ensemble_raw": 48.8
    },
-   "center": 49.1,
-   "sd": 2.29,
-   "observed_high": null,
-   "observed_low": null,
+   "center": 49.6,
+   "sd": 1.4,
+   "observed_high": 46.0,
+   "observed_low": 43.0,
    "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.92,
-     "ecmwf_ifs025": 1.69,
-     "icon_seamless": 0.19,
-     "gem_seamless": -0.66
-    },
-    "rmse": 1.67,
-    "n": 46,
-    "resid_mean": 0.0
-   },
+   "calibration": null,
    "market_favorite": {
     "bracket": "51\u00b0 or below",
-    "yes_ask": 0.72
+    "yes_ask": 0.83
    },
    "model_favorite": {
     "bracket": "51\u00b0 or below",
-    "prob": 0.85
+    "prob": 0.909
    },
    "brackets": [
     {
@@ -1255,18 +1195,18 @@
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 380.0
+     "volume": 381.0
     },
     {
      "ticker": "KXHIGHNY-26NOV28-T52",
      "label": "51\u00b0 or below",
      "lo": null,
      "hi": 51,
-     "model_p": 0.85,
-     "yes_bid": 0.7,
-     "yes_ask": 0.72,
-     "no_ask": 0.3,
-     "volume": 4158.53
+     "model_p": 0.909,
+     "yes_bid": 0.8,
+     "yes_ask": 0.83,
+     "no_ask": 0.2,
+     "volume": 9040.48
     },
     {
      "ticker": "KXHIGHNY-26NOV28-B58.5",
@@ -1284,33 +1224,33 @@
      "label": "56\u00b0 to 57\u00b0",
      "lo": 56,
      "hi": 57,
-     "model_p": 0.003,
+     "model_p": 0.0,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 1324.56
+     "volume": 3009.14
     },
     {
      "ticker": "KXHIGHNY-26NOV28-B54.5",
      "label": "54\u00b0 to 55\u00b0",
      "lo": 54,
      "hi": 55,
-     "model_p": 0.025,
-     "yes_bid": 0.04,
-     "yes_ask": 0.05,
-     "no_ask": 0.96,
-     "volume": 1300.66
+     "model_p": 0.003,
+     "yes_bid": 0.01,
+     "yes_ask": 0.03,
+     "no_ask": 0.99,
+     "volume": 2802.32
     },
     {
      "ticker": "KXHIGHNY-26NOV28-B52.5",
      "label": "52\u00b0 to 53\u00b0",
      "lo": 52,
      "hi": 53,
-     "model_p": 0.122,
-     "yes_bid": 0.26,
-     "yes_ask": 0.28,
-     "no_ask": 0.74,
-     "volume": 3200.49
+     "model_p": 0.088,
+     "yes_bid": 0.17,
+     "yes_ask": 0.19,
+     "no_ask": 0.83,
+     "volume": 5485.83
     }
    ]
   },
@@ -1320,39 +1260,29 @@
    "series": "KXHIGHPHIL",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 52,
-   "model_center": 54.2,
+   "lead_days": 0,
+   "nws": 53,
+   "model_center": 52.0,
    "model_means": {
-    "gfs_seamless": 53.4,
-    "ecmwf_ifs025": 54.6,
-    "icon_seamless": 54.6,
-    "gem_seamless": 54.1,
-    "ensemble_raw": 50.8
+    "gfs_seamless": 51.5,
+    "ecmwf_ifs025": 53.0,
+    "icon_seamless": 51.4,
+    "gem_seamless": 51.9,
+    "ensemble_raw": 51.3
    },
-   "center": 53.6,
-   "sd": 1.58,
-   "observed_high": null,
-   "observed_low": null,
+   "center": 52.2,
+   "sd": 1.4,
+   "observed_high": 46.9,
+   "observed_low": 44.6,
    "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 3.15,
-     "ecmwf_ifs025": 2.45,
-     "icon_seamless": 1.75,
-     "gem_seamless": 2.73
-    },
-    "rmse": 1.44,
-    "n": 55,
-    "resid_mean": -0.0
-   },
+   "calibration": null,
    "market_favorite": {
     "bracket": "54\u00b0 to 55\u00b0",
-    "yes_ask": 0.59
+    "yes_ask": 0.61
    },
    "model_favorite": {
-    "bracket": "54\u00b0 to 55\u00b0",
-    "prob": 0.414
+    "bracket": "52\u00b0 to 53\u00b0",
+    "prob": 0.516
    },
    "brackets": [
     {
@@ -1371,55 +1301,55 @@
      "label": "51\u00b0 or below",
      "lo": null,
      "hi": 51,
-     "model_p": 0.09,
+     "model_p": 0.305,
      "yes_bid": 0.01,
      "yes_ask": 0.02,
      "no_ask": 0.99,
-     "volume": 106.0
+     "volume": 422.16
     },
     {
      "ticker": "KXHIGHPHIL-26NOV28-B58.5",
      "label": "58\u00b0 to 59\u00b0",
      "lo": 58,
      "hi": 59,
-     "model_p": 0.007,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 185.0
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 391.01
     },
     {
      "ticker": "KXHIGHPHIL-26NOV28-B56.5",
      "label": "56\u00b0 to 57\u00b0",
      "lo": 56,
      "hi": 57,
-     "model_p": 0.111,
+     "model_p": 0.009,
      "yes_bid": 0.25,
      "yes_ask": 0.3,
      "no_ask": 0.75,
-     "volume": 633.41
+     "volume": 1131.76
     },
     {
      "ticker": "KXHIGHPHIL-26NOV28-B54.5",
      "label": "54\u00b0 to 55\u00b0",
      "lo": 54,
      "hi": 55,
-     "model_p": 0.414,
-     "yes_bid": 0.57,
-     "yes_ask": 0.59,
-     "no_ask": 0.43,
-     "volume": 349.11
+     "model_p": 0.169,
+     "yes_bid": 0.55,
+     "yes_ask": 0.61,
+     "no_ask": 0.45,
+     "volume": 1306.78
     },
     {
      "ticker": "KXHIGHPHIL-26NOV28-B52.5",
      "label": "52\u00b0 to 53\u00b0",
      "lo": 52,
      "hi": 53,
-     "model_p": 0.378,
-     "yes_bid": 0.11,
-     "yes_ask": 0.17,
-     "no_ask": 0.89,
-     "volume": 773.64
+     "model_p": 0.516,
+     "yes_bid": 0.09,
+     "yes_ask": 0.12,
+     "no_ask": 0.91,
+     "volume": 1823.72
     }
    ]
   },
@@ -1429,39 +1359,29 @@
    "series": "KXHIGHTATL",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
+   "lead_days": 0,
    "nws": 61,
-   "model_center": 59.5,
+   "model_center": 58.0,
    "model_means": {
-    "gfs_seamless": 58.7,
-    "ecmwf_ifs025": 62.5,
-    "icon_seamless": 59.5,
-    "gem_seamless": 57.5,
-    "ensemble_raw": 57.9
+    "gfs_seamless": 58.6,
+    "ecmwf_ifs025": 60.0,
+    "icon_seamless": 57.9,
+    "gem_seamless": 55.5,
+    "ensemble_raw": 58.6
    },
-   "center": 59.9,
-   "sd": 2.46,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.87,
-     "ecmwf_ifs025": 2.75,
-     "icon_seamless": 2.1,
-     "gem_seamless": 2.54
-    },
-    "rmse": 1.68,
-    "n": 50,
-    "resid_mean": 0.0
-   },
+   "center": 58.8,
+   "sd": 2.25,
+   "observed_high": 39.2,
+   "observed_low": 35.6,
+   "confidence": "low",
+   "calibration": null,
    "market_favorite": {
     "bracket": "62\u00b0 to 63\u00b0",
-    "yes_ask": 0.54
+    "yes_ask": 0.71
    },
    "model_favorite": {
-    "bracket": "60\u00b0 to 61\u00b0",
-    "prob": 0.308
+    "bracket": "58\u00b0 to 59\u00b0",
+    "prob": 0.341
    },
    "brackets": [
     {
@@ -1469,18 +1389,18 @@
      "label": "64\u00b0 or above",
      "lo": 64,
      "hi": null,
-     "model_p": 0.072,
-     "yes_bid": 0.05,
-     "yes_ask": 0.07,
-     "no_ask": 0.95,
-     "volume": 452.99
+     "model_p": 0.017,
+     "yes_bid": 0.08,
+     "yes_ask": 0.1,
+     "no_ask": 0.92,
+     "volume": 1517.12
     },
     {
      "ticker": "KXHIGHTATL-26NOV28-T56",
      "label": "55\u00b0 or below",
      "lo": null,
      "hi": 55,
-     "model_p": 0.036,
+     "model_p": 0.074,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
@@ -1491,44 +1411,44 @@
      "label": "62\u00b0 to 63\u00b0",
      "lo": 62,
      "hi": 63,
-     "model_p": 0.186,
-     "yes_bid": 0.5,
-     "yes_ask": 0.54,
-     "no_ask": 0.5,
-     "volume": 614.38
+     "model_p": 0.093,
+     "yes_bid": 0.66,
+     "yes_ask": 0.71,
+     "no_ask": 0.34,
+     "volume": 2080.83
     },
     {
      "ticker": "KXHIGHTATL-26NOV28-B60.5",
      "label": "60\u00b0 to 61\u00b0",
      "lo": 60,
      "hi": 61,
-     "model_p": 0.308,
-     "yes_bid": 0.4,
-     "yes_ask": 0.41,
-     "no_ask": 0.6,
-     "volume": 430.04
+     "model_p": 0.259,
+     "yes_bid": 0.18,
+     "yes_ask": 0.19,
+     "no_ask": 0.82,
+     "volume": 1107.65
     },
     {
      "ticker": "KXHIGHTATL-26NOV28-B58.5",
      "label": "58\u00b0 to 59\u00b0",
      "lo": 58,
      "hi": 59,
-     "model_p": 0.271,
-     "yes_bid": 0.03,
-     "yes_ask": 0.04,
-     "no_ask": 0.97,
-     "volume": 70.02
+     "model_p": 0.341,
+     "yes_bid": 0.01,
+     "yes_ask": 0.02,
+     "no_ask": 0.99,
+     "volume": 188.3
     },
     {
      "ticker": "KXHIGHTATL-26NOV28-B56.5",
      "label": "56\u00b0 to 57\u00b0",
      "lo": 56,
      "hi": 57,
-     "model_p": 0.127,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 170.0
+     "model_p": 0.215,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 300.0
     }
    ]
   },
@@ -1538,39 +1458,29 @@
    "series": "KXHIGHTBOS",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 53,
-   "model_center": 51.2,
+   "lead_days": 0,
+   "nws": 51,
+   "model_center": 49.6,
    "model_means": {
-    "gfs_seamless": 49.1,
-    "ecmwf_ifs025": 53.8,
-    "icon_seamless": 51.1,
-    "gem_seamless": 50.7,
-    "ensemble_raw": 49.5
+    "gfs_seamless": 47.0,
+    "ecmwf_ifs025": 50.9,
+    "icon_seamless": 50.3,
+    "gem_seamless": 50.2,
+    "ensemble_raw": 49.2
    },
-   "center": 51.6,
-   "sd": 2.35,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 2.22,
-     "ecmwf_ifs025": 2.41,
-     "icon_seamless": 0.75,
-     "gem_seamless": 0.18
-    },
-    "rmse": 1.58,
-    "n": 51,
-    "resid_mean": 0.0
-   },
+   "center": 50.0,
+   "sd": 1.95,
+   "observed_high": 48.2,
+   "observed_low": 44.1,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "51\u00b0 to 52\u00b0",
-    "yes_ask": 0.6
+    "yes_ask": 0.7
    },
    "model_favorite": {
-    "bracket": "51\u00b0 to 52\u00b0",
-    "prob": 0.33
+    "bracket": "50\u00b0 or below",
+    "prob": 0.596
    },
    "brackets": [
     {
@@ -1578,7 +1488,7 @@
      "label": "59\u00b0 or above",
      "lo": 59,
      "hi": null,
-     "model_p": 0.002,
+     "model_p": 0.0,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
@@ -1589,18 +1499,18 @@
      "label": "50\u00b0 or below",
      "lo": null,
      "hi": 50,
-     "model_p": 0.313,
-     "yes_bid": 0.02,
-     "yes_ask": 0.03,
-     "no_ask": 0.98,
-     "volume": 158.46
+     "model_p": 0.596,
+     "yes_bid": 0.13,
+     "yes_ask": 0.14,
+     "no_ask": 0.87,
+     "volume": 1267.35
     },
     {
      "ticker": "KXHIGHTBOS-26NOV28-B57.5",
      "label": "57\u00b0 to 58\u00b0",
      "lo": 57,
      "hi": 58,
-     "model_p": 0.017,
+     "model_p": 0.0,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
@@ -1611,33 +1521,33 @@
      "label": "55\u00b0 to 56\u00b0",
      "lo": 55,
      "hi": 56,
-     "model_p": 0.092,
-     "yes_bid": 0.02,
-     "yes_ask": 0.03,
-     "no_ask": 0.98,
-     "volume": 243.06
+     "model_p": 0.01,
+     "yes_bid": 0.01,
+     "yes_ask": 0.02,
+     "no_ask": 0.99,
+     "volume": 268.95
     },
     {
      "ticker": "KXHIGHTBOS-26NOV28-B53.5",
      "label": "53\u00b0 to 54\u00b0",
      "lo": 53,
      "hi": 54,
-     "model_p": 0.246,
-     "yes_bid": 0.32,
-     "yes_ask": 0.35,
-     "no_ask": 0.68,
-     "volume": 885.52
+     "model_p": 0.089,
+     "yes_bid": 0.18,
+     "yes_ask": 0.19,
+     "no_ask": 0.82,
+     "volume": 1235.92
     },
     {
      "ticker": "KXHIGHTBOS-26NOV28-B51.5",
      "label": "51\u00b0 to 52\u00b0",
      "lo": 51,
      "hi": 52,
-     "model_p": 0.33,
-     "yes_bid": 0.59,
-     "yes_ask": 0.6,
-     "no_ask": 0.41,
-     "volume": 823.42
+     "model_p": 0.305,
+     "yes_bid": 0.66,
+     "yes_ask": 0.7,
+     "no_ask": 0.34,
+     "volume": 958.24
     }
    ]
   },
@@ -1647,39 +1557,29 @@
    "series": "KXHIGHTDAL",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 71,
-   "model_center": 72.6,
+   "lead_days": 0,
+   "nws": 72,
+   "model_center": 69.5,
    "model_means": {
-    "gfs_seamless": 71.4,
-    "ecmwf_ifs025": 70.9,
-    "icon_seamless": 72.8,
-    "gem_seamless": 75.4,
-    "ensemble_raw": 69.4
+    "gfs_seamless": 68.0,
+    "ecmwf_ifs025": 68.4,
+    "icon_seamless": 70.8,
+    "gem_seamless": 70.8,
+    "ensemble_raw": 69.5
    },
-   "center": 72.2,
-   "sd": 2.24,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 2.48,
-     "ecmwf_ifs025": 3.1,
-     "icon_seamless": 1.85,
-     "gem_seamless": 1.87
-    },
-    "rmse": 1.66,
-    "n": 54,
-    "resid_mean": -0.0
-   },
+   "center": 70.1,
+   "sd": 1.4,
+   "observed_high": 51.8,
+   "observed_low": 46.0,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "72\u00b0 to 73\u00b0",
-    "yes_ask": 0.67
+    "yes_ask": 0.6
    },
    "model_favorite": {
-    "bracket": "72\u00b0 to 73\u00b0",
-    "prob": 0.343
+    "bracket": "70\u00b0 to 71\u00b0",
+    "prob": 0.509
    },
    "brackets": [
     {
@@ -1687,66 +1587,66 @@
      "label": "76\u00b0 or above",
      "lo": 76,
      "hi": null,
-     "model_p": 0.07,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 201.0
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 254.0
     },
     {
      "ticker": "KXHIGHTDAL-26NOV28-T68",
      "label": "67\u00b0 or below",
      "lo": null,
      "hi": 67,
-     "model_p": 0.018,
+     "model_p": 0.03,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 21.0
+     "volume": 27.54
     },
     {
      "ticker": "KXHIGHTDAL-26NOV28-B74.5",
      "label": "74\u00b0 to 75\u00b0",
      "lo": 74,
      "hi": 75,
-     "model_p": 0.21,
-     "yes_bid": 0.11,
-     "yes_ask": 0.15,
-     "no_ask": 0.89,
-     "volume": 468.78
+     "model_p": 0.008,
+     "yes_bid": 0.07,
+     "yes_ask": 0.09,
+     "no_ask": 0.93,
+     "volume": 812.31
     },
     {
      "ticker": "KXHIGHTDAL-26NOV28-B72.5",
      "label": "72\u00b0 to 73\u00b0",
      "lo": 72,
      "hi": 73,
-     "model_p": 0.343,
-     "yes_bid": 0.62,
-     "yes_ask": 0.67,
-     "no_ask": 0.38,
-     "volume": 270.97
+     "model_p": 0.155,
+     "yes_bid": 0.59,
+     "yes_ask": 0.6,
+     "no_ask": 0.41,
+     "volume": 525.34
     },
     {
      "ticker": "KXHIGHTDAL-26NOV28-B70.5",
      "label": "70\u00b0 to 71\u00b0",
      "lo": 70,
      "hi": 71,
-     "model_p": 0.264,
-     "yes_bid": 0.2,
-     "yes_ask": 0.24,
-     "no_ask": 0.8,
-     "volume": 122.26
+     "model_p": 0.509,
+     "yes_bid": 0.3,
+     "yes_ask": 0.32,
+     "no_ask": 0.7,
+     "volume": 437.51
     },
     {
      "ticker": "KXHIGHTDAL-26NOV28-B68.5",
      "label": "68\u00b0 to 69\u00b0",
      "lo": 68,
      "hi": 69,
-     "model_p": 0.096,
+     "model_p": 0.297,
      "yes_bid": 0.01,
      "yes_ask": 0.02,
      "no_ask": 0.99,
-     "volume": 59.55
+     "volume": 708.95
     }
    ]
   },
@@ -1756,39 +1656,29 @@
    "series": "KXHIGHTDC",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
+   "lead_days": 0,
    "nws": 58,
-   "model_center": 57.2,
+   "model_center": 56.4,
    "model_means": {
     "gfs_seamless": 55.2,
-    "ecmwf_ifs025": 56.7,
-    "icon_seamless": 58.6,
-    "gem_seamless": 58.4,
-    "ensemble_raw": 54.6
+    "ecmwf_ifs025": 56.1,
+    "icon_seamless": 57.5,
+    "gem_seamless": 56.8,
+    "ensemble_raw": 55.5
    },
-   "center": 57.4,
-   "sd": 2.02,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 1.51,
-     "ecmwf_ifs025": 1.82,
-     "icon_seamless": 1.07,
-     "gem_seamless": 1.54
-    },
-    "rmse": 1.84,
-    "n": 55,
-    "resid_mean": -0.0
-   },
+   "center": 56.8,
+   "sd": 1.4,
+   "observed_high": 46.9,
+   "observed_low": 46.0,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "60\u00b0 to 61\u00b0",
-    "yes_ask": 0.5
+    "yes_ask": 0.55
    },
    "model_favorite": {
     "bracket": "56\u00b0 to 57\u00b0",
-    "prob": 0.344
+    "prob": 0.515
    },
    "brackets": [
     {
@@ -1796,66 +1686,66 @@
      "label": "64\u00b0 or above",
      "lo": 64,
      "hi": null,
-     "model_p": 0.001,
+     "model_p": 0.0,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 0.0
+     "volume": 641.9
     },
     {
      "ticker": "KXHIGHTDC-26NOV28-T56",
      "label": "55\u00b0 or below",
      "lo": null,
      "hi": 55,
-     "model_p": 0.171,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 94.13
+     "model_p": 0.177,
+     "yes_bid": 0.0,
+     "yes_ask": 0.03,
+     "no_ask": 1.0,
+     "volume": 301.94
     },
     {
      "ticker": "KXHIGHTDC-26NOV28-B62.5",
      "label": "62\u00b0 to 63\u00b0",
      "lo": 62,
      "hi": 63,
-     "model_p": 0.021,
-     "yes_bid": 0.02,
-     "yes_ask": 0.04,
-     "no_ask": 0.98,
-     "volume": 168.72
+     "model_p": 0.0,
+     "yes_bid": 0.01,
+     "yes_ask": 0.06,
+     "no_ask": 0.99,
+     "volume": 908.92
     },
     {
      "ticker": "KXHIGHTDC-26NOV28-B60.5",
      "label": "60\u00b0 to 61\u00b0",
      "lo": 60,
      "hi": 61,
-     "model_p": 0.131,
-     "yes_bid": 0.38,
-     "yes_ask": 0.5,
-     "no_ask": 0.62,
-     "volume": 790.78
+     "model_p": 0.026,
+     "yes_bid": 0.5,
+     "yes_ask": 0.55,
+     "no_ask": 0.5,
+     "volume": 1358.86
     },
     {
      "ticker": "KXHIGHTDC-26NOV28-B58.5",
      "label": "58\u00b0 to 59\u00b0",
      "lo": 58,
      "hi": 59,
-     "model_p": 0.333,
-     "yes_bid": 0.47,
-     "yes_ask": 0.5,
-     "no_ask": 0.53,
-     "volume": 168.85
+     "model_p": 0.282,
+     "yes_bid": 0.35,
+     "yes_ask": 0.46,
+     "no_ask": 0.65,
+     "volume": 422.93
     },
     {
      "ticker": "KXHIGHTDC-26NOV28-B56.5",
      "label": "56\u00b0 to 57\u00b0",
      "lo": 56,
      "hi": 57,
-     "model_p": 0.344,
-     "yes_bid": 0.06,
-     "yes_ask": 0.11,
-     "no_ask": 0.94,
-     "volume": 475.78
+     "model_p": 0.515,
+     "yes_bid": 0.01,
+     "yes_ask": 0.04,
+     "no_ask": 0.99,
+     "volume": 1150.49
     }
    ]
   },
@@ -1865,39 +1755,29 @@
    "series": "KXHIGHTEWR",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
+   "lead_days": 0,
    "nws": 52,
-   "model_center": 51.0,
+   "model_center": 50.0,
    "model_means": {
-    "gfs_seamless": 49.2,
-    "ecmwf_ifs025": 52.9,
-    "icon_seamless": 52.0,
-    "gem_seamless": 49.7,
+    "gfs_seamless": 48.7,
+    "ecmwf_ifs025": 50.8,
+    "icon_seamless": 50.0,
+    "gem_seamless": 50.7,
     "ensemble_raw": 49.6
    },
-   "center": 51.2,
-   "sd": 1.82,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 2.6,
-     "ecmwf_ifs025": 2.95,
-     "icon_seamless": 2.14,
-     "gem_seamless": 0.34
-    },
-    "rmse": 1.39,
-    "n": 55,
-    "resid_mean": 0.0
-   },
+   "center": 50.5,
+   "sd": 1.4,
+   "observed_high": 46.4,
+   "observed_low": 42.1,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "52\u00b0 to 53\u00b0",
-    "yes_ask": 0.53
+    "yes_ask": 0.64
    },
    "model_favorite": {
     "bracket": "51\u00b0 or below",
-    "prob": 0.561
+    "prob": 0.754
    },
    "brackets": [
     {
@@ -1916,11 +1796,11 @@
      "label": "51\u00b0 or below",
      "lo": null,
      "hi": 51,
-     "model_p": 0.561,
-     "yes_bid": 0.06,
-     "yes_ask": 0.22,
-     "no_ask": 0.94,
-     "volume": 61.67
+     "model_p": 0.754,
+     "yes_bid": 0.18,
+     "yes_ask": 0.27,
+     "no_ask": 0.82,
+     "volume": 236.3
     },
     {
      "ticker": "KXHIGHTEWR-26NOV28-B58.5",
@@ -1928,43 +1808,43 @@
      "lo": 58,
      "hi": 59,
      "model_p": 0.0,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 76.0
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 84.0
     },
     {
      "ticker": "KXHIGHTEWR-26NOV28-B56.5",
      "label": "56\u00b0 to 57\u00b0",
      "lo": 56,
      "hi": 57,
-     "model_p": 0.009,
+     "model_p": 0.0,
      "yes_bid": 0.01,
      "yes_ask": 0.02,
      "no_ask": 0.99,
-     "volume": 42.0
+     "volume": 62.16
     },
     {
      "ticker": "KXHIGHTEWR-26NOV28-B54.5",
      "label": "54\u00b0 to 55\u00b0",
      "lo": 54,
      "hi": 55,
-     "model_p": 0.096,
-     "yes_bid": 0.33,
-     "yes_ask": 0.38,
-     "no_ask": 0.67,
-     "volume": 168.0
+     "model_p": 0.017,
+     "yes_bid": 0.19,
+     "yes_ask": 0.2,
+     "no_ask": 0.81,
+     "volume": 217.0
     },
     {
      "ticker": "KXHIGHTEWR-26NOV28-B52.5",
      "label": "52\u00b0 to 53\u00b0",
      "lo": 52,
      "hi": 53,
-     "model_p": 0.333,
-     "yes_bid": 0.43,
-     "yes_ask": 0.53,
-     "no_ask": 0.57,
-     "volume": 19.0
+     "model_p": 0.229,
+     "yes_bid": 0.52,
+     "yes_ask": 0.64,
+     "no_ask": 0.48,
+     "volume": 84.46
     }
    ]
   },
@@ -1974,35 +1854,25 @@
    "series": "KXHIGHTHOU",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
+   "lead_days": 0,
    "nws": 76,
-   "model_center": 76.5,
+   "model_center": 75.2,
    "model_means": {
-    "gfs_seamless": 77.5,
-    "ecmwf_ifs025": 74.9,
-    "icon_seamless": 75.7,
-    "gem_seamless": 78.2,
-    "ensemble_raw": 74.2
+    "gfs_seamless": 76.5,
+    "ecmwf_ifs025": 72.9,
+    "icon_seamless": 74.1,
+    "gem_seamless": 77.2,
+    "ensemble_raw": 74.4
    },
-   "center": 76.4,
-   "sd": 1.93,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.18,
-     "ecmwf_ifs025": 2.37,
-     "icon_seamless": 1.36,
-     "gem_seamless": 1.59
-    },
-    "rmse": 1.75,
-    "n": 50,
-    "resid_mean": -0.0
-   },
+   "center": 75.4,
+   "sd": 2.15,
+   "observed_high": 50.0,
+   "observed_low": 44.6,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "75\u00b0 to 76\u00b0",
-    "yes_ask": 0.5
+    "yes_ask": 0.54
    },
    "model_favorite": {
     "bracket": "75\u00b0 to 76\u00b0",
@@ -2014,18 +1884,18 @@
      "label": "79\u00b0 or above",
      "lo": 79,
      "hi": null,
-     "model_p": 0.139,
-     "yes_bid": 0.02,
+     "model_p": 0.073,
+     "yes_bid": 0.01,
      "yes_ask": 0.03,
-     "no_ask": 0.98,
-     "volume": 39.88
+     "no_ask": 0.99,
+     "volume": 56.88
     },
     {
      "ticker": "KXHIGHTHOU-26NOV28-T71",
      "label": "70\u00b0 or below",
      "lo": null,
      "hi": 70,
-     "model_p": 0.001,
+     "model_p": 0.012,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
@@ -2036,11 +1906,11 @@
      "label": "77\u00b0 to 78\u00b0",
      "lo": 77,
      "hi": 78,
-     "model_p": 0.343,
-     "yes_bid": 0.32,
-     "yes_ask": 0.33,
-     "no_ask": 0.68,
-     "volume": 372.07
+     "model_p": 0.228,
+     "yes_bid": 0.18,
+     "yes_ask": 0.19,
+     "no_ask": 0.82,
+     "volume": 679.71
     },
     {
      "ticker": "KXHIGHTHOU-26NOV28-B75.5",
@@ -2048,32 +1918,32 @@
      "lo": 75,
      "hi": 76,
      "model_p": 0.358,
-     "yes_bid": 0.46,
-     "yes_ask": 0.5,
-     "no_ask": 0.54,
-     "volume": 127.87
+     "yes_bid": 0.5,
+     "yes_ask": 0.54,
+     "no_ask": 0.5,
+     "volume": 318.54
     },
     {
      "ticker": "KXHIGHTHOU-26NOV28-B73.5",
      "label": "73\u00b0 to 74\u00b0",
      "lo": 73,
      "hi": 74,
-     "model_p": 0.139,
-     "yes_bid": 0.16,
-     "yes_ask": 0.2,
-     "no_ask": 0.84,
-     "volume": 466.07
+     "model_p": 0.251,
+     "yes_bid": 0.21,
+     "yes_ask": 0.23,
+     "no_ask": 0.79,
+     "volume": 749.44
     },
     {
      "ticker": "KXHIGHTHOU-26NOV28-B71.5",
      "label": "71\u00b0 to 72\u00b0",
      "lo": 71,
      "hi": 72,
-     "model_p": 0.02,
-     "yes_bid": 0.02,
-     "yes_ask": 0.04,
-     "no_ask": 0.98,
-     "volume": 104.05
+     "model_p": 0.079,
+     "yes_bid": 0.01,
+     "yes_ask": 0.03,
+     "no_ask": 0.99,
+     "volume": 348.42
     }
    ]
   },
@@ -2083,39 +1953,29 @@
    "series": "KXHIGHTLV",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 70,
-   "model_center": 68.3,
+   "lead_days": 0,
+   "nws": 69,
+   "model_center": 68.8,
    "model_means": {
-    "gfs_seamless": 68.8,
+    "gfs_seamless": 70.7,
     "ecmwf_ifs025": 69.8,
-    "icon_seamless": 66.7,
-    "gem_seamless": 67.8,
-    "ensemble_raw": 65.1
+    "icon_seamless": 67.3,
+    "gem_seamless": 67.2,
+    "ensemble_raw": 65.8
    },
-   "center": 68.7,
-   "sd": 1.55,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": -0.78,
-     "ecmwf_ifs025": 1.62,
-     "icon_seamless": 1.32,
-     "gem_seamless": 1.73
-    },
-    "rmse": 1.1,
-    "n": 53,
-    "resid_mean": -0.0
-   },
+   "center": 68.8,
+   "sd": 1.75,
+   "observed_high": 55.4,
+   "observed_low": 53.1,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
-    "bracket": "67\u00b0 to 68\u00b0",
-    "yes_ask": 0.47
+    "bracket": "69\u00b0 to 70\u00b0",
+    "yes_ask": 0.44
    },
    "model_favorite": {
     "bracket": "69\u00b0 to 70\u00b0",
-    "prob": 0.431
+    "prob": 0.403
    },
    "brackets": [
     {
@@ -2123,7 +1983,7 @@
      "label": "75\u00b0 or above",
      "lo": 75,
      "hi": null,
-     "model_p": 0.0,
+     "model_p": 0.001,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
@@ -2134,55 +1994,55 @@
      "label": "66\u00b0 or below",
      "lo": null,
      "hi": 66,
-     "model_p": 0.076,
-     "yes_bid": 0.07,
-     "yes_ask": 0.1,
-     "no_ask": 0.93,
-     "volume": 126.58
+     "model_p": 0.093,
+     "yes_bid": 0.09,
+     "yes_ask": 0.11,
+     "no_ask": 0.91,
+     "volume": 1103.69
     },
     {
      "ticker": "KXHIGHTLV-26NOV28-B73.5",
      "label": "73\u00b0 to 74\u00b0",
      "lo": 73,
      "hi": 74,
-     "model_p": 0.007,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 24.0
+     "model_p": 0.017,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 44.0
     },
     {
      "ticker": "KXHIGHTLV-26NOV28-B71.5",
      "label": "71\u00b0 to 72\u00b0",
      "lo": 71,
      "hi": 72,
-     "model_p": 0.118,
+     "model_p": 0.15,
      "yes_bid": 0.05,
      "yes_ask": 0.06,
      "no_ask": 0.95,
-     "volume": 1.0
+     "volume": 577.32
     },
     {
      "ticker": "KXHIGHTLV-26NOV28-B69.5",
      "label": "69\u00b0 to 70\u00b0",
      "lo": 69,
      "hi": 70,
-     "model_p": 0.431,
-     "yes_bid": 0.36,
-     "yes_ask": 0.43,
-     "no_ask": 0.64,
-     "volume": 182.01
+     "model_p": 0.403,
+     "yes_bid": 0.4,
+     "yes_ask": 0.44,
+     "no_ask": 0.6,
+     "volume": 698.98
     },
     {
      "ticker": "KXHIGHTLV-26NOV28-B67.5",
      "label": "67\u00b0 to 68\u00b0",
      "lo": 67,
      "hi": 68,
-     "model_p": 0.367,
-     "yes_bid": 0.43,
-     "yes_ask": 0.47,
-     "no_ask": 0.57,
-     "volume": 75.0
+     "model_p": 0.336,
+     "yes_bid": 0.34,
+     "yes_ask": 0.39,
+     "no_ask": 0.66,
+     "volume": 307.4
     }
    ]
   },
@@ -2192,39 +2052,29 @@
    "series": "KXHIGHTMIN",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
+   "lead_days": 0,
    "nws": 48,
-   "model_center": 49.2,
+   "model_center": 48.0,
    "model_means": {
-    "gfs_seamless": 51.4,
-    "ecmwf_ifs025": 46.9,
-    "icon_seamless": 50.4,
-    "gem_seamless": 48.2,
-    "ensemble_raw": 46.2
+    "gfs_seamless": 50.5,
+    "ecmwf_ifs025": 46.5,
+    "icon_seamless": 47.6,
+    "gem_seamless": 47.5,
+    "ensemble_raw": 47.6
    },
-   "center": 48.9,
-   "sd": 2.29,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 3.06,
-     "ecmwf_ifs025": 2.29,
-     "icon_seamless": 2.11,
-     "gem_seamless": 1.33
-    },
-    "rmse": 2.08,
-    "n": 52,
-    "resid_mean": 0.0
-   },
+   "center": 48.0,
+   "sd": 2.0,
+   "observed_high": 35.6,
+   "observed_low": 30.2,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "50\u00b0 to 51\u00b0",
-    "yes_ask": 0.54
+    "yes_ask": 0.52
    },
    "model_favorite": {
     "bracket": "48\u00b0 to 49\u00b0",
-    "prob": 0.333
+    "prob": 0.373
    },
    "brackets": [
     {
@@ -2232,66 +2082,66 @@
      "label": "52\u00b0 or above",
      "lo": 52,
      "hi": null,
-     "model_p": 0.129,
-     "yes_bid": 0.12,
-     "yes_ask": 0.15,
-     "no_ask": 0.88,
-     "volume": 1056.5
+     "model_p": 0.041,
+     "yes_bid": 0.38,
+     "yes_ask": 0.39,
+     "no_ask": 0.62,
+     "volume": 1739.94
     },
     {
      "ticker": "KXHIGHTMIN-26NOV28-T44",
      "label": "43\u00b0 or below",
      "lo": null,
      "hi": 43,
-     "model_p": 0.009,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 104.0
+     "model_p": 0.012,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 326.0
     },
     {
      "ticker": "KXHIGHTMIN-26NOV28-B50.5",
      "label": "50\u00b0 to 51\u00b0",
      "lo": 50,
      "hi": 51,
-     "model_p": 0.27,
-     "yes_bid": 0.5,
-     "yes_ask": 0.54,
-     "no_ask": 0.5,
-     "volume": 367.38
+     "model_p": 0.189,
+     "yes_bid": 0.51,
+     "yes_ask": 0.52,
+     "no_ask": 0.49,
+     "volume": 532.56
     },
     {
      "ticker": "KXHIGHTMIN-26NOV28-B48.5",
      "label": "48\u00b0 to 49\u00b0",
      "lo": 48,
      "hi": 49,
-     "model_p": 0.333,
-     "yes_bid": 0.26,
-     "yes_ask": 0.29,
-     "no_ask": 0.74,
-     "volume": 176.93
+     "model_p": 0.373,
+     "yes_bid": 0.11,
+     "yes_ask": 0.12,
+     "no_ask": 0.89,
+     "volume": 606.41
     },
     {
      "ticker": "KXHIGHTMIN-26NOV28-B46.5",
      "label": "46\u00b0 to 47\u00b0",
      "lo": 46,
      "hi": 47,
-     "model_p": 0.2,
-     "yes_bid": 0.05,
-     "yes_ask": 0.06,
-     "no_ask": 0.95,
-     "volume": 526.12
+     "model_p": 0.294,
+     "yes_bid": 0.01,
+     "yes_ask": 0.03,
+     "no_ask": 0.99,
+     "volume": 689.12
     },
     {
      "ticker": "KXHIGHTMIN-26NOV28-B44.5",
      "label": "44\u00b0 to 45\u00b0",
      "lo": 44,
      "hi": 45,
-     "model_p": 0.059,
-     "yes_bid": 0.02,
-     "yes_ask": 0.03,
-     "no_ask": 0.98,
-     "volume": 42.0
+     "model_p": 0.092,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 234.0
     }
    ]
   },
@@ -2301,39 +2151,29 @@
    "series": "KXHIGHTNOLA",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 66,
-   "model_center": 68.3,
+   "lead_days": 0,
+   "nws": 67,
+   "model_center": 66.2,
    "model_means": {
-    "gfs_seamless": 73.0,
-    "ecmwf_ifs025": 66.2,
-    "icon_seamless": 68.3,
-    "gem_seamless": 65.8,
-    "ensemble_raw": 67.6
+    "gfs_seamless": 70.3,
+    "ecmwf_ifs025": 63.3,
+    "icon_seamless": 66.7,
+    "gem_seamless": 64.7,
+    "ensemble_raw": 67.0
    },
-   "center": 67.8,
-   "sd": 3.58,
-   "observed_high": null,
-   "observed_low": null,
+   "center": 66.4,
+   "sd": 3.5,
+   "observed_high": 45.0,
+   "observed_low": 42.8,
    "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.81,
-     "ecmwf_ifs025": 2.93,
-     "icon_seamless": 1.47,
-     "gem_seamless": 1.85
-    },
-    "rmse": 1.25,
-    "n": 55,
-    "resid_mean": -0.0
-   },
+   "calibration": null,
    "market_favorite": {
     "bracket": "67\u00b0 to 68\u00b0",
-    "yes_ask": 0.49
+    "yes_ask": 0.57
    },
    "model_favorite": {
-    "bracket": "71\u00b0 or above",
-    "prob": 0.222
+    "bracket": "65\u00b0 to 66\u00b0",
+    "prob": 0.217
    },
    "brackets": [
     {
@@ -2341,66 +2181,66 @@
      "label": "71\u00b0 or above",
      "lo": 71,
      "hi": null,
-     "model_p": 0.222,
-     "yes_bid": 0.09,
-     "yes_ask": 0.11,
-     "no_ask": 0.91,
-     "volume": 90.0
+     "model_p": 0.123,
+     "yes_bid": 0.01,
+     "yes_ask": 0.03,
+     "no_ask": 0.99,
+     "volume": 144.0
     },
     {
      "ticker": "KXHIGHTNOLA-26NOV28-T63",
      "label": "62\u00b0 or below",
      "lo": null,
      "hi": 62,
-     "model_p": 0.071,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 247.57
+     "model_p": 0.13,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 273.57
     },
     {
      "ticker": "KXHIGHTNOLA-26NOV28-B69.5",
      "label": "69\u00b0 to 70\u00b0",
      "lo": 69,
      "hi": 70,
-     "model_p": 0.196,
-     "yes_bid": 0.29,
-     "yes_ask": 0.3,
-     "no_ask": 0.71,
-     "volume": 593.08
+     "model_p": 0.155,
+     "yes_bid": 0.11,
+     "yes_ask": 0.12,
+     "no_ask": 0.89,
+     "volume": 752.08
     },
     {
      "ticker": "KXHIGHTNOLA-26NOV28-B67.5",
      "label": "67\u00b0 to 68\u00b0",
      "lo": 67,
      "hi": 68,
-     "model_p": 0.219,
-     "yes_bid": 0.48,
-     "yes_ask": 0.49,
-     "no_ask": 0.52,
-     "volume": 118.0
+     "model_p": 0.215,
+     "yes_bid": 0.51,
+     "yes_ask": 0.57,
+     "no_ask": 0.49,
+     "volume": 345.64
     },
     {
      "ticker": "KXHIGHTNOLA-26NOV28-B65.5",
      "label": "65\u00b0 to 66\u00b0",
      "lo": 65,
      "hi": 66,
-     "model_p": 0.181,
-     "yes_bid": 0.13,
-     "yes_ask": 0.17,
-     "no_ask": 0.87,
-     "volume": 731.05
+     "model_p": 0.217,
+     "yes_bid": 0.18,
+     "yes_ask": 0.19,
+     "no_ask": 0.82,
+     "volume": 1099.09
     },
     {
      "ticker": "KXHIGHTNOLA-26NOV28-B63.5",
      "label": "63\u00b0 to 64\u00b0",
      "lo": 63,
      "hi": 64,
-     "model_p": 0.111,
-     "yes_bid": 0.03,
-     "yes_ask": 0.06,
-     "no_ask": 0.97,
-     "volume": 397.88
+     "model_p": 0.16,
+     "yes_bid": 0.02,
+     "yes_ask": 0.04,
+     "no_ask": 0.98,
+     "volume": 855.78
     }
    ]
   },
@@ -2410,39 +2250,29 @@
    "series": "KXHIGHTOKC",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 62,
-   "model_center": 63.8,
+   "lead_days": 0,
+   "nws": 63,
+   "model_center": 63.6,
    "model_means": {
-    "gfs_seamless": 65.2,
-    "ecmwf_ifs025": 61.7,
-    "icon_seamless": 63.3,
-    "gem_seamless": 64.9,
-    "ensemble_raw": 61.8
+    "gfs_seamless": 64.1,
+    "ecmwf_ifs025": 61.2,
+    "icon_seamless": 63.6,
+    "gem_seamless": 65.7,
+    "ensemble_raw": 62.8
    },
-   "center": 63.3,
-   "sd": 2.0,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 1.81,
-     "ecmwf_ifs025": 2.03,
-     "icon_seamless": 1.76,
-     "gem_seamless": 0.93
-    },
-    "rmse": 1.82,
-    "n": 50,
-    "resid_mean": -0.0
-   },
+   "center": 63.5,
+   "sd": 2.25,
+   "observed_high": 48.2,
+   "observed_low": 37.4,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
-    "bracket": "63\u00b0 to 64\u00b0",
-    "yes_ask": 0.47
+    "bracket": "65\u00b0 to 66\u00b0",
+    "yes_ask": 0.51
    },
    "model_favorite": {
     "bracket": "63\u00b0 to 64\u00b0",
-    "prob": 0.381
+    "prob": 0.343
    },
    "brackets": [
     {
@@ -2450,66 +2280,66 @@
      "label": "67\u00b0 or above",
      "lo": 67,
      "hi": null,
-     "model_p": 0.057,
-     "yes_bid": 0.03,
-     "yes_ask": 0.04,
-     "no_ask": 0.97,
-     "volume": 459.56
+     "model_p": 0.09,
+     "yes_bid": 0.15,
+     "yes_ask": 0.19,
+     "no_ask": 0.85,
+     "volume": 1648.43
     },
     {
      "ticker": "KXHIGHTOKC-26NOV28-T59",
      "label": "58\u00b0 or below",
      "lo": null,
      "hi": 58,
-     "model_p": 0.008,
-     "yes_bid": 0.01,
-     "yes_ask": 0.03,
-     "no_ask": 0.99,
-     "volume": 47.0
+     "model_p": 0.013,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 198.09
     },
     {
      "ticker": "KXHIGHTOKC-26NOV28-B65.5",
      "label": "65\u00b0 to 66\u00b0",
      "lo": 65,
      "hi": 66,
-     "model_p": 0.224,
-     "yes_bid": 0.33,
-     "yes_ask": 0.38,
-     "no_ask": 0.67,
-     "volume": 136.47
+     "model_p": 0.236,
+     "yes_bid": 0.49,
+     "yes_ask": 0.51,
+     "no_ask": 0.51,
+     "volume": 526.83
     },
     {
      "ticker": "KXHIGHTOKC-26NOV28-B63.5",
      "label": "63\u00b0 to 64\u00b0",
      "lo": 63,
      "hi": 64,
-     "model_p": 0.381,
-     "yes_bid": 0.45,
-     "yes_ask": 0.47,
-     "no_ask": 0.55,
-     "volume": 255.0
+     "model_p": 0.343,
+     "yes_bid": 0.23,
+     "yes_ask": 0.29,
+     "no_ask": 0.77,
+     "volume": 470.23
     },
     {
      "ticker": "KXHIGHTOKC-26NOV28-B61.5",
      "label": "61\u00b0 to 62\u00b0",
      "lo": 61,
      "hi": 62,
-     "model_p": 0.26,
-     "yes_bid": 0.11,
-     "yes_ask": 0.13,
-     "no_ask": 0.89,
-     "volume": 291.33
+     "model_p": 0.238,
+     "yes_bid": 0.05,
+     "yes_ask": 0.08,
+     "no_ask": 0.95,
+     "volume": 564.43
     },
     {
      "ticker": "KXHIGHTOKC-26NOV28-B59.5",
      "label": "59\u00b0 to 60\u00b0",
      "lo": 59,
      "hi": 60,
-     "model_p": 0.07,
-     "yes_bid": 0.03,
-     "yes_ask": 0.04,
-     "no_ask": 0.97,
-     "volume": 1.0
+     "model_p": 0.079,
+     "yes_bid": 0.01,
+     "yes_ask": 0.02,
+     "no_ask": 0.99,
+     "volume": 256.13
     }
    ]
   },
@@ -2519,39 +2349,29 @@
    "series": "KXHIGHTPHX",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 77,
-   "model_center": 76.5,
+   "lead_days": 0,
+   "nws": 76,
+   "model_center": 74.5,
    "model_means": {
-    "gfs_seamless": 77.4,
-    "ecmwf_ifs025": 76.7,
-    "icon_seamless": 75.5,
-    "gem_seamless": 76.4,
-    "ensemble_raw": 72.4
+    "gfs_seamless": 76.2,
+    "ecmwf_ifs025": 75.5,
+    "icon_seamless": 72.8,
+    "gem_seamless": 73.5,
+    "ensemble_raw": 72.7
    },
-   "center": 76.6,
-   "sd": 1.65,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.66,
-     "ecmwf_ifs025": 3.02,
-     "icon_seamless": 2.64,
-     "gem_seamless": 2.45
-    },
-    "rmse": 1.5,
-    "n": 55,
-    "resid_mean": 0.0
-   },
+   "center": 74.9,
+   "sd": 1.7,
+   "observed_high": 57.2,
+   "observed_low": 54.0,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "75\u00b0 to 76\u00b0",
-    "yes_ask": 0.69
+    "yes_ask": 0.71
    },
    "model_favorite": {
-    "bracket": "77\u00b0 to 78\u00b0",
-    "prob": 0.402
+    "bracket": "75\u00b0 to 76\u00b0",
+    "prob": 0.418
    },
    "brackets": [
     {
@@ -2559,7 +2379,7 @@
      "label": "81\u00b0 or above",
      "lo": 81,
      "hi": null,
-     "model_p": 0.009,
+     "model_p": 0.0,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
@@ -2570,55 +2390,55 @@
      "label": "72\u00b0 or below",
      "lo": null,
      "hi": 72,
-     "model_p": 0.006,
+     "model_p": 0.081,
      "yes_bid": 0.01,
      "yes_ask": 0.02,
      "no_ask": 0.99,
-     "volume": 15.0
+     "volume": 206.0
     },
     {
      "ticker": "KXHIGHTPHX-26NOV28-B79.5",
      "label": "79\u00b0 to 80\u00b0",
      "lo": 79,
      "hi": 80,
-     "model_p": 0.118,
+     "model_p": 0.016,
      "yes_bid": 0.01,
      "yes_ask": 0.02,
      "no_ask": 0.99,
-     "volume": 183.0
+     "volume": 606.58
     },
     {
      "ticker": "KXHIGHTPHX-26NOV28-B77.5",
      "label": "77\u00b0 to 78\u00b0",
      "lo": 77,
      "hi": 78,
-     "model_p": 0.402,
-     "yes_bid": 0.19,
-     "yes_ask": 0.21,
-     "no_ask": 0.81,
-     "volume": 145.47
+     "model_p": 0.153,
+     "yes_bid": 0.11,
+     "yes_ask": 0.14,
+     "no_ask": 0.89,
+     "volume": 499.91
     },
     {
      "ticker": "KXHIGHTPHX-26NOV28-B75.5",
      "label": "75\u00b0 to 76\u00b0",
      "lo": 75,
      "hi": 76,
-     "model_p": 0.372,
-     "yes_bid": 0.68,
-     "yes_ask": 0.69,
-     "no_ask": 0.32,
-     "volume": 174.73
+     "model_p": 0.418,
+     "yes_bid": 0.7,
+     "yes_ask": 0.71,
+     "no_ask": 0.3,
+     "volume": 586.87
     },
     {
      "ticker": "KXHIGHTPHX-26NOV28-B73.5",
      "label": "73\u00b0 to 74\u00b0",
      "lo": 73,
      "hi": 74,
-     "model_p": 0.093,
-     "yes_bid": 0.11,
-     "yes_ask": 0.13,
-     "no_ask": 0.89,
-     "volume": 352.16
+     "model_p": 0.332,
+     "yes_bid": 0.16,
+     "yes_ask": 0.19,
+     "no_ask": 0.84,
+     "volume": 814.65
     }
    ]
   },
@@ -2628,39 +2448,29 @@
    "series": "KXHIGHTSAN",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 78,
-   "model_center": 74.4,
+   "lead_days": 0,
+   "nws": 74,
+   "model_center": 74.3,
    "model_means": {
-    "gfs_seamless": 74.1,
-    "ecmwf_ifs025": 73.9,
-    "icon_seamless": 73.9,
-    "gem_seamless": 75.9,
+    "gfs_seamless": 77.3,
+    "ecmwf_ifs025": 77.5,
+    "icon_seamless": 69.2,
+    "gem_seamless": 73.3,
     "ensemble_raw": 75.6
    },
-   "center": 75.3,
-   "sd": 2.02,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "low",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 1.15,
-     "ecmwf_ifs025": -2.28,
-     "icon_seamless": -0.19,
-     "gem_seamless": 1.4
-    },
-    "rmse": 1.84,
-    "n": 54,
-    "resid_mean": 0.0
-   },
+   "center": 74.2,
+   "sd": 4.15,
+   "observed_high": 57.2,
+   "observed_low": 53.6,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "75\u00b0 or below",
-    "yes_ask": 0.81
+    "yes_ask": 0.76
    },
    "model_favorite": {
     "bracket": "75\u00b0 or below",
-    "prob": 0.533
+    "prob": 0.619
    },
    "brackets": [
     {
@@ -2668,7 +2478,7 @@
      "label": "84\u00b0 or above",
      "lo": 84,
      "hi": null,
-     "model_p": 0.0,
+     "model_p": 0.013,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
@@ -2679,18 +2489,18 @@
      "label": "75\u00b0 or below",
      "lo": null,
      "hi": 75,
-     "model_p": 0.533,
-     "yes_bid": 0.74,
-     "yes_ask": 0.81,
-     "no_ask": 0.26,
-     "volume": 47.63
+     "model_p": 0.619,
+     "yes_bid": 0.7,
+     "yes_ask": 0.76,
+     "no_ask": 0.3,
+     "volume": 340.08
     },
     {
      "ticker": "KXHIGHTSAN-26NOV28-B82.5",
      "label": "82\u00b0 to 83\u00b0",
      "lo": 82,
      "hi": 83,
-     "model_p": 0.001,
+     "model_p": 0.027,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
@@ -2701,33 +2511,33 @@
      "label": "80\u00b0 to 81\u00b0",
      "lo": 80,
      "hi": 81,
-     "model_p": 0.019,
+     "model_p": 0.062,
      "yes_bid": 0.01,
      "yes_ask": 0.02,
      "no_ask": 0.99,
-     "volume": 24.0
+     "volume": 128.38
     },
     {
      "ticker": "KXHIGHTSAN-26NOV28-B78.5",
      "label": "78\u00b0 to 79\u00b0",
      "lo": 78,
      "hi": 79,
-     "model_p": 0.122,
-     "yes_bid": 0.01,
-     "yes_ask": 0.04,
-     "no_ask": 0.99,
-     "volume": 74.31
+     "model_p": 0.114,
+     "yes_bid": 0.02,
+     "yes_ask": 0.03,
+     "no_ask": 0.98,
+     "volume": 163.31
     },
     {
      "ticker": "KXHIGHTSAN-26NOV28-B76.5",
      "label": "76\u00b0 to 77\u00b0",
      "lo": 76,
      "hi": 77,
-     "model_p": 0.325,
-     "yes_bid": 0.16,
-     "yes_ask": 0.26,
-     "no_ask": 0.84,
-     "volume": 58.85
+     "model_p": 0.165,
+     "yes_bid": 0.24,
+     "yes_ask": 0.32,
+     "no_ask": 0.76,
+     "volume": 412.85
     }
    ]
   },
@@ -2737,39 +2547,29 @@
    "series": "KXHIGHTSATX",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 73,
-   "model_center": 73.7,
+   "lead_days": 0,
+   "nws": 72,
+   "model_center": 71.6,
    "model_means": {
-    "gfs_seamless": 75.5,
-    "ecmwf_ifs025": 70.9,
-    "icon_seamless": 72.7,
-    "gem_seamless": 75.6,
-    "ensemble_raw": 71.3
+    "gfs_seamless": 72.2,
+    "ecmwf_ifs025": 69.1,
+    "icon_seamless": 71.4,
+    "gem_seamless": 73.6,
+    "ensemble_raw": 70.4
    },
-   "center": 73.5,
-   "sd": 2.36,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 1.65,
-     "ecmwf_ifs025": 1.6,
-     "icon_seamless": 1.21,
-     "gem_seamless": 1.41
-    },
-    "rmse": 1.61,
-    "n": 49,
-    "resid_mean": 0.0
-   },
+   "center": 71.7,
+   "sd": 2.25,
+   "observed_high": 50.0,
+   "observed_low": 41.0,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "72\u00b0 to 73\u00b0",
-    "yes_ask": 0.66
+    "yes_ask": 0.63
    },
    "model_favorite": {
-    "bracket": "74\u00b0 to 75\u00b0",
-    "prob": 0.302
+    "bracket": "72\u00b0 to 73\u00b0",
+    "prob": 0.323
    },
    "brackets": [
     {
@@ -2777,7 +2577,7 @@
      "label": "78\u00b0 or above",
      "lo": 78,
      "hi": null,
-     "model_p": 0.045,
+     "model_p": 0.005,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
@@ -2788,55 +2588,55 @@
      "label": "69\u00b0 or below",
      "lo": null,
      "hi": 69,
-     "model_p": 0.045,
-     "yes_bid": 0.01,
-     "yes_ask": 0.03,
-     "no_ask": 0.99,
-     "volume": 34.0
+     "model_p": 0.166,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 560.34
     },
     {
      "ticker": "KXHIGHTSATX-26NOV28-B76.5",
      "label": "76\u00b0 to 77\u00b0",
      "lo": 76,
      "hi": 77,
-     "model_p": 0.153,
-     "yes_bid": 0.02,
+     "model_p": 0.04,
+     "yes_bid": 0.01,
      "yes_ask": 0.03,
-     "no_ask": 0.98,
-     "volume": 113.56
+     "no_ask": 0.99,
+     "volume": 807.24
     },
     {
      "ticker": "KXHIGHTSATX-26NOV28-B74.5",
      "label": "74\u00b0 to 75\u00b0",
      "lo": 74,
      "hi": 75,
-     "model_p": 0.302,
-     "yes_bid": 0.25,
-     "yes_ask": 0.31,
-     "no_ask": 0.75,
-     "volume": 330.29
+     "model_p": 0.165,
+     "yes_bid": 0.33,
+     "yes_ask": 0.34,
+     "no_ask": 0.67,
+     "volume": 960.31
     },
     {
      "ticker": "KXHIGHTSATX-26NOV28-B72.5",
      "label": "72\u00b0 to 73\u00b0",
      "lo": 72,
      "hi": 73,
-     "model_p": 0.302,
-     "yes_bid": 0.57,
-     "yes_ask": 0.66,
-     "no_ask": 0.43,
-     "volume": 499.2
+     "model_p": 0.323,
+     "yes_bid": 0.62,
+     "yes_ask": 0.63,
+     "no_ask": 0.38,
+     "volume": 1120.19
     },
     {
      "ticker": "KXHIGHTSATX-26NOV28-B70.5",
      "label": "70\u00b0 to 71\u00b0",
      "lo": 70,
      "hi": 71,
-     "model_p": 0.153,
-     "yes_bid": 0.07,
-     "yes_ask": 0.1,
-     "no_ask": 0.93,
-     "volume": 7.0
+     "model_p": 0.302,
+     "yes_bid": 0.05,
+     "yes_ask": 0.06,
+     "no_ask": 0.95,
+     "volume": 201.01
     }
    ]
   },
@@ -2846,39 +2646,29 @@
    "series": "KXHIGHTSEA",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
+   "lead_days": 0,
    "nws": 49,
-   "model_center": 50.2,
+   "model_center": 48.4,
    "model_means": {
-    "gfs_seamless": 49.8,
-    "ecmwf_ifs025": 50.0,
-    "icon_seamless": 51.3,
-    "gem_seamless": 49.8,
-    "ensemble_raw": 48.1
+    "gfs_seamless": 49.3,
+    "ecmwf_ifs025": 47.2,
+    "icon_seamless": 48.6,
+    "gem_seamless": 48.6,
+    "ensemble_raw": 47.9
    },
-   "center": 49.9,
-   "sd": 2.08,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 1.44,
-     "ecmwf_ifs025": 1.98,
-     "icon_seamless": 2.28,
-     "gem_seamless": 0.96
-    },
-    "rmse": 1.89,
-    "n": 52,
-    "resid_mean": 0.0
-   },
+   "center": 48.6,
+   "sd": 1.4,
+   "observed_high": 46.4,
+   "observed_low": 46.0,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "50\u00b0 to 51\u00b0",
-    "yes_ask": 0.49
+    "yes_ask": 0.66
    },
    "model_favorite": {
-    "bracket": "50\u00b0 to 51\u00b0",
-    "prob": 0.356
+    "bracket": "48\u00b0 to 49\u00b0",
+    "prob": 0.525
    },
    "brackets": [
     {
@@ -2886,66 +2676,66 @@
      "label": "54\u00b0 or above",
      "lo": 54,
      "hi": null,
-     "model_p": 0.042,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 4.0
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 36.0
     },
     {
      "ticker": "KXHIGHTSEA-26NOV28-T46",
      "label": "45\u00b0 or below",
      "lo": null,
      "hi": 45,
-     "model_p": 0.017,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 23.0
+     "model_p": 0.012,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 70.0
     },
     {
      "ticker": "KXHIGHTSEA-26NOV28-B52.5",
      "label": "52\u00b0 to 53\u00b0",
      "lo": 52,
      "hi": 53,
-     "model_p": 0.18,
-     "yes_bid": 0.07,
-     "yes_ask": 0.11,
-     "no_ask": 0.93,
-     "volume": 34.24
+     "model_p": 0.018,
+     "yes_bid": 0.1,
+     "yes_ask": 0.15,
+     "no_ask": 0.9,
+     "volume": 586.65
     },
     {
      "ticker": "KXHIGHTSEA-26NOV28-B50.5",
      "label": "50\u00b0 to 51\u00b0",
      "lo": 50,
      "hi": 51,
-     "model_p": 0.356,
-     "yes_bid": 0.46,
-     "yes_ask": 0.49,
-     "no_ask": 0.54,
-     "volume": 160.62
+     "model_p": 0.235,
+     "yes_bid": 0.62,
+     "yes_ask": 0.66,
+     "no_ask": 0.38,
+     "volume": 364.03
     },
     {
      "ticker": "KXHIGHTSEA-26NOV28-B48.5",
      "label": "48\u00b0 to 49\u00b0",
      "lo": 48,
      "hi": 49,
-     "model_p": 0.299,
-     "yes_bid": 0.39,
-     "yes_ask": 0.4,
-     "no_ask": 0.61,
-     "volume": 199.0
+     "model_p": 0.525,
+     "yes_bid": 0.21,
+     "yes_ask": 0.24,
+     "no_ask": 0.79,
+     "volume": 792.4
     },
     {
      "ticker": "KXHIGHTSEA-26NOV28-B46.5",
      "label": "46\u00b0 to 47\u00b0",
      "lo": 46,
      "hi": 47,
-     "model_p": 0.106,
-     "yes_bid": 0.02,
-     "yes_ask": 0.03,
-     "no_ask": 0.98,
-     "volume": 14.0
+     "model_p": 0.209,
+     "yes_bid": 0.01,
+     "yes_ask": 0.02,
+     "no_ask": 0.99,
+     "volume": 185.41
     }
    ]
   },
@@ -2955,39 +2745,29 @@
    "series": "KXHIGHTSFO",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 67,
-   "model_center": 64.3,
+   "lead_days": 0,
+   "nws": 66,
+   "model_center": 63.0,
    "model_means": {
-    "gfs_seamless": 64.4,
-    "ecmwf_ifs025": 63.3,
-    "icon_seamless": 61.8,
-    "gem_seamless": 67.6,
-    "ensemble_raw": 65.8
+    "gfs_seamless": 63.2,
+    "ecmwf_ifs025": 61.5,
+    "icon_seamless": 62.5,
+    "gem_seamless": 65.0,
+    "ensemble_raw": 65.5
    },
-   "center": 64.9,
-   "sd": 2.93,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.28,
-     "ecmwf_ifs025": 0.19,
-     "icon_seamless": 0.75,
-     "gem_seamless": 2.81
-    },
-    "rmse": 2.03,
-    "n": 52,
-    "resid_mean": 0.0
-   },
+   "center": 63.8,
+   "sd": 1.75,
+   "observed_high": 57.2,
+   "observed_low": 55.4,
+   "confidence": "low",
+   "calibration": null,
    "market_favorite": {
-    "bracket": "63\u00b0 or below",
-    "yes_ask": 0.57
+    "bracket": "64\u00b0 to 65\u00b0",
+    "yes_ask": 0.43
    },
    "model_favorite": {
     "bracket": "63\u00b0 or below",
-    "prob": 0.311
+    "prob": 0.435
    },
    "brackets": [
     {
@@ -2995,7 +2775,7 @@
      "label": "72\u00b0 or above",
      "lo": 72,
      "hi": null,
-     "model_p": 0.013,
+     "model_p": 0.0,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
@@ -3006,18 +2786,18 @@
      "label": "63\u00b0 or below",
      "lo": null,
      "hi": 63,
-     "model_p": 0.311,
-     "yes_bid": 0.54,
-     "yes_ask": 0.57,
-     "no_ask": 0.46,
-     "volume": 673.82
+     "model_p": 0.435,
+     "yes_bid": 0.27,
+     "yes_ask": 0.3,
+     "no_ask": 0.73,
+     "volume": 2797.19
     },
     {
      "ticker": "KXHIGHTSFO-26NOV28-B70.5",
      "label": "70\u00b0 to 71\u00b0",
      "lo": 70,
      "hi": 71,
-     "model_p": 0.047,
+     "model_p": 0.001,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
@@ -3028,33 +2808,33 @@
      "label": "68\u00b0 to 69\u00b0",
      "lo": 68,
      "hi": 69,
-     "model_p": 0.131,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 37.0
+     "model_p": 0.016,
+     "yes_bid": 0.05,
+     "yes_ask": 0.07,
+     "no_ask": 0.95,
+     "volume": 617.94
     },
     {
      "ticker": "KXHIGHTSFO-26NOV28-B66.5",
      "label": "66\u00b0 to 67\u00b0",
      "lo": 66,
      "hi": 67,
-     "model_p": 0.233,
-     "yes_bid": 0.07,
-     "yes_ask": 0.1,
-     "no_ask": 0.93,
-     "volume": 169.81
+     "model_p": 0.147,
+     "yes_bid": 0.25,
+     "yes_ask": 0.26,
+     "no_ask": 0.75,
+     "volume": 1329.82
     },
     {
      "ticker": "KXHIGHTSFO-26NOV28-B64.5",
      "label": "64\u00b0 to 65\u00b0",
      "lo": 64,
      "hi": 65,
-     "model_p": 0.264,
-     "yes_bid": 0.32,
-     "yes_ask": 0.35,
-     "no_ask": 0.68,
-     "volume": 38.51
+     "model_p": 0.401,
+     "yes_bid": 0.42,
+     "yes_ask": 0.43,
+     "no_ask": 0.58,
+     "volume": 439.15
     }
    ]
   },
@@ -3064,39 +2844,29 @@
    "series": "KXHIGHTTTN",
    "date": "2026-11-28",
    "kind": "high",
-   "lead_days": 1,
-   "nws": 50,
-   "model_center": 51.0,
+   "lead_days": 0,
+   "nws": 52,
+   "model_center": 49.6,
    "model_means": {
-    "gfs_seamless": 50.7,
-    "ecmwf_ifs025": 53.2,
-    "icon_seamless": 51.7,
-    "gem_seamless": 48.4,
-    "ensemble_raw": 49.3
+    "gfs_seamless": 49.0,
+    "ecmwf_ifs025": 50.5,
+    "icon_seamless": 49.8,
+    "gem_seamless": 49.2,
+    "ensemble_raw": 49.5
    },
-   "center": 50.7,
-   "sd": 2.41,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 2.79,
-     "ecmwf_ifs025": 2.43,
-     "icon_seamless": 1.36,
-     "gem_seamless": 0.71
-    },
-    "rmse": 1.44,
-    "n": 55,
-    "resid_mean": 0.0
-   },
+   "center": 50.2,
+   "sd": 1.4,
+   "observed_high": 44.6,
+   "observed_low": 41.0,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "51\u00b0 to 52\u00b0",
-    "yes_ask": 0.56
+    "yes_ask": 0.6
    },
    "model_favorite": {
     "bracket": "50\u00b0 or below",
-    "prob": 0.459
+    "prob": 0.58
    },
    "brackets": [
     {
@@ -3104,175 +2874,66 @@
      "label": "59\u00b0 or above",
      "lo": 59,
      "hi": null,
-     "model_p": 0.001,
+     "model_p": 0.0,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 0.0
+     "volume": 5.68
     },
     {
      "ticker": "KXHIGHTTTN-26NOV28-T51",
      "label": "50\u00b0 or below",
      "lo": null,
      "hi": 50,
-     "model_p": 0.459,
-     "yes_bid": 0.07,
-     "yes_ask": 0.12,
-     "no_ask": 0.93,
-     "volume": 25.37
+     "model_p": 0.58,
+     "yes_bid": 0.05,
+     "yes_ask": 0.2,
+     "no_ask": 0.95,
+     "volume": 42.05
     },
     {
      "ticker": "KXHIGHTTTN-26NOV28-B57.5",
      "label": "57\u00b0 to 58\u00b0",
      "lo": 57,
      "hi": 58,
-     "model_p": 0.008,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 34.0
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 89.68
     },
     {
      "ticker": "KXHIGHTTTN-26NOV28-B55.5",
      "label": "55\u00b0 to 56\u00b0",
      "lo": 55,
      "hi": 56,
-     "model_p": 0.051,
+     "model_p": 0.001,
      "yes_bid": 0.01,
      "yes_ask": 0.02,
      "no_ask": 0.99,
-     "volume": 42.0
+     "volume": 68.0
     },
     {
      "ticker": "KXHIGHTTTN-26NOV28-B53.5",
      "label": "53\u00b0 to 54\u00b0",
      "lo": 53,
      "hi": 54,
-     "model_p": 0.174,
-     "yes_bid": 0.32,
-     "yes_ask": 0.38,
-     "no_ask": 0.68,
-     "volume": 78.0
+     "model_p": 0.05,
+     "yes_bid": 0.12,
+     "yes_ask": 0.42,
+     "no_ask": 0.88,
+     "volume": 123.68
     },
     {
      "ticker": "KXHIGHTTTN-26NOV28-B51.5",
      "label": "51\u00b0 to 52\u00b0",
      "lo": 51,
      "hi": 52,
-     "model_p": 0.307,
-     "yes_bid": 0.48,
-     "yes_ask": 0.56,
-     "no_ask": 0.52,
-     "volume": 0.0
-    }
-   ]
-  },
-  {
-   "city": "Atlanta",
-   "station": "KATL",
-   "series": "KXLOWTATL",
-   "date": "2026-11-28",
-   "kind": "low",
-   "lead_days": 1,
-   "nws": 35,
-   "model_center": 35.4,
-   "model_means": {
-    "gfs_seamless": 37.1,
-    "ecmwf_ifs025": 36.0,
-    "icon_seamless": 36.4,
-    "gem_seamless": 32.0,
-    "ensemble_raw": 34.1
-   },
-   "center": 35.3,
-   "sd": 2.52,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.88,
-     "ecmwf_ifs025": 1.11,
-     "icon_seamless": 0.64,
-     "gem_seamless": 1.34
-    },
-    "rmse": 1.53,
-    "n": 51,
-    "resid_mean": 0.0
-   },
-   "market_favorite": {
-    "bracket": "34\u00b0 to 35\u00b0",
-    "yes_ask": 0.51
-   },
-   "model_favorite": {
-    "bracket": "34\u00b0 to 35\u00b0",
-    "prob": 0.294
-   },
-   "brackets": [
-    {
-     "ticker": "KXLOWTATL-26NOV28-T37",
-     "label": "38\u00b0 or above",
-     "lo": 38,
-     "hi": null,
-     "model_p": 0.191,
-     "yes_bid": 0.02,
-     "yes_ask": 0.06,
-     "no_ask": 0.98,
-     "volume": 41.14
-    },
-    {
-     "ticker": "KXLOWTATL-26NOV28-T30",
-     "label": "29\u00b0 or below",
-     "lo": null,
-     "hi": 29,
-     "model_p": 0.011,
-     "yes_bid": 0.0,
-     "yes_ask": 0.01,
-     "no_ask": 1.0,
-     "volume": 20.0
-    },
-    {
-     "ticker": "KXLOWTATL-26NOV28-B36.5",
-     "label": "36\u00b0 to 37\u00b0",
-     "lo": 36,
-     "hi": 37,
-     "model_p": 0.277,
-     "yes_bid": 0.42,
-     "yes_ask": 0.44,
-     "no_ask": 0.58,
-     "volume": 101.0
-    },
-    {
-     "ticker": "KXLOWTATL-26NOV28-B34.5",
-     "label": "34\u00b0 to 35\u00b0",
-     "lo": 34,
-     "hi": 35,
-     "model_p": 0.294,
-     "yes_bid": 0.47,
-     "yes_ask": 0.51,
-     "no_ask": 0.53,
-     "volume": 149.0
-    },
-    {
-     "ticker": "KXLOWTATL-26NOV28-B32.5",
-     "label": "32\u00b0 to 33\u00b0",
-     "lo": 32,
-     "hi": 33,
-     "model_p": 0.172,
-     "yes_bid": 0.04,
-     "yes_ask": 0.06,
-     "no_ask": 0.96,
-     "volume": 0.0
-    },
-    {
-     "ticker": "KXLOWTATL-26NOV28-B30.5",
-     "label": "30\u00b0 to 31\u00b0",
-     "lo": 30,
-     "hi": 31,
-     "model_p": 0.055,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 98.0
+     "model_p": 0.369,
+     "yes_bid": 0.52,
+     "yes_ask": 0.6,
+     "no_ask": 0.48,
+     "volume": 7.82
     }
    ]
   },
@@ -3282,39 +2943,29 @@
    "series": "KXLOWTAUS",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 42,
-   "model_center": 40.4,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 41.6,
    "model_means": {
-    "gfs_seamless": 39.4,
-    "ecmwf_ifs025": 40.0,
-    "icon_seamless": 40.0,
-    "gem_seamless": 42.2,
-    "ensemble_raw": 44.6
+    "gfs_seamless": 40.1,
+    "ecmwf_ifs025": 44.8,
+    "icon_seamless": 43.7,
+    "gem_seamless": 37.8,
+    "ensemble_raw": 43.8
    },
-   "center": 40.8,
-   "sd": 1.96,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": -2.9,
-     "ecmwf_ifs025": -4.75,
-     "icon_seamless": -3.7,
-     "gem_seamless": -0.75
-    },
-    "rmse": 1.78,
-    "n": 46,
-    "resid_mean": -0.0
-   },
+   "center": 41.6,
+   "sd": 3.5,
+   "observed_high": 48.2,
+   "observed_low": 39.0,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
-    "bracket": "35\u00b0 or below",
-    "yes_ask": 0.46
+    "bracket": "38\u00b0 to 39\u00b0",
+    "yes_ask": 0.75
    },
    "model_favorite": {
-    "bracket": "40\u00b0 to 41\u00b0",
-    "prob": 0.386
+    "bracket": "38\u00b0 to 39\u00b0",
+    "prob": 0.408
    },
    "brackets": [
     {
@@ -3322,175 +2973,66 @@
      "label": "44\u00b0 or above",
      "lo": 44,
      "hi": null,
-     "model_p": 0.084,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 12.0
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 460.02
     },
     {
      "ticker": "KXLOWTAUS-26NOV28-T36",
      "label": "35\u00b0 or below",
      "lo": null,
      "hi": 35,
-     "model_p": 0.003,
-     "yes_bid": 0.21,
-     "yes_ask": 0.46,
-     "no_ask": 0.79,
-     "volume": 332.0
+     "model_p": 0.108,
+     "yes_bid": 0.03,
+     "yes_ask": 0.27,
+     "no_ask": 0.97,
+     "volume": 410.75
     },
     {
      "ticker": "KXLOWTAUS-26NOV28-B42.5",
      "label": "42\u00b0 to 43\u00b0",
      "lo": 42,
      "hi": 43,
-     "model_p": 0.276,
-     "yes_bid": 0.03,
-     "yes_ask": 0.05,
-     "no_ask": 0.97,
-     "volume": 43.87
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 338.67
     },
     {
      "ticker": "KXLOWTAUS-26NOV28-B40.5",
      "label": "40\u00b0 to 41\u00b0",
      "lo": 40,
      "hi": 41,
-     "model_p": 0.386,
-     "yes_bid": 0.07,
-     "yes_ask": 0.13,
-     "no_ask": 0.93,
-     "volume": 97.53
+     "model_p": 0.272,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 540.38
     },
     {
      "ticker": "KXLOWTAUS-26NOV28-B38.5",
      "label": "38\u00b0 to 39\u00b0",
      "lo": 38,
      "hi": 39,
-     "model_p": 0.207,
-     "yes_bid": 0.17,
-     "yes_ask": 0.27,
-     "no_ask": 0.83,
-     "volume": 50.0
+     "model_p": 0.408,
+     "yes_bid": 0.26,
+     "yes_ask": 0.75,
+     "no_ask": 0.74,
+     "volume": 139.98
     },
     {
      "ticker": "KXLOWTAUS-26NOV28-B36.5",
      "label": "36\u00b0 to 37\u00b0",
      "lo": 36,
      "hi": 37,
-     "model_p": 0.043,
-     "yes_bid": 0.17,
-     "yes_ask": 0.26,
-     "no_ask": 0.83,
-     "volume": 11.0
-    }
-   ]
-  },
-  {
-   "city": "Boston (Logan)",
-   "station": "KBOS",
-   "series": "KXLOWTBOS",
-   "date": "2026-11-28",
-   "kind": "low",
-   "lead_days": 1,
-   "nws": 44,
-   "model_center": 41.3,
-   "model_means": {
-    "gfs_seamless": 42.2,
-    "ecmwf_ifs025": 41.0,
-    "icon_seamless": 41.0,
-    "gem_seamless": 41.2,
-    "ensemble_raw": 40.9
-   },
-   "center": 42.0,
-   "sd": 1.95,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 3.07,
-     "ecmwf_ifs025": 0.61,
-     "icon_seamless": 1.47,
-     "gem_seamless": 1.42
-    },
-    "rmse": 1.77,
-    "n": 44,
-    "resid_mean": -0.0
-   },
-   "market_favorite": {
-    "bracket": "43\u00b0 to 44\u00b0",
-    "yes_ask": 0.68
-   },
-   "model_favorite": {
-    "bracket": "41\u00b0 to 42\u00b0",
-    "prob": 0.38
-   },
-   "brackets": [
-    {
-     "ticker": "KXLOWTBOS-26NOV28-T48",
-     "label": "49\u00b0 or above",
-     "lo": 49,
-     "hi": null,
-     "model_p": 0.0,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 2.0
-    },
-    {
-     "ticker": "KXLOWTBOS-26NOV28-T41",
-     "label": "40\u00b0 or below",
-     "lo": null,
-     "hi": 40,
-     "model_p": 0.219,
-     "yes_bid": 0.04,
-     "yes_ask": 0.1,
-     "no_ask": 0.96,
-     "volume": 284.74
-    },
-    {
-     "ticker": "KXLOWTBOS-26NOV28-B47.5",
-     "label": "47\u00b0 to 48\u00b0",
-     "lo": 47,
-     "hi": 48,
-     "model_p": 0.01,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 15.0
-    },
-    {
-     "ticker": "KXLOWTBOS-26NOV28-B45.5",
-     "label": "45\u00b0 to 46\u00b0",
-     "lo": 45,
-     "hi": 46,
-     "model_p": 0.09,
-     "yes_bid": 0.03,
-     "yes_ask": 0.06,
-     "no_ask": 0.97,
-     "volume": 47.0
-    },
-    {
-     "ticker": "KXLOWTBOS-26NOV28-B43.5",
-     "label": "43\u00b0 to 44\u00b0",
-     "lo": 43,
-     "hi": 44,
-     "model_p": 0.3,
-     "yes_bid": 0.57,
-     "yes_ask": 0.68,
-     "no_ask": 0.43,
-     "volume": 263.0
-    },
-    {
-     "ticker": "KXLOWTBOS-26NOV28-B41.5",
-     "label": "41\u00b0 to 42\u00b0",
-     "lo": 41,
-     "hi": 42,
-     "model_p": 0.38,
-     "yes_bid": 0.21,
-     "yes_ask": 0.3,
-     "no_ask": 0.79,
-     "volume": 177.23
+     "model_p": 0.212,
+     "yes_bid": 0.12,
+     "yes_ask": 0.29,
+     "no_ask": 0.88,
+     "volume": 46.1
     }
    ]
   },
@@ -3500,39 +3042,29 @@
    "series": "KXLOWTCHI",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 34,
-   "model_center": 34.8,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 34.6,
    "model_means": {
-    "gfs_seamless": 35.7,
-    "ecmwf_ifs025": 33.7,
-    "icon_seamless": 35.6,
-    "gem_seamless": 34.3,
-    "ensemble_raw": 34.7
+    "gfs_seamless": 35.0,
+    "ecmwf_ifs025": 35.7,
+    "icon_seamless": 35.4,
+    "gem_seamless": 32.2,
+    "ensemble_raw": 35.8
    },
    "center": 34.6,
-   "sd": 1.83,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 2.3,
-     "ecmwf_ifs025": 0.23,
-     "icon_seamless": 0.45,
-     "gem_seamless": 1.54
-    },
-    "rmse": 1.66,
-    "n": 48,
-    "resid_mean": -0.0
-   },
+   "sd": 1.75,
+   "observed_high": 37.9,
+   "observed_low": 35.6,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "35\u00b0 or above",
-    "yes_ask": 0.68
+    "yes_ask": 1.0
    },
    "model_favorite": {
     "bracket": "35\u00b0 or above",
-    "prob": 0.527
+    "prob": 0.493
    },
    "brackets": [
     {
@@ -3540,11 +3072,11 @@
      "label": "35\u00b0 or above",
      "lo": 35,
      "hi": null,
-     "model_p": 0.527,
-     "yes_bid": 0.63,
-     "yes_ask": 0.68,
-     "no_ask": 0.37,
-     "volume": 263.0
+     "model_p": 0.493,
+     "yes_bid": 0.99,
+     "yes_ask": 1.0,
+     "no_ask": 0.01,
+     "volume": 950.39
     },
     {
      "ticker": "KXLOWTCHI-26NOV28-T27",
@@ -3555,40 +3087,40 @@
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 35.0
+     "volume": 39.73
     },
     {
      "ticker": "KXLOWTCHI-26NOV28-B33.5",
      "label": "33\u00b0 to 34\u00b0",
      "lo": 33,
      "hi": 34,
-     "model_p": 0.351,
-     "yes_bid": 0.22,
-     "yes_ask": 0.34,
-     "no_ask": 0.78,
-     "volume": 20.0
+     "model_p": 0.383,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 533.72
     },
     {
      "ticker": "KXLOWTCHI-26NOV28-B31.5",
      "label": "31\u00b0 to 32\u00b0",
      "lo": 31,
      "hi": 32,
-     "model_p": 0.111,
-     "yes_bid": 0.02,
-     "yes_ask": 0.04,
-     "no_ask": 0.98,
-     "volume": 31.75
+     "model_p": 0.113,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 216.48
     },
     {
      "ticker": "KXLOWTCHI-26NOV28-B29.5",
      "label": "29\u00b0 to 30\u00b0",
      "lo": 29,
      "hi": 30,
-     "model_p": 0.012,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 23.0
+     "model_p": 0.01,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 212.73
     },
     {
      "ticker": "KXLOWTCHI-26NOV28-B27.5",
@@ -3599,7 +3131,7 @@
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 22.0
+     "volume": 26.73
     }
    ]
   },
@@ -3609,39 +3141,29 @@
    "series": "KXLOWTDAL",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 47,
-   "model_center": 46.2,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 46.3,
    "model_means": {
-    "gfs_seamless": 45.6,
-    "ecmwf_ifs025": 43.9,
-    "icon_seamless": 44.6,
-    "gem_seamless": 50.6,
-    "ensemble_raw": 47.6
+    "gfs_seamless": 45.4,
+    "ecmwf_ifs025": 47.8,
+    "icon_seamless": 46.3,
+    "gem_seamless": 45.6,
+    "ensemble_raw": 47.2
    },
-   "center": 46.4,
-   "sd": 3.33,
-   "observed_high": null,
-   "observed_low": null,
+   "center": 46.3,
+   "sd": 1.4,
+   "observed_high": 51.8,
+   "observed_low": 46.0,
    "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.96,
-     "ecmwf_ifs025": -2.88,
-     "icon_seamless": -1.44,
-     "gem_seamless": 4.37
-    },
-    "rmse": 1.84,
-    "n": 44,
-    "resid_mean": 0.0
-   },
+   "calibration": null,
    "market_favorite": {
     "bracket": "45\u00b0 to 46\u00b0",
-    "yes_ask": 0.48
+    "yes_ask": 0.65
    },
    "model_favorite": {
-    "bracket": "49\u00b0 or above",
-    "prob": 0.26
+    "bracket": "45\u00b0 to 46\u00b0",
+    "prob": 0.57
    },
    "brackets": [
     {
@@ -3649,175 +3171,66 @@
      "label": "49\u00b0 or above",
      "lo": 49,
      "hi": null,
-     "model_p": 0.26,
-     "yes_bid": 0.02,
-     "yes_ask": 0.04,
-     "no_ask": 0.98,
-     "volume": 63.05
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 131.05
     },
     {
      "ticker": "KXLOWTDAL-26NOV28-T41",
      "label": "40\u00b0 or below",
      "lo": null,
      "hi": 40,
-     "model_p": 0.039,
+     "model_p": 0.0,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 20.0
+     "volume": 25.0
     },
     {
      "ticker": "KXLOWTDAL-26NOV28-B47.5",
      "label": "47\u00b0 to 48\u00b0",
      "lo": 47,
      "hi": 48,
-     "model_p": 0.223,
-     "yes_bid": 0.22,
-     "yes_ask": 0.34,
-     "no_ask": 0.78,
-     "volume": 130.0
+     "model_p": 0.303,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 357.42
     },
     {
      "ticker": "KXLOWTDAL-26NOV28-B45.5",
      "label": "45\u00b0 to 46\u00b0",
      "lo": 45,
      "hi": 46,
-     "model_p": 0.229,
+     "model_p": 0.57,
      "yes_bid": 0.43,
-     "yes_ask": 0.48,
+     "yes_ask": 0.65,
      "no_ask": 0.57,
-     "volume": 74.0
+     "volume": 891.92
     },
     {
      "ticker": "KXLOWTDAL-26NOV28-B43.5",
      "label": "43\u00b0 to 44\u00b0",
      "lo": 43,
      "hi": 44,
-     "model_p": 0.165,
-     "yes_bid": 0.12,
-     "yes_ask": 0.25,
-     "no_ask": 0.88,
-     "volume": 34.36
+     "model_p": 0.122,
+     "yes_bid": 0.28,
+     "yes_ask": 0.62,
+     "no_ask": 0.72,
+     "volume": 74.36
     },
     {
      "ticker": "KXLOWTDAL-26NOV28-B41.5",
      "label": "41\u00b0 to 42\u00b0",
      "lo": 41,
      "hi": 42,
-     "model_p": 0.084,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 48.56
-    }
-   ]
-  },
-  {
-   "city": "Washington (National)",
-   "station": "KDCA",
-   "series": "KXLOWTDC",
-   "date": "2026-11-28",
-   "kind": "low",
-   "lead_days": 1,
-   "nws": 42,
-   "model_center": 42.2,
-   "model_means": {
-    "gfs_seamless": 42.2,
-    "ecmwf_ifs025": 42.2,
-    "icon_seamless": 43.5,
-    "gem_seamless": 40.8,
-    "ensemble_raw": 40.9
-   },
-   "center": 42.1,
-   "sd": 1.3,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 2.7,
-     "ecmwf_ifs025": 0.87,
-     "icon_seamless": -0.55,
-     "gem_seamless": 0.34
-    },
-    "rmse": 1.18,
-    "n": 42,
-    "resid_mean": 0.0
-   },
-   "market_favorite": {
-    "bracket": "44\u00b0 or above",
-    "yes_ask": 0.57
-   },
-   "model_favorite": {
-    "bracket": "42\u00b0 to 43\u00b0",
-    "prob": 0.538
-   },
-   "brackets": [
-    {
-     "ticker": "KXLOWTDC-26NOV28-T43",
-     "label": "44\u00b0 or above",
-     "lo": 44,
-     "hi": null,
-     "model_p": 0.146,
-     "yes_bid": 0.44,
-     "yes_ask": 0.57,
-     "no_ask": 0.56,
-     "volume": 178.0
-    },
-    {
-     "ticker": "KXLOWTDC-26NOV28-T36",
-     "label": "35\u00b0 or below",
-     "lo": null,
-     "hi": 35,
-     "model_p": 0.0,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 156.0
-    },
-    {
-     "ticker": "KXLOWTDC-26NOV28-B42.5",
-     "label": "42\u00b0 to 43\u00b0",
-     "lo": 42,
-     "hi": 43,
-     "model_p": 0.538,
-     "yes_bid": 0.33,
-     "yes_ask": 0.36,
-     "no_ask": 0.67,
-     "volume": 123.0
-    },
-    {
-     "ticker": "KXLOWTDC-26NOV28-B40.5",
-     "label": "40\u00b0 to 41\u00b0",
-     "lo": 40,
-     "hi": 41,
-     "model_p": 0.294,
-     "yes_bid": 0.13,
-     "yes_ask": 0.17,
-     "no_ask": 0.87,
-     "volume": 396.64
-    },
-    {
-     "ticker": "KXLOWTDC-26NOV28-B38.5",
-     "label": "38\u00b0 to 39\u00b0",
-     "lo": 38,
-     "hi": 39,
-     "model_p": 0.022,
-     "yes_bid": 0.03,
-     "yes_ask": 0.04,
-     "no_ask": 0.97,
-     "volume": 108.89
-    },
-    {
-     "ticker": "KXLOWTDC-26NOV28-B36.5",
-     "label": "36\u00b0 to 37\u00b0",
-     "lo": 36,
-     "hi": 37,
-     "model_p": 0.0,
-     "yes_bid": 0.0,
-     "yes_ask": 0.02,
-     "no_ask": 1.0,
-     "volume": 76.0
+     "model_p": 0.004,
+     "yes_bid": 0.02,
+     "yes_ask": 0.06,
+     "no_ask": 0.98,
+     "volume": 143.57
     }
    ]
   },
@@ -3827,39 +3240,29 @@
    "series": "KXLOWTDEN",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 41,
-   "model_center": 27.2,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 28.8,
    "model_means": {
-    "gfs_seamless": 23.6,
-    "ecmwf_ifs025": 25.6,
-    "icon_seamless": 28.5,
-    "gem_seamless": 31.2,
-    "ensemble_raw": 28.4
+    "gfs_seamless": 29.4,
+    "ecmwf_ifs025": 29.0,
+    "icon_seamless": 29.6,
+    "gem_seamless": 27.0,
+    "ensemble_raw": 28.6
    },
-   "center": 30.7,
-   "sd": 3.8,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "low",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.87,
-     "ecmwf_ifs025": -3.25,
-     "icon_seamless": -0.44,
-     "gem_seamless": 2.97
-    },
-    "rmse": 2.36,
-    "n": 47,
-    "resid_mean": 0.0
-   },
+   "center": 28.8,
+   "sd": 1.4,
+   "observed_high": 51.8,
+   "observed_low": 39.0,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
-    "bracket": "23\u00b0 or below",
-    "yes_ask": 0.4
+    "bracket": "26\u00b0 to 27\u00b0",
+    "yes_ask": 0.45
    },
    "model_favorite": {
-    "bracket": "32\u00b0 or above",
-    "prob": 0.412
+    "bracket": "28\u00b0 to 29\u00b0",
+    "prob": 0.518
    },
    "brackets": [
     {
@@ -3867,175 +3270,66 @@
      "label": "32\u00b0 or above",
      "lo": 32,
      "hi": null,
-     "model_p": 0.412,
+     "model_p": 0.025,
      "yes_bid": 0.01,
-     "yes_ask": 0.04,
+     "yes_ask": 0.02,
      "no_ask": 0.99,
-     "volume": 18.0
+     "volume": 30.0
     },
     {
      "ticker": "KXLOWTDEN-26NOV28-T24",
      "label": "23\u00b0 or below",
      "lo": null,
      "hi": 23,
-     "model_p": 0.03,
-     "yes_bid": 0.35,
-     "yes_ask": 0.4,
-     "no_ask": 0.65,
-     "volume": 292.24
+     "model_p": 0.0,
+     "yes_bid": 0.3,
+     "yes_ask": 0.42,
+     "no_ask": 0.7,
+     "volume": 992.21
     },
     {
      "ticker": "KXLOWTDEN-26NOV28-B30.5",
      "label": "30\u00b0 to 31\u00b0",
      "lo": 30,
      "hi": 31,
-     "model_p": 0.207,
-     "yes_bid": 0.03,
+     "model_p": 0.271,
+     "yes_bid": 0.02,
      "yes_ask": 0.05,
-     "no_ask": 0.97,
-     "volume": 2.0
+     "no_ask": 0.98,
+     "volume": 21.75
     },
     {
      "ticker": "KXLOWTDEN-26NOV28-B28.5",
      "label": "28\u00b0 to 29\u00b0",
      "lo": 28,
      "hi": 29,
-     "model_p": 0.177,
+     "model_p": 0.518,
      "yes_bid": 0.06,
-     "yes_ask": 0.13,
+     "yes_ask": 0.2,
      "no_ask": 0.94,
-     "volume": 33.18
+     "volume": 142.36
     },
     {
      "ticker": "KXLOWTDEN-26NOV28-B26.5",
      "label": "26\u00b0 to 27\u00b0",
      "lo": 26,
      "hi": 27,
-     "model_p": 0.116,
-     "yes_bid": 0.17,
-     "yes_ask": 0.23,
-     "no_ask": 0.83,
-     "volume": 1.0
+     "model_p": 0.176,
+     "yes_bid": 0.04,
+     "yes_ask": 0.45,
+     "no_ask": 0.96,
+     "volume": 55.52
     },
     {
      "ticker": "KXLOWTDEN-26NOV28-B24.5",
      "label": "24\u00b0 to 25\u00b0",
      "lo": 24,
      "hi": 25,
-     "model_p": 0.057,
-     "yes_bid": 0.16,
-     "yes_ask": 0.28,
-     "no_ask": 0.84,
-     "volume": 0.0
-    }
-   ]
-  },
-  {
-   "city": "Newark",
-   "station": "KEWR",
-   "series": "KXLOWTEWR",
-   "date": "2026-11-28",
-   "kind": "low",
-   "lead_days": 1,
-   "nws": 42,
-   "model_center": 40.4,
-   "model_means": {
-    "gfs_seamless": 39.3,
-    "ecmwf_ifs025": 41.9,
-    "icon_seamless": 41.2,
-    "gem_seamless": 39.3,
-    "ensemble_raw": 41.7
-   },
-   "center": 40.8,
-   "sd": 1.47,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 2.78,
-     "ecmwf_ifs025": -0.45,
-     "icon_seamless": -0.35,
-     "gem_seamless": 0.7
-    },
-    "rmse": 1.34,
-    "n": 46,
-    "resid_mean": -0.0
-   },
-   "market_favorite": {
-    "bracket": "43\u00b0 to 44\u00b0",
-    "yes_ask": 0.47
-   },
-   "model_favorite": {
-    "bracket": "41\u00b0 to 42\u00b0",
-    "prob": 0.46
-   },
-   "brackets": [
-    {
-     "ticker": "KXLOWTEWR-26NOV28-T46",
-     "label": "47\u00b0 or above",
-     "lo": 47,
-     "hi": null,
-     "model_p": 0.0,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 25.0
-    },
-    {
-     "ticker": "KXLOWTEWR-26NOV28-T39",
-     "label": "38\u00b0 or below",
-     "lo": null,
-     "hi": 38,
-     "model_p": 0.057,
-     "yes_bid": 0.01,
-     "yes_ask": 0.03,
-     "no_ask": 0.99,
-     "volume": 1.0
-    },
-    {
-     "ticker": "KXLOWTEWR-26NOV28-B45.5",
-     "label": "45\u00b0 to 46\u00b0",
-     "lo": 45,
-     "hi": 46,
-     "model_p": 0.006,
-     "yes_bid": 0.16,
-     "yes_ask": 0.24,
-     "no_ask": 0.84,
-     "volume": 84.0
-    },
-    {
-     "ticker": "KXLOWTEWR-26NOV28-B43.5",
-     "label": "43\u00b0 to 44\u00b0",
-     "lo": 43,
-     "hi": 44,
-     "model_p": 0.123,
-     "yes_bid": 0.42,
-     "yes_ask": 0.47,
-     "no_ask": 0.58,
-     "volume": 76.0
-    },
-    {
-     "ticker": "KXLOWTEWR-26NOV28-B41.5",
-     "label": "41\u00b0 to 42\u00b0",
-     "lo": 41,
-     "hi": 42,
-     "model_p": 0.46,
-     "yes_bid": 0.2,
-     "yes_ask": 0.21,
-     "no_ask": 0.8,
-     "volume": 171.03
-    },
-    {
-     "ticker": "KXLOWTEWR-26NOV28-B39.5",
-     "label": "39\u00b0 to 40\u00b0",
-     "lo": 39,
-     "hi": 40,
-     "model_p": 0.354,
-     "yes_bid": 0.03,
-     "yes_ask": 0.08,
-     "no_ask": 0.97,
-     "volume": 31.12
+     "model_p": 0.01,
+     "yes_bid": 0.19,
+     "yes_ask": 0.42,
+     "no_ask": 0.81,
+     "volume": 36.63
     }
    ]
   },
@@ -4045,39 +3339,29 @@
    "series": "KXLOWTHOU",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 49,
-   "model_center": 47.1,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 46.3,
    "model_means": {
-    "gfs_seamless": 46.4,
-    "ecmwf_ifs025": 48.8,
-    "icon_seamless": 48.4,
-    "gem_seamless": 44.8,
-    "ensemble_raw": 48.3
+    "gfs_seamless": 45.4,
+    "ecmwf_ifs025": 50.0,
+    "icon_seamless": 48.6,
+    "gem_seamless": 41.2,
+    "ensemble_raw": 48.5
    },
-   "center": 47.5,
-   "sd": 2.0,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.75,
-     "ecmwf_ifs025": -1.14,
-     "icon_seamless": -0.61,
-     "gem_seamless": 2.65
-    },
-    "rmse": 1.67,
-    "n": 54,
-    "resid_mean": -0.0
-   },
+   "center": 46.3,
+   "sd": 4.4,
+   "observed_high": 50.0,
+   "observed_low": 44.6,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
-    "bracket": "49\u00b0 or above",
-    "yes_ask": 0.52
+    "bracket": "45\u00b0 to 46\u00b0",
+    "yes_ask": 0.93
    },
    "model_favorite": {
-    "bracket": "47\u00b0 to 48\u00b0",
-    "prob": 0.382
+    "bracket": "45\u00b0 to 46\u00b0",
+    "prob": 0.341
    },
    "brackets": [
     {
@@ -4085,21 +3369,21 @@
      "label": "49\u00b0 or above",
      "lo": 49,
      "hi": null,
-     "model_p": 0.317,
-     "yes_bid": 0.23,
-     "yes_ask": 0.52,
-     "no_ask": 0.77,
-     "volume": 50.0
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 167.3
     },
     {
      "ticker": "KXLOWTHOU-26NOV28-T41",
      "label": "40\u00b0 or below",
      "lo": null,
      "hi": 40,
-     "model_p": 0.0,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
+     "model_p": 0.181,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
      "volume": 20.0
     },
     {
@@ -4107,44 +3391,44 @@
      "label": "47\u00b0 to 48\u00b0",
      "lo": 47,
      "hi": 48,
-     "model_p": 0.382,
-     "yes_bid": 0.33,
-     "yes_ask": 0.42,
-     "no_ask": 0.67,
-     "volume": 16.0
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 169.85
     },
     {
      "ticker": "KXLOWTHOU-26NOV28-B45.5",
      "label": "45\u00b0 to 46\u00b0",
      "lo": 45,
      "hi": 46,
-     "model_p": 0.236,
-     "yes_bid": 0.14,
-     "yes_ask": 0.42,
-     "no_ask": 0.86,
-     "volume": 33.0
+     "model_p": 0.341,
+     "yes_bid": 0.54,
+     "yes_ask": 0.93,
+     "no_ask": 0.46,
+     "volume": 67.07
     },
     {
      "ticker": "KXLOWTHOU-26NOV28-B43.5",
      "label": "43\u00b0 to 44\u00b0",
      "lo": 43,
      "hi": 44,
-     "model_p": 0.058,
-     "yes_bid": 0.02,
-     "yes_ask": 0.04,
-     "no_ask": 0.98,
-     "volume": 31.86
+     "model_p": 0.284,
+     "yes_bid": 0.07,
+     "yes_ask": 0.41,
+     "no_ask": 0.93,
+     "volume": 92.65
     },
     {
      "ticker": "KXLOWTHOU-26NOV28-B41.5",
      "label": "41\u00b0 to 42\u00b0",
      "lo": 41,
      "hi": 42,
-     "model_p": 0.006,
-     "yes_bid": 0.01,
+     "model_p": 0.193,
+     "yes_bid": 0.0,
      "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 54.0
+     "no_ask": 1.0,
+     "volume": 209.0
     }
    ]
   },
@@ -4154,39 +3438,29 @@
    "series": "KXLOWTLAX",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
+   "lead_days": 0,
    "nws": 59,
-   "model_center": 58.8,
+   "model_center": 53.3,
    "model_means": {
-    "gfs_seamless": 59.2,
-    "ecmwf_ifs025": 61.4,
-    "icon_seamless": 56.8,
-    "gem_seamless": 57.9,
-    "ensemble_raw": 60.5
+    "gfs_seamless": 54.6,
+    "ecmwf_ifs025": 59.2,
+    "icon_seamless": 52.9,
+    "gem_seamless": 46.4,
+    "ensemble_raw": 60.0
    },
-   "center": 58.9,
-   "sd": 2.32,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 3.71,
-     "ecmwf_ifs025": 1.31,
-     "icon_seamless": 3.56,
-     "gem_seamless": 11.84
-    },
-    "rmse": 1.97,
-    "n": 48,
-    "resid_mean": 0.0
-   },
+   "center": 54.7,
+   "sd": 6.4,
+   "observed_high": 61.0,
+   "observed_low": 59.0,
+   "confidence": "low",
+   "calibration": null,
    "market_favorite": {
-    "bracket": "60\u00b0 or above",
-    "yes_ask": 0.56
+    "bracket": "56\u00b0 to 57\u00b0",
+    "yes_ask": 0.59
    },
    "model_favorite": {
-    "bracket": "60\u00b0 or above",
-    "prob": 0.394
+    "bracket": "51\u00b0 or below",
+    "prob": 0.377
    },
    "brackets": [
     {
@@ -4194,66 +3468,66 @@
      "label": "60\u00b0 or above",
      "lo": 60,
      "hi": null,
-     "model_p": 0.394,
-     "yes_bid": 0.32,
-     "yes_ask": 0.56,
-     "no_ask": 0.68,
-     "volume": 121.0
+     "model_p": 0.054,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 326.84
     },
     {
      "ticker": "KXLOWTLAX-26NOV28-T52",
      "label": "51\u00b0 or below",
      "lo": null,
      "hi": 51,
-     "model_p": 0.001,
+     "model_p": 0.377,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 20.0
+     "volume": 64.0
     },
     {
      "ticker": "KXLOWTLAX-26NOV28-B58.5",
      "label": "58\u00b0 to 59\u00b0",
      "lo": 58,
      "hi": 59,
-     "model_p": 0.329,
-     "yes_bid": 0.38,
-     "yes_ask": 0.4,
-     "no_ask": 0.62,
-     "volume": 3.0
+     "model_p": 0.128,
+     "yes_bid": 0.29,
+     "yes_ask": 0.56,
+     "no_ask": 0.71,
+     "volume": 216.28
     },
     {
      "ticker": "KXLOWTLAX-26NOV28-B56.5",
      "label": "56\u00b0 to 57\u00b0",
      "lo": 56,
      "hi": 57,
-     "model_p": 0.204,
-     "yes_bid": 0.07,
-     "yes_ask": 0.14,
-     "no_ask": 0.93,
-     "volume": 13.0
+     "model_p": 0.146,
+     "yes_bid": 0.32,
+     "yes_ask": 0.59,
+     "no_ask": 0.68,
+     "volume": 212.38
     },
     {
      "ticker": "KXLOWTLAX-26NOV28-B54.5",
      "label": "54\u00b0 to 55\u00b0",
      "lo": 54,
      "hi": 55,
-     "model_p": 0.063,
-     "yes_bid": 0.02,
+     "model_p": 0.152,
+     "yes_bid": 0.01,
      "yes_ask": 0.04,
-     "no_ask": 0.98,
-     "volume": 31.56
+     "no_ask": 0.99,
+     "volume": 79.56
     },
     {
      "ticker": "KXLOWTLAX-26NOV28-B52.5",
      "label": "52\u00b0 to 53\u00b0",
      "lo": 52,
      "hi": 53,
-     "model_p": 0.01,
+     "model_p": 0.143,
      "yes_bid": 0.01,
      "yes_ask": 0.02,
      "no_ask": 0.99,
-     "volume": 82.0
+     "volume": 130.0
     }
    ]
   },
@@ -4263,39 +3537,29 @@
    "series": "KXLOWTLV",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 53,
-   "model_center": 51.4,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 47.5,
    "model_means": {
-    "gfs_seamless": 51.2,
-    "ecmwf_ifs025": 53.9,
-    "icon_seamless": 48.7,
-    "gem_seamless": 51.6,
-    "ensemble_raw": 48.5
+    "gfs_seamless": 46.4,
+    "ecmwf_ifs025": 55.2,
+    "icon_seamless": 49.5,
+    "gem_seamless": 38.8,
+    "ensemble_raw": 48.6
    },
-   "center": 51.8,
-   "sd": 2.59,
-   "observed_high": null,
-   "observed_low": null,
+   "center": 47.5,
+   "sd": 8.2,
+   "observed_high": 55.4,
+   "observed_low": 53.1,
    "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 2.82,
-     "ecmwf_ifs025": -1.18,
-     "icon_seamless": 1.34,
-     "gem_seamless": 12.78
-    },
-    "rmse": 1.53,
-    "n": 41,
-    "resid_mean": -0.0
-   },
+   "calibration": null,
    "market_favorite": {
-    "bracket": "51\u00b0 to 52\u00b0",
-    "yes_ask": 0.46
+    "bracket": "49\u00b0 to 50\u00b0",
+    "yes_ask": 0.57
    },
    "model_favorite": {
-    "bracket": "53\u00b0 or above",
-    "prob": 0.39
+    "bracket": "44\u00b0 or below",
+    "prob": 0.446
    },
    "brackets": [
     {
@@ -4303,20 +3567,20 @@
      "label": "53\u00b0 or above",
      "lo": 53,
      "hi": null,
-     "model_p": 0.39,
-     "yes_bid": 0.09,
-     "yes_ask": 0.12,
-     "no_ask": 0.91,
-     "volume": 0.0
+     "model_p": 0.092,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 75.78
     },
     {
      "ticker": "KXLOWTLV-26NOV28-T45",
      "label": "44\u00b0 or below",
      "lo": null,
      "hi": 44,
-     "model_p": 0.002,
+     "model_p": 0.446,
      "yes_bid": 0.0,
-     "yes_ask": 0.02,
+     "yes_ask": 0.01,
      "no_ask": 1.0,
      "volume": 20.0
     },
@@ -4325,21 +3589,21 @@
      "label": "51\u00b0 to 52\u00b0",
      "lo": 51,
      "hi": 52,
-     "model_p": 0.299,
-     "yes_bid": 0.45,
-     "yes_ask": 0.46,
-     "no_ask": 0.55,
-     "volume": 55.0
+     "model_p": 0.107,
+     "yes_bid": 0.2,
+     "yes_ask": 0.48,
+     "no_ask": 0.8,
+     "volume": 129.92
     },
     {
      "ticker": "KXLOWTLV-26NOV28-B49.5",
      "label": "49\u00b0 to 50\u00b0",
      "lo": 49,
      "hi": 50,
-     "model_p": 0.208,
-     "yes_bid": 0.37,
-     "yes_ask": 0.43,
-     "no_ask": 0.63,
+     "model_p": 0.117,
+     "yes_bid": 0.06,
+     "yes_ask": 0.57,
+     "no_ask": 0.94,
      "volume": 1.0
     },
     {
@@ -4347,131 +3611,22 @@
      "label": "47\u00b0 to 48\u00b0",
      "lo": 47,
      "hi": 48,
-     "model_p": 0.082,
-     "yes_bid": 0.03,
-     "yes_ask": 0.04,
-     "no_ask": 0.97,
-     "volume": 42.79
+     "model_p": 0.121,
+     "yes_bid": 0.06,
+     "yes_ask": 0.16,
+     "no_ask": 0.94,
+     "volume": 145.8
     },
     {
      "ticker": "KXLOWTLV-26NOV28-B45.5",
      "label": "45\u00b0 to 46\u00b0",
      "lo": 45,
      "hi": 46,
-     "model_p": 0.018,
+     "model_p": 0.117,
      "yes_bid": 0.01,
      "yes_ask": 0.02,
      "no_ask": 0.99,
      "volume": 25.0
-    }
-   ]
-  },
-  {
-   "city": "Miami (MIA)",
-   "station": "KMIA",
-   "series": "KXLOWTMIA",
-   "date": "2026-11-28",
-   "kind": "low",
-   "lead_days": 1,
-   "nws": 62,
-   "model_center": 61.3,
-   "model_means": {
-    "gfs_seamless": 62.8,
-    "ecmwf_ifs025": 61.7,
-    "icon_seamless": 60.8,
-    "gem_seamless": 60.1,
-    "ensemble_raw": 60.5
-   },
-   "center": 61.5,
-   "sd": 1.98,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 1.91,
-     "ecmwf_ifs025": 0.77,
-     "icon_seamless": 0.18,
-     "gem_seamless": 2.29
-    },
-    "rmse": 1.8,
-    "n": 46,
-    "resid_mean": 0.0
-   },
-   "market_favorite": {
-    "bracket": "61\u00b0 to 62\u00b0",
-    "yes_ask": 0.55
-   },
-   "model_favorite": {
-    "bracket": "61\u00b0 to 62\u00b0",
-    "prob": 0.386
-   },
-   "brackets": [
-    {
-     "ticker": "KXLOWTMIA-26NOV28-T62",
-     "label": "63\u00b0 or above",
-     "lo": 63,
-     "hi": null,
-     "model_p": 0.307,
-     "yes_bid": 0.23,
-     "yes_ask": 0.31,
-     "no_ask": 0.77,
-     "volume": 64.05
-    },
-    {
-     "ticker": "KXLOWTMIA-26NOV28-T55",
-     "label": "54\u00b0 or below",
-     "lo": null,
-     "hi": 54,
-     "model_p": 0.0,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 57.0
-    },
-    {
-     "ticker": "KXLOWTMIA-26NOV28-B61.5",
-     "label": "61\u00b0 to 62\u00b0",
-     "lo": 61,
-     "hi": 62,
-     "model_p": 0.386,
-     "yes_bid": 0.46,
-     "yes_ask": 0.55,
-     "no_ask": 0.54,
-     "volume": 10.0
-    },
-    {
-     "ticker": "KXLOWTMIA-26NOV28-B59.5",
-     "label": "59\u00b0 to 60\u00b0",
-     "lo": 59,
-     "hi": 60,
-     "model_p": 0.242,
-     "yes_bid": 0.14,
-     "yes_ask": 0.2,
-     "no_ask": 0.86,
-     "volume": 164.58
-    },
-    {
-     "ticker": "KXLOWTMIA-26NOV28-B57.5",
-     "label": "57\u00b0 to 58\u00b0",
-     "lo": 57,
-     "hi": 58,
-     "model_p": 0.059,
-     "yes_bid": 0.01,
-     "yes_ask": 0.03,
-     "no_ask": 0.99,
-     "volume": 32.18
-    },
-    {
-     "ticker": "KXLOWTMIA-26NOV28-B55.5",
-     "label": "55\u00b0 to 56\u00b0",
-     "lo": 55,
-     "hi": 56,
-     "model_p": 0.006,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 35.0
     }
    ]
   },
@@ -4481,39 +3636,29 @@
    "series": "KXLOWTMIN",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 33,
-   "model_center": 30.2,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 30.1,
    "model_means": {
-    "gfs_seamless": 31.0,
-    "ecmwf_ifs025": 29.9,
-    "icon_seamless": 31.0,
-    "gem_seamless": 28.8,
-    "ensemble_raw": 29.9
+    "gfs_seamless": 28.5,
+    "ecmwf_ifs025": 31.9,
+    "icon_seamless": 31.7,
+    "gem_seamless": 28.3,
+    "ensemble_raw": 30.7
    },
-   "center": 30.9,
-   "sd": 1.84,
-   "observed_high": null,
-   "observed_low": null,
+   "center": 30.1,
+   "sd": 1.8,
+   "observed_high": 35.6,
+   "observed_low": 30.2,
    "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.63,
-     "ecmwf_ifs025": -1.25,
-     "icon_seamless": -0.68,
-     "gem_seamless": 0.78
-    },
-    "rmse": 1.67,
-    "n": 46,
-    "resid_mean": 0.0
-   },
+   "calibration": null,
    "market_favorite": {
     "bracket": "30\u00b0 or above",
-    "yes_ask": 0.84
+    "yes_ask": 0.89
    },
    "model_favorite": {
     "bracket": "30\u00b0 or above",
-    "prob": 0.776
+    "prob": 0.527
    },
    "brackets": [
     {
@@ -4521,11 +3666,11 @@
      "label": "30\u00b0 or above",
      "lo": 30,
      "hi": null,
-     "model_p": 0.776,
-     "yes_bid": 0.75,
-     "yes_ask": 0.84,
-     "no_ask": 0.25,
-     "volume": 23.0
+     "model_p": 0.527,
+     "yes_bid": 0.43,
+     "yes_ask": 0.89,
+     "no_ask": 0.57,
+     "volume": 137.26
     },
     {
      "ticker": "KXLOWTMIN-26NOV28-T22",
@@ -4543,33 +3688,33 @@
      "label": "28\u00b0 to 29\u00b0",
      "lo": 28,
      "hi": 29,
-     "model_p": 0.191,
-     "yes_bid": 0.16,
-     "yes_ask": 0.23,
-     "no_ask": 0.84,
-     "volume": 0.0
+     "model_p": 0.378,
+     "yes_bid": 0.13,
+     "yes_ask": 0.59,
+     "no_ask": 0.87,
+     "volume": 16.11
     },
     {
      "ticker": "KXLOWTMIN-26NOV28-B26.5",
      "label": "26\u00b0 to 27\u00b0",
      "lo": 26,
      "hi": 27,
-     "model_p": 0.031,
-     "yes_bid": 0.02,
-     "yes_ask": 0.03,
-     "no_ask": 0.98,
-     "volume": 31.56
+     "model_p": 0.088,
+     "yes_bid": 0.01,
+     "yes_ask": 0.02,
+     "no_ask": 0.99,
+     "volume": 67.57
     },
     {
      "ticker": "KXLOWTMIN-26NOV28-B24.5",
      "label": "24\u00b0 to 25\u00b0",
      "lo": 24,
      "hi": 25,
-     "model_p": 0.002,
-     "yes_bid": 0.01,
+     "model_p": 0.007,
+     "yes_bid": 0.0,
      "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 29.0
+     "no_ask": 1.0,
+     "volume": 209.0
     },
     {
      "ticker": "KXLOWTMIN-26NOV28-B22.5",
@@ -4577,10 +3722,10 @@
      "lo": 22,
      "hi": 23,
      "model_p": 0.0,
-     "yes_bid": 0.01,
+     "yes_bid": 0.0,
      "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 129.0
+     "no_ask": 1.0,
+     "volume": 209.0
     }
    ]
   },
@@ -4590,39 +3735,29 @@
    "series": "KXLOWTNOLA",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 46,
-   "model_center": 41.7,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 42.3,
    "model_means": {
-    "gfs_seamless": 42.1,
-    "ecmwf_ifs025": 43.7,
-    "icon_seamless": 41.5,
-    "gem_seamless": 39.4,
-    "ensemble_raw": 44.5
+    "gfs_seamless": 40.9,
+    "ecmwf_ifs025": 47.2,
+    "icon_seamless": 43.1,
+    "gem_seamless": 38.1,
+    "ensemble_raw": 44.7
    },
-   "center": 42.7,
-   "sd": 2.15,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "low",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.33,
-     "ecmwf_ifs025": -3.04,
-     "icon_seamless": -1.19,
-     "gem_seamless": 0.76
-    },
-    "rmse": 1.73,
-    "n": 44,
-    "resid_mean": 0.0
-   },
+   "center": 42.3,
+   "sd": 4.55,
+   "observed_high": 45.0,
+   "observed_low": 42.8,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "41\u00b0 to 42\u00b0",
-    "yes_ask": 0.44
+    "yes_ask": 0.96
    },
    "model_favorite": {
-    "bracket": "43\u00b0 to 44\u00b0",
-    "prob": 0.338
+    "bracket": "38\u00b0 or below",
+    "prob": 0.293
    },
    "brackets": [
     {
@@ -4630,175 +3765,66 @@
      "label": "47\u00b0 or above",
      "lo": 47,
      "hi": null,
-     "model_p": 0.041,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 25.0
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 47.0
     },
     {
      "ticker": "KXLOWTNOLA-26NOV28-T39",
      "label": "38\u00b0 or below",
      "lo": null,
      "hi": 38,
-     "model_p": 0.024,
-     "yes_bid": 0.01,
-     "yes_ask": 0.03,
-     "no_ask": 0.99,
-     "volume": 49.32
+     "model_p": 0.293,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 64.32
     },
     {
      "ticker": "KXLOWTNOLA-26NOV28-B45.5",
      "label": "45\u00b0 to 46\u00b0",
      "lo": 45,
      "hi": 46,
-     "model_p": 0.167,
-     "yes_bid": 0.03,
-     "yes_ask": 0.06,
-     "no_ask": 0.97,
-     "volume": 31.88
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 564.47
     },
     {
      "ticker": "KXLOWTNOLA-26NOV28-B43.5",
      "label": "43\u00b0 to 44\u00b0",
      "lo": 43,
      "hi": 44,
-     "model_p": 0.338,
-     "yes_bid": 0.19,
-     "yes_ask": 0.27,
-     "no_ask": 0.81,
-     "volume": 46.0
+     "model_p": 0.246,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 487.57
     },
     {
      "ticker": "KXLOWTNOLA-26NOV28-B41.5",
      "label": "41\u00b0 to 42\u00b0",
      "lo": 41,
      "hi": 42,
-     "model_p": 0.306,
-     "yes_bid": 0.38,
-     "yes_ask": 0.44,
-     "no_ask": 0.62,
-     "volume": 1.0
+     "model_p": 0.25,
+     "yes_bid": 0.65,
+     "yes_ask": 0.96,
+     "no_ask": 0.35,
+     "volume": 64.18
     },
     {
      "ticker": "KXLOWTNOLA-26NOV28-B39.5",
      "label": "39\u00b0 to 40\u00b0",
      "lo": 39,
      "hi": 40,
-     "model_p": 0.124,
-     "yes_bid": 0.21,
-     "yes_ask": 0.24,
-     "no_ask": 0.79,
-     "volume": 80.0
-    }
-   ]
-  },
-  {
-   "city": "New York (Central Park)",
-   "station": "KNYC",
-   "series": "KXLOWTNYC",
-   "date": "2026-11-28",
-   "kind": "low",
-   "lead_days": 1,
-   "nws": 44,
-   "model_center": 42.6,
-   "model_means": {
-    "gfs_seamless": 41.5,
-    "ecmwf_ifs025": 44.6,
-    "icon_seamless": 42.1,
-    "gem_seamless": 42.1,
-    "ensemble_raw": 41.2
-   },
-   "center": 42.9,
-   "sd": 2.39,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 5.09,
-     "ecmwf_ifs025": 2.27,
-     "icon_seamless": -0.15,
-     "gem_seamless": 2.85
-    },
-    "rmse": 2.17,
-    "n": 53,
-    "resid_mean": 0.0
-   },
-   "market_favorite": {
-    "bracket": "44\u00b0 to 45\u00b0",
-    "yes_ask": 0.58
-   },
-   "model_favorite": {
-    "bracket": "42\u00b0 to 43\u00b0",
-    "prob": 0.32
-   },
-   "brackets": [
-    {
-     "ticker": "KXLOWTNYC-26NOV28-T47",
-     "label": "48\u00b0 or above",
-     "lo": 48,
-     "hi": null,
-     "model_p": 0.028,
-     "yes_bid": 0.0,
-     "yes_ask": 0.01,
-     "no_ask": 1.0,
-     "volume": 100.02
-    },
-    {
-     "ticker": "KXLOWTNYC-26NOV28-T40",
-     "label": "39\u00b0 or below",
-     "lo": null,
-     "hi": 39,
-     "model_p": 0.076,
-     "yes_bid": 0.0,
-     "yes_ask": 0.01,
-     "no_ask": 1.0,
-     "volume": 22.0
-    },
-    {
-     "ticker": "KXLOWTNYC-26NOV28-B46.5",
-     "label": "46\u00b0 to 47\u00b0",
-     "lo": 46,
-     "hi": 47,
-     "model_p": 0.113,
-     "yes_bid": 0.22,
-     "yes_ask": 0.34,
-     "no_ask": 0.78,
-     "volume": 111.0
-    },
-    {
-     "ticker": "KXLOWTNYC-26NOV28-B44.5",
-     "label": "44\u00b0 to 45\u00b0",
-     "lo": 44,
-     "hi": 45,
-     "model_p": 0.264,
-     "yes_bid": 0.49,
-     "yes_ask": 0.58,
-     "no_ask": 0.51,
-     "volume": 199.0
-    },
-    {
-     "ticker": "KXLOWTNYC-26NOV28-B42.5",
-     "label": "42\u00b0 to 43\u00b0",
-     "lo": 42,
-     "hi": 43,
-     "model_p": 0.32,
-     "yes_bid": 0.11,
-     "yes_ask": 0.16,
-     "no_ask": 0.89,
-     "volume": 78.52
-    },
-    {
-     "ticker": "KXLOWTNYC-26NOV28-B40.5",
-     "label": "40\u00b0 to 41\u00b0",
-     "lo": 40,
-     "hi": 41,
-     "model_p": 0.2,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 123.36
+     "model_p": 0.21,
+     "yes_bid": 0.02,
+     "yes_ask": 0.27,
+     "no_ask": 0.98,
+     "volume": 190.65
     }
    ]
   },
@@ -4808,39 +3834,29 @@
    "series": "KXLOWTOKC",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 39,
-   "model_center": 36.3,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 37.9,
    "model_means": {
-    "gfs_seamless": 39.6,
-    "ecmwf_ifs025": 36.8,
-    "icon_seamless": 36.2,
-    "gem_seamless": 32.4,
+    "gfs_seamless": 39.4,
+    "ecmwf_ifs025": 41.5,
+    "icon_seamless": 38.4,
+    "gem_seamless": 32.3,
     "ensemble_raw": 40.4
    },
-   "center": 36.9,
-   "sd": 3.59,
-   "observed_high": null,
-   "observed_low": null,
+   "center": 37.9,
+   "sd": 4.6,
+   "observed_high": 48.2,
+   "observed_low": 37.4,
    "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": -1.62,
-     "ecmwf_ifs025": -4.18,
-     "icon_seamless": -1.88,
-     "gem_seamless": 0.8
-    },
-    "rmse": 2.01,
-    "n": 51,
-    "resid_mean": 0.0
-   },
+   "calibration": null,
    "market_favorite": {
-    "bracket": "37\u00b0 to 38\u00b0",
-    "yes_ask": 0.42
+    "bracket": "35\u00b0 to 36\u00b0",
+    "yes_ask": 0.98
    },
    "model_favorite": {
     "bracket": "37\u00b0 to 38\u00b0",
-    "prob": 0.217
+    "prob": 0.311
    },
    "brackets": [
     {
@@ -4848,175 +3864,66 @@
      "label": "41\u00b0 or above",
      "lo": 41,
      "hi": null,
-     "model_p": 0.161,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 11.0
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 292.08
     },
     {
      "ticker": "KXLOWTOKC-26NOV28-T33",
      "label": "32\u00b0 or below",
      "lo": null,
      "hi": 32,
-     "model_p": 0.108,
+     "model_p": 0.218,
      "yes_bid": 0.0,
      "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 20.0
+     "volume": 70.0
     },
     {
      "ticker": "KXLOWTOKC-26NOV28-B39.5",
      "label": "39\u00b0 to 40\u00b0",
      "lo": 39,
      "hi": 40,
-     "model_p": 0.171,
-     "yes_bid": 0.16,
-     "yes_ask": 0.21,
-     "no_ask": 0.84,
-     "volume": 0.0
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 160.71
     },
     {
      "ticker": "KXLOWTOKC-26NOV28-B37.5",
      "label": "37\u00b0 to 38\u00b0",
      "lo": 37,
      "hi": 38,
-     "model_p": 0.217,
-     "yes_bid": 0.34,
-     "yes_ask": 0.42,
-     "no_ask": 0.66,
-     "volume": 0.0
+     "model_p": 0.311,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 229.31
     },
     {
      "ticker": "KXLOWTOKC-26NOV28-B35.5",
      "label": "35\u00b0 to 36\u00b0",
      "lo": 35,
      "hi": 36,
-     "model_p": 0.203,
-     "yes_bid": 0.26,
-     "yes_ask": 0.38,
-     "no_ask": 0.74,
-     "volume": 1.0
+     "model_p": 0.273,
+     "yes_bid": 0.57,
+     "yes_ask": 0.98,
+     "no_ask": 0.43,
+     "volume": 165.4
     },
     {
      "ticker": "KXLOWTOKC-26NOV28-B33.5",
      "label": "33\u00b0 to 34\u00b0",
      "lo": 33,
      "hi": 34,
-     "model_p": 0.14,
-     "yes_bid": 0.04,
-     "yes_ask": 0.1,
-     "no_ask": 0.96,
-     "volume": 125.15
-    }
-   ]
-  },
-  {
-   "city": "Philadelphia",
-   "station": "KPHL",
-   "series": "KXLOWTPHIL",
-   "date": "2026-11-28",
-   "kind": "low",
-   "lead_days": 1,
-   "nws": 42,
-   "model_center": 42.5,
-   "model_means": {
-    "gfs_seamless": 41.4,
-    "ecmwf_ifs025": 42.9,
-    "icon_seamless": 43.0,
-    "gem_seamless": 42.5,
-    "ensemble_raw": 40.9
-   },
-   "center": 42.3,
-   "sd": 1.36,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 3.31,
-     "ecmwf_ifs025": 1.15,
-     "icon_seamless": -0.21,
-     "gem_seamless": -0.49
-    },
-    "rmse": 1.24,
-    "n": 36,
-    "resid_mean": -0.0
-   },
-   "market_favorite": {
-    "bracket": "44\u00b0 to 45\u00b0",
-    "yes_ask": 0.56
-   },
-   "model_favorite": {
-    "bracket": "42\u00b0 to 43\u00b0",
-    "prob": 0.534
-   },
-   "brackets": [
-    {
-     "ticker": "KXLOWTPHIL-26NOV28-T45",
-     "label": "46\u00b0 or above",
-     "lo": 46,
-     "hi": null,
-     "model_p": 0.01,
-     "yes_bid": 0.05,
-     "yes_ask": 0.22,
-     "no_ask": 0.95,
-     "volume": 89.0
-    },
-    {
-     "ticker": "KXLOWTPHIL-26NOV28-T38",
-     "label": "37\u00b0 or below",
-     "lo": null,
-     "hi": 37,
-     "model_p": 0.0,
-     "yes_bid": 0.0,
-     "yes_ask": 0.01,
-     "no_ask": 1.0,
-     "volume": 20.0
-    },
-    {
-     "ticker": "KXLOWTPHIL-26NOV28-B44.5",
-     "label": "44\u00b0 to 45\u00b0",
-     "lo": 44,
-     "hi": 45,
-     "model_p": 0.189,
-     "yes_bid": 0.53,
-     "yes_ask": 0.56,
-     "no_ask": 0.47,
-     "volume": 19.0
-    },
-    {
-     "ticker": "KXLOWTPHIL-26NOV28-B42.5",
-     "label": "42\u00b0 to 43\u00b0",
-     "lo": 42,
-     "hi": 43,
-     "model_p": 0.534,
-     "yes_bid": 0.19,
-     "yes_ask": 0.32,
-     "no_ask": 0.81,
-     "volume": 220.0
-    },
-    {
-     "ticker": "KXLOWTPHIL-26NOV28-B40.5",
-     "label": "40\u00b0 to 41\u00b0",
-     "lo": 40,
-     "hi": 41,
-     "model_p": 0.249,
+     "model_p": 0.199,
      "yes_bid": 0.03,
-     "yes_ask": 0.04,
+     "yes_ask": 0.26,
      "no_ask": 0.97,
-     "volume": 30.8
-    },
-    {
-     "ticker": "KXLOWTPHIL-26NOV28-B38.5",
-     "label": "38\u00b0 to 39\u00b0",
-     "lo": 38,
-     "hi": 39,
-     "model_p": 0.018,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 25.0
+     "volume": 234.75
     }
    ]
   },
@@ -5026,39 +3933,29 @@
    "series": "KXLOWTPHX",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 51,
-   "model_center": 48.9,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 45.5,
    "model_means": {
-    "gfs_seamless": 50.3,
-    "ecmwf_ifs025": 52.2,
-    "icon_seamless": 49.0,
-    "gem_seamless": 44.1,
-    "ensemble_raw": 48.8
+    "gfs_seamless": 47.3,
+    "ecmwf_ifs025": 51.1,
+    "icon_seamless": 48.9,
+    "gem_seamless": 34.7,
+    "ensemble_raw": 48.4
    },
-   "center": 49.4,
-   "sd": 4.07,
-   "observed_high": null,
-   "observed_low": null,
+   "center": 45.5,
+   "sd": 8.2,
+   "observed_high": 57.2,
+   "observed_low": 54.0,
    "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 3.7,
-     "ecmwf_ifs025": 1.12,
-     "icon_seamless": 0.72,
-     "gem_seamless": 10.19
-    },
-    "rmse": 2.01,
-    "n": 29,
-    "resid_mean": -0.0
-   },
+   "calibration": null,
    "market_favorite": {
     "bracket": "51\u00b0 to 52\u00b0",
-    "yes_ask": 0.58
+    "yes_ask": 0.65
    },
    "model_favorite": {
-    "bracket": "53\u00b0 or above",
-    "prob": 0.225
+    "bracket": "44\u00b0 or below",
+    "prob": 0.508
    },
    "brackets": [
     {
@@ -5066,66 +3963,66 @@
      "label": "53\u00b0 or above",
      "lo": 53,
      "hi": null,
-     "model_p": 0.225,
+     "model_p": 0.096,
      "yes_bid": 0.21,
-     "yes_ask": 0.39,
+     "yes_ask": 0.41,
      "no_ask": 0.79,
-     "volume": 84.0
+     "volume": 216.9
     },
     {
      "ticker": "KXLOWTPHX-26NOV28-T45",
      "label": "44\u00b0 or below",
      "lo": null,
      "hi": 44,
-     "model_p": 0.113,
+     "model_p": 0.508,
      "yes_bid": 0.0,
-     "yes_ask": 0.02,
+     "yes_ask": 0.01,
      "no_ask": 1.0,
-     "volume": 20.0
+     "volume": 21.0
     },
     {
      "ticker": "KXLOWTPHX-26NOV28-B51.5",
      "label": "51\u00b0 to 52\u00b0",
      "lo": 51,
      "hi": 52,
-     "model_p": 0.171,
-     "yes_bid": 0.52,
-     "yes_ask": 0.58,
-     "no_ask": 0.48,
-     "volume": 141.0
+     "model_p": 0.084,
+     "yes_bid": 0.44,
+     "yes_ask": 0.65,
+     "no_ask": 0.56,
+     "volume": 216.34
     },
     {
      "ticker": "KXLOWTPHX-26NOV28-B49.5",
      "label": "49\u00b0 to 50\u00b0",
      "lo": 49,
      "hi": 50,
-     "model_p": 0.194,
-     "yes_bid": 0.04,
-     "yes_ask": 0.09,
-     "no_ask": 0.96,
-     "volume": 49.0
+     "model_p": 0.097,
+     "yes_bid": 0.03,
+     "yes_ask": 0.14,
+     "no_ask": 0.97,
+     "volume": 65.0
     },
     {
      "ticker": "KXLOWTPHX-26NOV28-B47.5",
      "label": "47\u00b0 to 48\u00b0",
      "lo": 47,
      "hi": 48,
-     "model_p": 0.174,
-     "yes_bid": 0.02,
-     "yes_ask": 0.04,
-     "no_ask": 0.98,
-     "volume": 31.56
+     "model_p": 0.106,
+     "yes_bid": 0.01,
+     "yes_ask": 0.02,
+     "no_ask": 0.99,
+     "volume": 56.74
     },
     {
      "ticker": "KXLOWTPHX-26NOV28-B45.5",
      "label": "45\u00b0 to 46\u00b0",
      "lo": 45,
      "hi": 46,
-     "model_p": 0.123,
-     "yes_bid": 0.01,
+     "model_p": 0.109,
+     "yes_bid": 0.0,
      "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 24.0
+     "no_ask": 1.0,
+     "volume": 46.0
     }
    ]
   },
@@ -5135,39 +4032,29 @@
    "series": "KXLOWTSAN",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 58,
-   "model_center": 57.0,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 55.1,
    "model_means": {
-    "gfs_seamless": 57.5,
-    "ecmwf_ifs025": 60.3,
-    "icon_seamless": 52.1,
-    "gem_seamless": 57.9,
-    "ensemble_raw": 59.0
+    "gfs_seamless": 56.7,
+    "ecmwf_ifs025": 60.9,
+    "icon_seamless": 51.0,
+    "gem_seamless": 51.8,
+    "ensemble_raw": 58.4
    },
-   "center": 57.2,
-   "sd": 4.09,
-   "observed_high": null,
-   "observed_low": null,
+   "center": 55.1,
+   "sd": 4.95,
+   "observed_high": 57.2,
+   "observed_low": 53.6,
    "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.61,
-     "ecmwf_ifs025": -0.6,
-     "icon_seamless": 0.31,
-     "gem_seamless": 6.14
-    },
-    "rmse": 1.85,
-    "n": 47,
-    "resid_mean": -0.0
-   },
+   "calibration": null,
    "market_favorite": {
-    "bracket": "57\u00b0 to 58\u00b0",
-    "yes_ask": 0.36
+    "bracket": "53\u00b0 to 54\u00b0",
+    "yes_ask": 0.95
    },
    "model_favorite": {
-    "bracket": "61\u00b0 or above",
-    "prob": 0.212
+    "bracket": "52\u00b0 or below",
+    "prob": 0.563
    },
    "brackets": [
     {
@@ -5175,66 +4062,66 @@
      "label": "61\u00b0 or above",
      "lo": 61,
      "hi": null,
-     "model_p": 0.212,
-     "yes_bid": 0.02,
-     "yes_ask": 0.03,
-     "no_ask": 0.98,
-     "volume": 1753.12
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 2698.71
     },
     {
      "ticker": "KXLOWTSAN-26NOV28-T53",
      "label": "52\u00b0 or below",
      "lo": null,
      "hi": 52,
-     "model_p": 0.124,
+     "model_p": 0.563,
      "yes_bid": 0.04,
-     "yes_ask": 0.08,
+     "yes_ask": 0.86,
      "no_ask": 0.96,
-     "volume": 110.61
+     "volume": 194.26
     },
     {
      "ticker": "KXLOWTSAN-26NOV28-B59.5",
      "label": "59\u00b0 to 60\u00b0",
      "lo": 59,
      "hi": 60,
-     "model_p": 0.166,
-     "yes_bid": 0.01,
-     "yes_ask": 0.08,
-     "no_ask": 0.99,
-     "volume": 21.34
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 170.34
     },
     {
      "ticker": "KXLOWTSAN-26NOV28-B57.5",
      "label": "57\u00b0 to 58\u00b0",
      "lo": 57,
      "hi": 58,
-     "model_p": 0.192,
-     "yes_bid": 0.32,
-     "yes_ask": 0.36,
-     "no_ask": 0.68,
-     "volume": 82.37
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 411.31
     },
     {
      "ticker": "KXLOWTSAN-26NOV28-B55.5",
      "label": "55\u00b0 to 56\u00b0",
      "lo": 55,
      "hi": 56,
-     "model_p": 0.177,
-     "yes_bid": 0.32,
-     "yes_ask": 0.34,
-     "no_ask": 0.68,
-     "volume": 47.37
+     "model_p": 0.151,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 965.71
     },
     {
      "ticker": "KXLOWTSAN-26NOV28-B53.5",
      "label": "53\u00b0 to 54\u00b0",
      "lo": 53,
      "hi": 54,
-     "model_p": 0.129,
-     "yes_bid": 0.08,
-     "yes_ask": 0.19,
-     "no_ask": 0.92,
-     "volume": 28.37
+     "model_p": 0.286,
+     "yes_bid": 0.11,
+     "yes_ask": 0.95,
+     "no_ask": 0.89,
+     "volume": 104.35
     }
    ]
   },
@@ -5244,39 +4131,29 @@
    "series": "KXLOWTSATX",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 43,
-   "model_center": 40.5,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 40.9,
    "model_means": {
-    "gfs_seamless": 41.2,
-    "ecmwf_ifs025": 42.3,
-    "icon_seamless": 37.2,
-    "gem_seamless": 41.2,
-    "ensemble_raw": 43.6
+    "gfs_seamless": 39.7,
+    "ecmwf_ifs025": 44.2,
+    "icon_seamless": 40.1,
+    "gem_seamless": 39.4,
+    "ensemble_raw": 43.0
    },
-   "center": 41.1,
-   "sd": 2.53,
-   "observed_high": null,
-   "observed_low": null,
+   "center": 40.9,
+   "sd": 2.4,
+   "observed_high": 50.0,
+   "observed_low": 41.0,
    "confidence": "medium",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.43,
-     "ecmwf_ifs025": -2.3,
-     "icon_seamless": -1.46,
-     "gem_seamless": 0.54
-    },
-    "rmse": 1.72,
-    "n": 47,
-    "resid_mean": -0.0
-   },
+   "calibration": null,
    "market_favorite": {
     "bracket": "40\u00b0 to 41\u00b0",
-    "yes_ask": 0.45
+    "yes_ask": 0.82
    },
    "model_favorite": {
     "bracket": "40\u00b0 to 41\u00b0",
-    "prob": 0.299
+    "prob": 0.424
    },
    "brackets": [
     {
@@ -5284,66 +4161,66 @@
      "label": "46\u00b0 or above",
      "lo": 46,
      "hi": null,
-     "model_p": 0.042,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 35.0
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 55.0
     },
     {
      "ticker": "KXLOWTSATX-26NOV28-T38",
      "label": "37\u00b0 or below",
      "lo": null,
      "hi": 37,
-     "model_p": 0.076,
-     "yes_bid": 0.01,
-     "yes_ask": 0.04,
-     "no_ask": 0.99,
-     "volume": 72.77
+     "model_p": 0.108,
+     "yes_bid": 0.0,
+     "yes_ask": 0.03,
+     "no_ask": 1.0,
+     "volume": 93.77
     },
     {
      "ticker": "KXLOWTSATX-26NOV28-B44.5",
      "label": "44\u00b0 to 45\u00b0",
      "lo": 44,
      "hi": 45,
-     "model_p": 0.132,
-     "yes_bid": 0.03,
-     "yes_ask": 0.05,
-     "no_ask": 0.97,
-     "volume": 17.02
+     "model_p": 0.0,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 87.51
     },
     {
      "ticker": "KXLOWTSATX-26NOV28-B42.5",
      "label": "42\u00b0 to 43\u00b0",
      "lo": 42,
      "hi": 43,
-     "model_p": 0.267,
-     "yes_bid": 0.2,
-     "yes_ask": 0.29,
-     "no_ask": 0.8,
-     "volume": 72.0
+     "model_p": 0.195,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 339.79
     },
     {
      "ticker": "KXLOWTSATX-26NOV28-B40.5",
      "label": "40\u00b0 to 41\u00b0",
      "lo": 40,
      "hi": 41,
-     "model_p": 0.299,
-     "yes_bid": 0.44,
-     "yes_ask": 0.45,
-     "no_ask": 0.56,
-     "volume": 50.0
+     "model_p": 0.424,
+     "yes_bid": 0.34,
+     "yes_ask": 0.82,
+     "no_ask": 0.66,
+     "volume": 120.0
     },
     {
      "ticker": "KXLOWTSATX-26NOV28-B38.5",
      "label": "38\u00b0 to 39\u00b0",
      "lo": 38,
      "hi": 39,
-     "model_p": 0.184,
-     "yes_bid": 0.15,
-     "yes_ask": 0.23,
-     "no_ask": 0.85,
-     "volume": 36.0
+     "model_p": 0.273,
+     "yes_bid": 0.2,
+     "yes_ask": 0.55,
+     "no_ask": 0.8,
+     "volume": 191.28
     }
    ]
   },
@@ -5353,39 +4230,29 @@
    "series": "KXLOWTSEA",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 40,
-   "model_center": 41.5,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 41.3,
    "model_means": {
-    "gfs_seamless": 41.8,
-    "ecmwf_ifs025": 40.5,
-    "icon_seamless": 42.2,
-    "gem_seamless": 41.3,
-    "ensemble_raw": 41.9
+    "gfs_seamless": 41.5,
+    "ecmwf_ifs025": 41.1,
+    "icon_seamless": 43.3,
+    "gem_seamless": 39.2,
+    "ensemble_raw": 41.8
    },
-   "center": 41.1,
-   "sd": 1.81,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 0.3,
-     "ecmwf_ifs025": -0.39,
-     "icon_seamless": -0.64,
-     "gem_seamless": 0.44
-    },
-    "rmse": 1.65,
-    "n": 48,
-    "resid_mean": 0.0
-   },
+   "center": 41.3,
+   "sd": 2.05,
+   "observed_high": 46.4,
+   "observed_low": 46.0,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
     "bracket": "42\u00b0 or above",
-    "yes_ask": 0.59
+    "yes_ask": 0.76
    },
    "model_favorite": {
     "bracket": "42\u00b0 or above",
-    "prob": 0.411
+    "prob": 0.456
    },
    "brackets": [
     {
@@ -5393,11 +4260,11 @@
      "label": "42\u00b0 or above",
      "lo": 42,
      "hi": null,
-     "model_p": 0.411,
+     "model_p": 0.456,
      "yes_bid": 0.47,
-     "yes_ask": 0.59,
+     "yes_ask": 0.76,
      "no_ask": 0.53,
-     "volume": 86.0
+     "volume": 204.0
     },
     {
      "ticker": "KXLOWTSEA-26NOV28-T34",
@@ -5406,7 +4273,7 @@
      "hi": 33,
      "model_p": 0.0,
      "yes_bid": 0.0,
-     "yes_ask": 0.02,
+     "yes_ask": 0.01,
      "no_ask": 1.0,
      "volume": 70.0
     },
@@ -5415,10 +4282,10 @@
      "label": "40\u00b0 to 41\u00b0",
      "lo": 40,
      "hi": 41,
-     "model_p": 0.399,
-     "yes_bid": 0.32,
-     "yes_ask": 0.45,
-     "no_ask": 0.68,
+     "model_p": 0.351,
+     "yes_bid": 0.33,
+     "yes_ask": 0.46,
+     "no_ask": 0.67,
      "volume": 6.0
     },
     {
@@ -5426,31 +4293,31 @@
      "label": "38\u00b0 to 39\u00b0",
      "lo": 38,
      "hi": 39,
-     "model_p": 0.167,
-     "yes_bid": 0.05,
-     "yes_ask": 0.15,
-     "no_ask": 0.95,
-     "volume": 22.05
+     "model_p": 0.161,
+     "yes_bid": 0.02,
+     "yes_ask": 0.04,
+     "no_ask": 0.98,
+     "volume": 23.05
     },
     {
      "ticker": "KXLOWTSEA-26NOV28-B36.5",
      "label": "36\u00b0 to 37\u00b0",
      "lo": 36,
      "hi": 37,
-     "model_p": 0.023,
+     "model_p": 0.03,
      "yes_bid": 0.01,
      "yes_ask": 0.02,
      "no_ask": 0.99,
-     "volume": 49.36
+     "volume": 97.25
     },
     {
      "ticker": "KXLOWTSEA-26NOV28-B34.5",
      "label": "34\u00b0 to 35\u00b0",
      "lo": 34,
      "hi": 35,
-     "model_p": 0.001,
+     "model_p": 0.002,
      "yes_bid": 0.0,
-     "yes_ask": 0.02,
+     "yes_ask": 0.01,
      "no_ask": 1.0,
      "volume": 70.0
     }
@@ -5462,39 +4329,29 @@
    "series": "KXLOWTSFO",
    "date": "2026-11-28",
    "kind": "low",
-   "lead_days": 1,
-   "nws": 53,
-   "model_center": 52.8,
+   "lead_days": 0,
+   "nws": null,
+   "model_center": 52.2,
    "model_means": {
-    "gfs_seamless": 53.3,
+    "gfs_seamless": 50.8,
     "ecmwf_ifs025": 53.7,
-    "icon_seamless": 51.4,
-    "gem_seamless": 52.9,
-    "ensemble_raw": 55.5
+    "icon_seamless": 52.8,
+    "gem_seamless": 51.4,
+    "ensemble_raw": 55.4
    },
-   "center": 52.9,
-   "sd": 1.88,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "high",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": 2.16,
-     "ecmwf_ifs025": -0.27,
-     "icon_seamless": -1.06,
-     "gem_seamless": 1.84
-    },
-    "rmse": 1.71,
-    "n": 56,
-    "resid_mean": 0.0
-   },
+   "center": 52.2,
+   "sd": 1.45,
+   "observed_high": 57.2,
+   "observed_low": 55.4,
+   "confidence": "medium",
+   "calibration": null,
    "market_favorite": {
-    "bracket": "52\u00b0 to 53\u00b0",
-    "yes_ask": 0.54
+    "bracket": "54\u00b0 to 55\u00b0",
+    "yes_ask": 0.78
    },
    "model_favorite": {
     "bracket": "52\u00b0 to 53\u00b0",
-    "prob": 0.398
+    "prob": 0.5
    },
    "brackets": [
     {
@@ -5502,188 +4359,88 @@
      "label": "56\u00b0 or above",
      "lo": 56,
      "hi": null,
-     "model_p": 0.082,
+     "model_p": 0.01,
      "yes_bid": 0.01,
-     "yes_ask": 0.02,
+     "yes_ask": 0.05,
      "no_ask": 0.99,
-     "volume": 24.0
+     "volume": 151.17
     },
     {
      "ticker": "KXLOWTSFO-26NOV28-T48",
      "label": "47\u00b0 or below",
      "lo": null,
      "hi": 47,
-     "model_p": 0.002,
-     "yes_bid": 0.01,
-     "yes_ask": 0.02,
-     "no_ask": 0.99,
-     "volume": 34.0
+     "model_p": 0.001,
+     "yes_bid": 0.0,
+     "yes_ask": 0.01,
+     "no_ask": 1.0,
+     "volume": 39.0
     },
     {
      "ticker": "KXLOWTSFO-26NOV28-B54.5",
      "label": "54\u00b0 to 55\u00b0",
      "lo": 54,
      "hi": 55,
-     "model_p": 0.289,
-     "yes_bid": 0.28,
-     "yes_ask": 0.33,
-     "no_ask": 0.72,
-     "volume": 17.0
+     "model_p": 0.17,
+     "yes_bid": 0.3,
+     "yes_ask": 0.78,
+     "no_ask": 0.7,
+     "volume": 178.0
     },
     {
      "ticker": "KXLOWTSFO-26NOV28-B52.5",
      "label": "52\u00b0 to 53\u00b0",
      "lo": 52,
      "hi": 53,
-     "model_p": 0.398,
-     "yes_bid": 0.45,
+     "model_p": 0.5,
+     "yes_bid": 0.22,
      "yes_ask": 0.54,
-     "no_ask": 0.55,
-     "volume": 29.0
+     "no_ask": 0.78,
+     "volume": 31.0
     },
     {
      "ticker": "KXLOWTSFO-26NOV28-B50.5",
      "label": "50\u00b0 to 51\u00b0",
      "lo": 50,
      "hi": 51,
-     "model_p": 0.195,
-     "yes_bid": 0.14,
-     "yes_ask": 0.15,
-     "no_ask": 0.86,
-     "volume": 54.0
+     "model_p": 0.289,
+     "yes_bid": 0.02,
+     "yes_ask": 0.09,
+     "no_ask": 0.98,
+     "volume": 56.0
     },
     {
      "ticker": "KXLOWTSFO-26NOV28-B48.5",
      "label": "48\u00b0 to 49\u00b0",
      "lo": 48,
      "hi": 49,
-     "model_p": 0.034,
-     "yes_bid": 0.02,
-     "yes_ask": 0.05,
-     "no_ask": 0.98,
-     "volume": 33.77
-    }
-   ]
-  },
-  {
-   "city": "Trenton",
-   "station": "KTTN",
-   "series": "KXLOWTTTN",
-   "date": "2026-11-28",
-   "kind": "low",
-   "lead_days": 1,
-   "nws": 40,
-   "model_center": 36.5,
-   "model_means": {
-    "gfs_seamless": 34.5,
-    "ecmwf_ifs025": 37.2,
-    "icon_seamless": 38.8,
-    "gem_seamless": 35.8,
-    "ensemble_raw": 40.3
-   },
-   "center": 37.4,
-   "sd": 2.16,
-   "observed_high": null,
-   "observed_low": null,
-   "confidence": "low",
-   "calibration": {
-    "bias": {
-     "gfs_seamless": -1.54,
-     "ecmwf_ifs025": -3.62,
-     "icon_seamless": -1.52,
-     "gem_seamless": -1.24
-    },
-    "rmse": 1.75,
-    "n": 45,
-    "resid_mean": -0.0
-   },
-   "market_favorite": {
-    "bracket": "43\u00b0 or above",
-    "yes_ask": 0.57
-   },
-   "model_favorite": {
-    "bracket": "37\u00b0 to 38\u00b0",
-    "prob": 0.356
-   },
-   "brackets": [
-    {
-     "ticker": "KXLOWTTTN-26NOV28-T42",
-     "label": "43\u00b0 or above",
-     "lo": 43,
-     "hi": null,
-     "model_p": 0.009,
-     "yes_bid": 0.35,
-     "yes_ask": 0.57,
-     "no_ask": 0.65,
-     "volume": 121.0
-    },
-    {
-     "ticker": "KXLOWTTTN-26NOV28-T35",
-     "label": "34\u00b0 or below",
-     "lo": null,
-     "hi": 34,
-     "model_p": 0.089,
-     "yes_bid": 0.0,
-     "yes_ask": 0.01,
-     "no_ask": 1.0,
-     "volume": 21.0
-    },
-    {
-     "ticker": "KXLOWTTTN-26NOV28-B41.5",
-     "label": "41\u00b0 to 42\u00b0",
-     "lo": 41,
-     "hi": 42,
-     "model_p": 0.067,
-     "yes_bid": 0.19,
-     "yes_ask": 0.3,
-     "no_ask": 0.81,
-     "volume": 2.0
-    },
-    {
-     "ticker": "KXLOWTTTN-26NOV28-B39.5",
-     "label": "39\u00b0 to 40\u00b0",
-     "lo": 39,
-     "hi": 40,
-     "model_p": 0.231,
-     "yes_bid": 0.18,
-     "yes_ask": 0.27,
-     "no_ask": 0.82,
-     "volume": 159.03
-    },
-    {
-     "ticker": "KXLOWTTTN-26NOV28-B37.5",
-     "label": "37\u00b0 to 38\u00b0",
-     "lo": 37,
-     "hi": 38,
-     "model_p": 0.356,
-     "yes_bid": 0.04,
-     "yes_ask": 0.11,
-     "no_ask": 0.96,
-     "volume": 34.17
-    },
-    {
-     "ticker": "KXLOWTTTN-26NOV28-B35.5",
-     "label": "35\u00b0 to 36\u00b0",
-     "lo": 35,
-     "hi": 36,
-     "model_p": 0.248,
+     "model_p": 0.032,
      "yes_bid": 0.01,
      "yes_ask": 0.02,
      "no_ask": 0.99,
-     "volume": 19.01
+     "volume": 62.0
     }
    ]
   }
  ],
  "model_vs_market_too_far_apart": [
   {
+   "city": "Austin (Bergstrom)",
+   "date": "2026-11-28",
+   "kind": "high",
+   "bracket": "71\u00b0 to 72\u00b0",
+   "side": "YES",
+   "model_prob": 0.437,
+   "market_price": 0.04
+  },
+  {
    "city": "Chicago (Midway)",
    "date": "2026-11-28",
    "kind": "high",
    "bracket": "54\u00b0 to 55\u00b0",
    "side": "NO",
-   "model_prob": 0.923,
-   "market_price": 0.61
+   "model_prob": 0.96,
+   "market_price": 0.52
   },
   {
    "city": "Chicago (Midway)",
@@ -5691,8 +4448,44 @@
    "kind": "high",
    "bracket": "50\u00b0 to 51\u00b0",
    "side": "YES",
-   "model_prob": 0.425,
-   "market_price": 0.11
+   "model_prob": 0.49,
+   "market_price": 0.09
+  },
+  {
+   "city": "Miami (MIA)",
+   "date": "2026-11-28",
+   "kind": "high",
+   "bracket": "73\u00b0 to 74\u00b0",
+   "side": "NO",
+   "model_prob": 0.754,
+   "market_price": 0.35
+  },
+  {
+   "city": "Miami (MIA)",
+   "date": "2026-11-28",
+   "kind": "high",
+   "bracket": "71\u00b0 to 72\u00b0",
+   "side": "YES",
+   "model_prob": 0.468,
+   "market_price": 0.09
+  },
+  {
+   "city": "Philadelphia",
+   "date": "2026-11-28",
+   "kind": "high",
+   "bracket": "54\u00b0 to 55\u00b0",
+   "side": "NO",
+   "model_prob": 0.831,
+   "market_price": 0.45
+  },
+  {
+   "city": "Philadelphia",
+   "date": "2026-11-28",
+   "kind": "high",
+   "bracket": "52\u00b0 to 53\u00b0",
+   "side": "YES",
+   "model_prob": 0.516,
+   "market_price": 0.12
   },
   {
    "city": "Atlanta",
@@ -5700,8 +4493,53 @@
    "kind": "high",
    "bracket": "62\u00b0 to 63\u00b0",
    "side": "NO",
-   "model_prob": 0.814,
+   "model_prob": 0.907,
+   "market_price": 0.34
+  },
+  {
+   "city": "Boston (Logan)",
+   "date": "2026-11-28",
+   "kind": "high",
+   "bracket": "50\u00b0 or below",
+   "side": "YES",
+   "model_prob": 0.596,
+   "market_price": 0.14
+  },
+  {
+   "city": "Boston (Logan)",
+   "date": "2026-11-28",
+   "kind": "high",
+   "bracket": "51\u00b0 to 52\u00b0",
+   "side": "NO",
+   "model_prob": 0.695,
+   "market_price": 0.34
+  },
+  {
+   "city": "Dallas (DFW)",
+   "date": "2026-11-28",
+   "kind": "high",
+   "bracket": "72\u00b0 to 73\u00b0",
+   "side": "NO",
+   "model_prob": 0.845,
+   "market_price": 0.41
+  },
+  {
+   "city": "Washington (National)",
+   "date": "2026-11-28",
+   "kind": "high",
+   "bracket": "60\u00b0 to 61\u00b0",
+   "side": "NO",
+   "model_prob": 0.974,
    "market_price": 0.5
+  },
+  {
+   "city": "Washington (National)",
+   "date": "2026-11-28",
+   "kind": "high",
+   "bracket": "56\u00b0 to 57\u00b0",
+   "side": "YES",
+   "model_prob": 0.515,
+   "market_price": 0.04
   },
   {
    "city": "Newark",
@@ -5709,48 +4547,65 @@
    "kind": "high",
    "bracket": "51\u00b0 or below",
    "side": "YES",
-   "model_prob": 0.561,
-   "market_price": 0.22
+   "model_prob": 0.754,
+   "market_price": 0.27
   },
   {
-   "city": "Phoenix",
+   "city": "Minneapolis",
    "date": "2026-11-28",
    "kind": "high",
-   "bracket": "75\u00b0 to 76\u00b0",
+   "bracket": "52\u00b0 or above",
    "side": "NO",
-   "model_prob": 0.628,
-   "market_price": 0.32
+   "model_prob": 0.959,
+   "market_price": 0.62
+  },
+  {
+   "city": "Minneapolis",
+   "date": "2026-11-28",
+   "kind": "high",
+   "bracket": "50\u00b0 to 51\u00b0",
+   "side": "NO",
+   "model_prob": 0.811,
+   "market_price": 0.49
+  },
+  {
+   "city": "Seattle (Sea-Tac)",
+   "date": "2026-11-28",
+   "kind": "high",
+   "bracket": "50\u00b0 to 51\u00b0",
+   "side": "NO",
+   "model_prob": 0.765,
+   "market_price": 0.38
+  },
+  {
+   "city": "Austin (Bergstrom)",
+   "date": "2026-11-28",
+   "kind": "low",
+   "bracket": "38\u00b0 to 39\u00b0",
+   "side": "YES",
+   "model_prob": 0.408,
+   "market_price": 0.75
   },
   {
    "city": "Denver (DEN)",
    "date": "2026-11-28",
    "kind": "low",
-   "bracket": "23\u00b0 or below",
-   "side": "NO",
-   "model_prob": 0.97,
-   "market_price": 0.65
+   "bracket": "28\u00b0 to 29\u00b0",
+   "side": "YES",
+   "model_prob": 0.518,
+   "market_price": 0.2
   },
   {
-   "city": "Phoenix",
+   "city": "Minneapolis",
    "date": "2026-11-28",
    "kind": "low",
-   "bracket": "51\u00b0 to 52\u00b0",
-   "side": "NO",
-   "model_prob": 0.829,
-   "market_price": 0.48
-  },
-  {
-   "city": "Trenton",
-   "date": "2026-11-28",
-   "kind": "low",
-   "bracket": "43\u00b0 or above",
-   "side": "NO",
-   "model_prob": 0.991,
-   "market_price": 0.65
+   "bracket": "30\u00b0 or above",
+   "side": "YES",
+   "model_prob": 0.527,
+   "market_price": 0.89
   }
  ],
  "notes": [
-  "skip KXHIGHTLSGG: unknown settlement station",
   "skip KXHIGHTLTFM: unknown settlement station",
   "skip KXHIGHTMMMX: unknown settlement station",
   "skip KXHIGHTOMDB: unknown settlement station",
@@ -5789,7 +4644,8 @@
   "skip KXLOWTYSSY: unknown settlement station",
   "skip KXLOWTZBAA: unknown settlement station",
   "skip KXLOWTZSPD: unknown settlement station",
-  "552 open brackets across 23 stations"
+  "276 open brackets across 23 stations",
+  "calibrated 46 station/kind pairs"
  ],
  "config": {
   "bankroll_usd": 500,
